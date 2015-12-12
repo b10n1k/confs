@@ -1,0 +1,32 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/iob/tests.py/" . ".ropeproject/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/iob/"
+ "/home/iob/tests.py/"
+ "/home/iob/tests.py/.ropeproject/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "test.py"
+ "config.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/iob/tests.py/.ropeproject/" (22106 18581 784296 393000) "history" "globalnames" "./" "config.py" "objectdb" "../")
+
+ ("/home/iob/tests.py/" (22106 18581 54289 577000) "./" "test.py~" "test.py" ".ropeproject/" "../")
+
+ ("/home/iob/" (22106 19078 940938 853000) ".bash_history" ".ICEauthority" "Downloads/" "#test.py#" "opt/" ".bashrc~" "Public/" "tests.py/" ".emacs" ".adobe/" "Labs/" "Firefox_wallpaper.png" ".bashrc" ".dropbox-dist/" ".gnupg/" ".macromedia/" "Pictures/" ".#test.py" ".pki/" ".weechat/" "./" "Documents/" ".esd_auth" "test.py~" "Music/" ".lesshst" "test.py" ".local/" ".bash_profile" ".emacs~" "Dropbox/" "Videos/" ".mozilla/" ".cache/" ".ssh/" "MyLibrary/" "../" ".config/" ".emacs.d/" "Templates/" ".bash_logout" ".dropbox/" "Desktop/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

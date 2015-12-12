@@ -1,0 +1,33 @@
+1449692439760	browserwindow.syncui	DEBUG	observed: weave:ui:sync:finish
+1449692439760	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449692440179	Sync.Tracker.Clients	DEBUG	Saving changed IDs to clients
+1449692440185	Sync.Tracker.AdblockPlus	DEBUG	Saving changed IDs to adblockplus
+1449692440189	Sync.Tracker.Passwords	DEBUG	Saving changed IDs to passwords
+1449692440658	Sync.Tracker.Bookmarks	DEBUG	Saving changed IDs to bookmarks
+1449692440752	Sync.Tracker.Addons	DEBUG	Saving changed IDs to addons
+1449692440753	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1449692440755	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1449692442425	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1449692443033	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1449692457280	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1449692477007	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1449692504638	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1449692518764	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1449692533170	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1449692559992	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1449693039760	Sync.Service	DEBUG	User-Agent: Firefox/42.0 FxSync/1.44.0.20151102093849.
+1449693039760	Sync.Service	INFO	Starting sync at 2015-12-09 20:30:39
+1449693039763	browserwindow.syncui	DEBUG	observed: weave:service:sync:start
+1449693039764	browserwindow.syncui	DEBUG	onActivityStart with numActive: 0
+1449693039764	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449693039766	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1449693039767	Sync.Status	INFO	Resetting Status.
+1449693039767	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1449693039769	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1449693151887	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1449693151887	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1449693151890	browserwindow.syncui	DEBUG	observed: weave:service:sync:error
+1449693151891	browserwindow.syncui	DEBUG	onActivityStop with numActive: 1
+1449693151891	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449693151893	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1449693151894	Sync.ErrorHandler	ERROR	Sync encountered an error

@@ -1,0 +1,308 @@
+2015-11-28 11:11:03		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-11-28 12:49:26	=!=	irc: unable to add temporary server "freenode" because the addition of temporary servers with command /connect is currently disabled
+2015-11-28 12:49:26	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2015-11-28 12:50:16		irc: server freenode.chat.net/6697 added
+2015-11-28 12:53:02	=!=	Error with command "/server delfreenode.chat.net/6697 -ssl" (help on command: /help server)
+2015-11-28 12:53:27		[irc]  /server  list|listfull [<server>]
+2015-11-28 12:53:27		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2015-11-28 12:53:27		                copy|rename <server> <new_name>
+2015-11-28 12:53:27		                reorder <server> [<server>...]
+2015-11-28 12:53:27		                del|keep <server>
+2015-11-28 12:53:27		                deloutq|jump|raw
+2015-11-28 12:53:27		list, add or remove IRC servers
+2015-11-28 12:53:27		    list: list servers (without argument, this list is displayed)
+2015-11-28 12:53:27		listfull: list servers with detailed info for each server
+2015-11-28 12:53:27		     add: add a new server
+2015-11-28 12:53:27		  server: server name, for internal and display use
+2015-11-28 12:53:27		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2015-11-28 12:53:27		    temp: add a temporary server (not saved)
+2015-11-28 12:53:27		  option: set option for server (for boolean option, value can be omitted)
+2015-11-28 12:53:27		nooption: set boolean option to 'off' (for example: -nossl)
+2015-11-28 12:53:27		    copy: duplicate a server
+2015-11-28 12:53:27		  rename: rename a server
+2015-11-28 12:53:27		 reorder: reorder list of servers
+2015-11-28 12:53:27		    keep: keep server in config file (for temporary servers only)
+2015-11-28 12:53:27		     del: delete a server
+2015-11-28 12:53:27		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2015-11-28 12:53:27		    jump: jump to server buffer
+2015-11-28 12:53:27		     raw: open buffer with raw IRC data
+2015-11-28 12:53:27		Examples:
+2015-11-28 12:53:27		  /server listfull
+2015-11-28 12:53:27		  /server add freenode chat.freenode.net
+2015-11-28 12:53:27		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2015-11-28 12:53:27		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2015-11-28 12:53:27		  /server copy freenode freenode-test
+2015-11-28 12:53:27		  /server rename freenode-test freenode2
+2015-11-28 12:53:27		  /server reorder freenode2 freenode
+2015-11-28 12:53:27		  /server del freenode
+2015-11-28 12:53:27		  /server deloutq
+2015-11-28 12:54:02	=!=	irc: server "freenode.chat.net/6697" already exists, can't add it!
+2015-11-28 12:54:22		irc: server freenode.chat.net/6697 has been deleted
+2015-11-28 12:54:25		irc: server freenode.chat.net/6697 added
+2015-11-28 12:55:03		Option changed: irc.server.freenode.chat.net/6697.username = "b10n1k"  (default: (undefined))
+2015-11-28 12:58:47		Option changed: irc.server.freenode.chat.net/6697.command = "/msg nickserv identify 123581321"  (default: (undefined))
+2015-11-28 13:00:24		Option changed: irc.server.freenode.chat.net/6697.autojoin = "#python,#fedora,#fedora-ambassadors,#linux,#hsgr"  (default: (undefined))
+2015-11-28 13:04:21		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-11-28 13:05:13	=!=	Option "irc.server.freenode.chat.net/6697" not found (tip: you can use wildcard "*" in option to see a sublist)
+2015-11-28 13:05:23	=!=	Option "irc.server.freenode" not found (tip: you can use wildcard "*" in option to see a sublist)
+2015-11-28 13:05:29		[server] (irc.conf)
+2015-11-28 13:05:29		  irc.server.freenode.chat.net/6697.addresses = "-ssl"  (default: (undefined))
+2015-11-28 13:05:29		1 option (matching with "irc.server.freenode.chat.net/6697.addresses")
+2015-11-28 13:05:50		irc: server freenode.chat.net/6697 has been deleted
+2015-11-28 13:06:40		[irc]  /server  list|listfull [<server>]
+2015-11-28 13:06:40		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2015-11-28 13:06:40		                copy|rename <server> <new_name>
+2015-11-28 13:06:40		                reorder <server> [<server>...]
+2015-11-28 13:06:40		                del|keep <server>
+2015-11-28 13:06:40		                deloutq|jump|raw
+2015-11-28 13:06:40		list, add or remove IRC servers
+2015-11-28 13:06:40		    list: list servers (without argument, this list is displayed)
+2015-11-28 13:06:40		listfull: list servers with detailed info for each server
+2015-11-28 13:06:40		     add: add a new server
+2015-11-28 13:06:40		  server: server name, for internal and display use
+2015-11-28 13:06:40		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2015-11-28 13:06:40		    temp: add a temporary server (not saved)
+2015-11-28 13:06:40		  option: set option for server (for boolean option, value can be omitted)
+2015-11-28 13:06:40		nooption: set boolean option to 'off' (for example: -nossl)
+2015-11-28 13:06:40		    copy: duplicate a server
+2015-11-28 13:06:40		  rename: rename a server
+2015-11-28 13:06:40		 reorder: reorder list of servers
+2015-11-28 13:06:40		    keep: keep server in config file (for temporary servers only)
+2015-11-28 13:06:40		     del: delete a server
+2015-11-28 13:06:40		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2015-11-28 13:06:40		    jump: jump to server buffer
+2015-11-28 13:06:40		     raw: open buffer with raw IRC data
+2015-11-28 13:06:40		Examples:
+2015-11-28 13:06:40		  /server listfull
+2015-11-28 13:06:40		  /server add freenode chat.freenode.net
+2015-11-28 13:06:40		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2015-11-28 13:06:40		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2015-11-28 13:06:40		  /server copy freenode freenode-test
+2015-11-28 13:06:40		  /server rename freenode-test freenode2
+2015-11-28 13:06:40		  /server reorder freenode2 freenode
+2015-11-28 13:06:40		  /server del freenode
+2015-11-28 13:06:40		  /server deloutq
+2015-11-28 13:07:23		irc: server freenode added
+2015-11-28 13:08:16		Option changed: irc.server.freenode.autojoin = "#python,#fedora,#fedora-ambassadors,#hsgr,#linux"  (default: (undefined))
+2015-11-28 13:08:35		Option changed: irc.server.freenode.username = "b10n1k"  (default: (undefined))
+2015-11-28 13:09:02		Option changed: irc.server.freenode.password = "123581321"  (default: (undefined))
+2015-11-28 13:09:35		Option changed: irc.server.freenode.command = "/msg nickserv identify 123581321"  (default: (undefined))
+2015-11-28 13:11:29		[server] (irc.conf)
+2015-11-28 13:11:29		  irc.server.freenode.command = "/msg nickserv identify 123581321"  (default: (undefined))
+2015-11-28 13:11:29		1 option (matching with "irc.server.freenode.command")
+2015-11-28 13:11:44		[core]  /set  [<option> [<value>]]
+2015-11-28 13:11:44		              diff [<option> [<option>...]]
+2015-11-28 13:11:44		              env [<variable> [<value>]]
+2015-11-28 13:11:44		set config options and environment variables
+2015-11-28 13:11:44		option: name of an option (wildcard "*" is allowed)
+2015-11-28 13:11:44		 value: new value for option, according to type:
+2015-11-28 13:11:44		          boolean: on, off or toggle
+2015-11-28 13:11:44		          integer: number, ++number or --number
+2015-11-28 13:11:44		           string: any string ("" for empty string)
+2015-11-28 13:11:44		            color: color name, ++number or --number
+2015-11-28 13:11:44		        Note: for all types, you can use null to remove option value (undefined value). This works only for some special plugin variables.
+2015-11-28 13:11:44		  diff: display only changed options
+2015-11-28 13:11:44		   env: display or set an environment variable (use value "" to unset a variable)
+2015-11-28 13:11:44		Examples:
+2015-11-28 13:11:44		  display options about highlight:
+2015-11-28 13:11:44		    /set *highlight*
+2015-11-28 13:11:44		  add a word to highlight:
+2015-11-28 13:11:44		    /set weechat.look.highlight "word"
+2015-11-28 13:11:44		  display changed options:
+2015-11-28 13:11:44		    /set diff
+2015-11-28 13:11:44		  display changed options in irc plugin:
+2015-11-28 13:11:44		    /set diff irc.*
+2015-11-28 13:11:44		  display value of environment variable LANG:
+2015-11-28 13:11:44		    /set env LANG
+2015-11-28 13:11:44		  set environment variable LANG and use it:
+2015-11-28 13:11:44		    /set env LANG fr_FR.UTF-8
+2015-11-28 13:11:44		    /upgrade
+2015-11-28 13:11:44		  unset environment variable ABC:
+2015-11-28 13:11:44		    /set env ABC ""
+2015-11-28 13:13:52		Option changed: irc.server.freenode.nicks = "b10n1k,b10n1k_,iob"  (default: (undefined))
+2015-11-28 13:14:07		[server] (irc.conf)
+2015-11-28 13:14:07		  irc.server.freenode.password = "123581321"  (default: (undefined))
+2015-11-28 13:14:07		1 option (matching with "irc.server.freenode.password")
+2015-11-28 13:14:31		[server] (irc.conf)
+2015-11-28 13:14:31		  irc.server.freenode.ssl = on  (default: (undefined))
+2015-11-28 13:14:31		1 option (matching with "irc.server.freenode.ssl")
+2015-11-28 13:15:59		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-11-28 13:23:55		script: downloading list of scripts...
+2015-11-28 13:23:56		script: 299 scripts for WeeChat 1.3
+2015-11-28 13:23:56		Scripts loaded:
+2015-11-28 13:23:56		  (none)
+2015-11-28 13:25:44		Scripts loaded:
+2015-11-28 13:25:44		  (none)
+2015-11-28 13:28:07		script: script "iset" not found
+2015-11-28 13:28:32		perl: loading script "/home/iob/.weechat/perl/iset.pl"
+2015-11-28 13:28:32		perl: registered script "iset", version 3.9 (Interactive Set for configuration options)
+2015-11-28 13:28:32		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2015-11-28 13:28:32		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2015-11-28 13:28:32		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2015-11-28 13:28:32		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2015-11-28 13:30:31		Plugins loaded:
+2015-11-28 13:30:31		  trigger: Text replacement and command execution on events triggered by WeeChat/plugins
+2015-11-28 13:30:31		  alias: Alias commands
+2015-11-28 13:30:31		  fifo: FIFO pipe for remote control
+2015-11-28 13:30:31		  logger: Log buffers to files
+2015-11-28 13:30:31		  exec: Execution of external commands in WeeChat
+2015-11-28 13:30:31		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2015-11-28 13:30:31		  perl: Support of perl scripts
+2015-11-28 13:30:31		  aspell: Spell checker for input (with Aspell)
+2015-11-28 13:30:31		  python: Support of python scripts
+2015-11-28 13:30:31		  ruby: Support of ruby scripts
+2015-11-28 13:30:31		  tcl: Support of tcl scripts
+2015-11-28 13:30:31		  charset: Charset conversions
+2015-11-28 13:30:31		  xfer: DCC file transfer and direct chat
+2015-11-28 13:30:31		  script: Scripts manager
+2015-11-28 13:30:31		  guile: Support of scheme scripts (with Guile)
+2015-11-28 13:30:31		  javascript: Support of javascript scripts
+2015-11-28 13:30:31		  lua: Support of lua scripts
+2015-11-28 13:30:31		  irc: IRC (Internet Relay Chat) protocol
+2015-11-28 13:30:45	=!=	Error: unknown command "/h" (type /help for help)
+2015-11-28 13:30:51		[script]  /script  list [-o|-i]
+2015-11-28 13:30:51		                   search <text>
+2015-11-28 13:30:51		                   show <script>
+2015-11-28 13:30:51		                   load|unload|reload <script> [<script>...]
+2015-11-28 13:30:51		                   autoload|noautoload|toggleautoload <script> [<script>...]
+2015-11-28 13:30:51		                   install|remove|installremove|hold [-q] <script> [<script>...]
+2015-11-28 13:30:51		                   upgrade
+2015-11-28 13:30:51		                   update
+2015-11-28 13:30:51		WeeChat scripts manager
+2015-11-28 13:30:51		          list: list loaded scripts (all languages)
+2015-11-28 13:30:51		            -o: send list of loaded scripts to buffer
+2015-11-28 13:30:51		            -i: copy list of loaded scripts in command line (for sending to buffer)
+2015-11-28 13:30:51		        search: search scripts by tags or text and display result on scripts buffer
+2015-11-28 13:30:51		          show: show detailed info about a script
+2015-11-28 13:30:51		          load: load script(s)
+2015-11-28 13:30:51		        unload: unload script(s)
+2015-11-28 13:30:51		        reload: reload script(s)
+2015-11-28 13:30:51		      autoload: autoload the script
+2015-11-28 13:30:51		    noautoload: do not autoload the script
+2015-11-28 13:30:51		toggleautoload: toggle autoload
+2015-11-28 13:30:51		       install: install/upgrade script(s)
+2015-11-28 13:30:51		        remove: remove script(s)
+2015-11-28 13:30:51		 installremove: install or remove script(s), depending on current state
+2015-11-28 13:30:51		          hold: hold/unhold script(s) (a script held will not be upgraded any more and cannot be removed)
+2015-11-28 13:30:51		            -q: quiet mode: do not display messages
+2015-11-28 13:30:51		       upgrade: upgrade all installed scripts which are obsolete (new version available)
+2015-11-28 13:30:51		        update: update local scripts cache
+2015-11-28 13:30:51		Without argument, this command opens a buffer with list of scripts.
+2015-11-28 13:30:51		On script buffer, the possible status for each script are:
+2015-11-28 13:30:51		  * i a H r N
+2015-11-28 13:30:51		  | | | | | |
+2015-11-28 13:30:51		  | | | | | obsolete (new version available)
+2015-11-28 13:30:51		  | | | | running (loaded)
+2015-11-28 13:30:51		  | | | held
+2015-11-28 13:30:51		  | | autoloaded
+2015-11-28 13:30:51		  | installed
+2015-11-28 13:30:51		  popular script
+2015-11-28 13:30:51		Keys on script buffer:
+2015-11-28 13:30:51		  alt+i  install script
+2015-11-28 13:30:51		  alt+r  remove script
+2015-11-28 13:30:51		  alt+l  load script
+2015-11-28 13:30:51		  alt+L  reload script
+2015-11-28 13:30:51		  alt+u  unload script
+2015-11-28 13:30:51		  alt+A  autoload script
+2015-11-28 13:30:51		  alt+h  (un)hold script
+2015-11-28 13:30:51		  alt+v  view script
+2015-11-28 13:30:51		Input allowed on script buffer:
+2015-11-28 13:30:51		  i/r/l/L/u/h  action on script (same as keys above)
+2015-11-28 13:30:51		  q            close buffer
+2015-11-28 13:30:51		  $            refresh buffer
+2015-11-28 13:30:51		  s:x,y        sort buffer using keys x and y (see /help script.look.sort)
+2015-11-28 13:30:51		  s:           reset sort (use default sort)
+2015-11-28 13:30:51		  word(s)      filter scripts: search word(s) in scripts (description, tags, ...)
+2015-11-28 13:30:51		  *            remove filter
+2015-11-28 13:30:51		Mouse actions on script buffer:
+2015-11-28 13:30:51		  wheel         scroll list
+2015-11-28 13:30:51		  left button   select script
+2015-11-28 13:30:51		  right button  install/remove script
+2015-11-28 13:30:51		Examples:
+2015-11-28 13:30:51		  /script search url
+2015-11-28 13:30:51		  /script install iset.pl buffers.pl
+2015-11-28 13:30:51		  /script remove iset.pl
+2015-11-28 13:30:51		  /script hold urlserver.py
+2015-11-28 13:30:51		  /script reload urlserver
+2015-11-28 13:30:51		  /script upgrade
+2015-11-28 13:31:22		perl: scripts unloaded
+2015-11-28 13:34:28		perl scripts loaded: iset
+2015-11-28 13:34:28		script: 299 scripts for WeeChat 1.3
+2015-11-28 13:34:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-11-28 13:41:50		perl: loading script "/home/iob/.weechat/perl/buffers.pl"
+2015-11-28 13:41:51		perl: registered script "buffers", version 5.1 (Sidebar with list of buffers)
+2015-11-28 13:41:51		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2015-11-28 13:41:51		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2015-11-28 13:41:51		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2015-11-28 13:41:51		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2015-11-28 13:42:39		perl: loading script "/home/iob/.weechat/perl/highmon.pl"
+2015-11-28 13:42:39		perl: registered script "highmon", version 2.5 (Highlight Monitor)
+2015-11-28 13:42:39		This appears to be the first time highmon has been run. For help and common set up hints see /highmon help
+2015-11-28 13:44:06	=!=	irc: command "part" must be executed on irc buffer (server or channel)
+2015-11-28 13:44:21	=!=	irc: command "part" must be executed on irc buffer (server or channel)
+2015-11-28 13:45:15	=!=	Too few arguments for command "/query" (help on command: /help query)
+2015-11-28 13:45:26	=!=	Error: WeeChat main buffer can't be closed
+2015-11-28 13:45:30	=!=	Error: WeeChat main buffer can't be closed
+2015-11-28 13:45:35		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2015-11-28 13:45:35		perl: scripts unloaded
+2015-11-28 13:46:02		perl scripts loaded: buffers, highmon, iset
+2015-11-28 13:46:02		script: 299 scripts for WeeChat 1.3
+2015-11-28 13:46:02		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-11-28 13:47:06		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2015-11-28 13:47:06		perl: scripts unloaded
+2015-11-28 13:47:28		perl scripts loaded: buffers, highmon, iset
+2015-11-28 13:47:28		script: 299 scripts for WeeChat 1.3
+2015-11-28 13:47:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-11-28 13:48:19	=!=	Error with command "/window highmon" (help on command: /help window)
+2015-11-28 13:49:47		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2015-11-28 13:49:47		perl: scripts unloaded
+2015-11-28 13:49:52		perl scripts loaded: buffers, highmon, iset
+2015-11-28 13:49:52		script: 299 scripts for WeeChat 1.3
+2015-11-28 13:49:52		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-11-28 13:50:47	=!=	Error with command "/window fedora" (help on command: /help window)
+2015-11-28 13:51:03	=!=	Error with command "/window highmon" (help on command: /help window)
+2015-11-28 13:51:16	=!=	Error with command "/window highmon" (help on command: /help window)
+2015-11-28 13:52:38	=!=	Error with command "/layout save" (help on command: /help layout)
+2015-11-28 13:52:44		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2015-11-28 13:52:44		perl: scripts unloaded
+2015-11-28 13:52:56		perl scripts loaded: buffers, highmon, iset
+2015-11-28 13:52:56		script: 299 scripts for WeeChat 1.3
+2015-11-28 13:52:56		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-11-28 13:54:16	=!=	Error with command "/layout save" (help on command: /help layout)
+2015-11-28 13:54:24		[core]  /layout  store [<name>] [buffers|windows]
+2015-11-28 13:54:24		                 apply [<name>] [buffers|windows]
+2015-11-28 13:54:24		                 leave
+2015-11-28 13:54:24		                 del [<name>] [buffers|windows]
+2015-11-28 13:54:24		                 rename <name> <new_name>
+2015-11-28 13:54:24		manage buffers/windows layouts
+2015-11-28 13:54:24		  store: store current buffers/windows in a layout
+2015-11-28 13:54:24		  apply: apply stored layout
+2015-11-28 13:54:24		  leave: leave current layout (does not update any layout)
+2015-11-28 13:54:24		    del: delete buffers and/or windows in a stored layout
+2015-11-28 13:54:24		         (if neither "buffers" nor "windows" is given after the name, the layout is deleted)
+2015-11-28 13:54:24		 rename: rename a layout
+2015-11-28 13:54:24		   name: name for stored layout (default is "default")
+2015-11-28 13:54:24		buffers: store/apply only buffers (order of buffers)
+2015-11-28 13:54:24		windows: store/apply only windows (buffer displayed by each window)
+2015-11-28 13:54:24		Without argument, this command displays stored layouts.
+2015-11-28 13:54:55		Layout of buffers+windows stored in "default" (current layout: default)
+2015-11-28 13:55:03		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2015-11-28 13:55:03		perl: scripts unloaded
+2015-11-28 13:55:13		perl scripts loaded: buffers, highmon, iset
+2015-11-28 13:55:13		script: 299 scripts for WeeChat 1.3
+2015-11-28 13:55:13		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-12-02 22:01:05		fifo: removing old fifo pipe "/home/iob/.weechat/weechat_fifo_1455"
+2015-12-02 22:01:05		perl scripts loaded: buffers, highmon, iset
+2015-12-02 22:01:05		script: downloading list of scripts...
+2015-12-02 22:01:05		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-12-02 22:01:06		script: 299 scripts for WeeChat 1.3
+2015-12-09 00:25:07		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2015-12-09 00:25:07		perl: scripts unloaded
+2015-12-09 00:50:31		perl scripts loaded: buffers, highmon, iset
+2015-12-09 00:50:32		script: downloading list of scripts...
+2015-12-09 00:50:32		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-12-09 00:50:33		script: 299 scripts for WeeChat 1.3
+2015-12-09 22:40:21		fifo: removing old fifo pipe "/home/iob/.weechat/weechat_fifo_3515"
+2015-12-09 22:40:22		perl scripts loaded: buffers, highmon, iset
+2015-12-09 22:40:22		script: 299 scripts for WeeChat 1.3
+2015-12-09 22:40:22		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer

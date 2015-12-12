@@ -1,0 +1,1116 @@
+2015-12-09 22:49:15	-->	b10n1k (~b10n1k@2a02:8084:a180:3480:a288:69ff:fe72:1ef1) has joined #fedora-meeting
+2015-12-09 22:49:15	--	Topic for #fedora-meeting is "Fedora Meeting channel | Meetings are often logged | See https://apps.fedoraproject.org/calendar/location/fedora-meeting%40irc.freenode.net/ for meeting schedule | For support please go to #fedora"
+2015-12-09 22:49:15	--	Topic set by zodbot (supybot@fedora/bot/zodbot) on Wed, 09 Dec 2015 22:10:20
+2015-12-09 22:49:16	--	Channel #fedora-meeting: 172 nicks (1 op, 0 voices, 171 normals)
+2015-12-09 22:49:18	--	Channel created on Thu, 18 Jan 2007 19:10:56
+2015-12-09 22:49:28	-->	paragn (paragn@nat/redhat/x-gxpsrhyngencagoh) has joined #fedora-meeting
+2015-12-09 22:49:28	<--	paragn (paragn@nat/redhat/x-gxpsrhyngencagoh) has quit (Changing host)
+2015-12-09 22:49:28	-->	paragn (paragn@fedora/paragn) has joined #fedora-meeting
+2015-12-09 22:50:48	<--	faffolter (~fab@84-72-41-72.dclient.hispeed.ch) has quit (Ping timeout: 256 seconds)
+2015-12-09 22:51:07	<--	satellit_e (~satellit@2601:602:200:ce50:4a5d:60ff:fe71:fac8) has quit (Quit: Leaving)
+2015-12-09 22:52:06	-->	smdeep (~smdeep@dynamic-185.103.142.202.sitibroadband.in) has joined #fedora-meeting
+2015-12-09 22:52:46	-->	satellit_e (~satellit@2601:602:200:ce50:4a5d:60ff:fe71:fac8) has joined #fedora-meeting
+2015-12-09 22:53:16	-->	prth (~prth@106.51.241.177) has joined #fedora-meeting
+2015-12-09 22:54:48	<--	satellit_e (~satellit@2601:602:200:ce50:4a5d:60ff:fe71:fac8) has quit (Client Quit)
+2015-12-09 22:56:12	-->	satellit_e (~satellit@2601:602:200:ce50:4a5d:60ff:fe71:fac8) has joined #fedora-meeting
+2015-12-09 23:07:34	<--	lbazan (~LoKoMurdo@fedora/LoKoMurdoK) has quit (Remote host closed the connection)
+2015-12-09 23:09:49	<--	frafra (~frafra@fedora/frafra) has quit (Quit: Leaving)
+2015-12-09 23:16:47	<--	ira (~ira@samba/team/ira) has quit (Quit: Leaving)
+2015-12-09 23:20:14	-->	michel_slm (sid16025@gateway/web/irccloud.com/x-eukhksngrbwzsmbn) has joined #fedora-meeting
+2015-12-09 23:21:26	<--	msekleta (~msekleta@ip4-95-82-163-107.cust.nbox.cz) has quit (Ping timeout: 240 seconds)
+2015-12-09 23:21:58	<--	fab_ (~fab@bellet.info) has quit (Ping timeout: 256 seconds)
+2015-12-09 23:28:15	-->	anish_ (~anish@203-219-165-190.static.tpgi.com.au) has joined #fedora-meeting
+2015-12-09 23:28:21	<--	sesivany (~eischmann@ip-93-99-86-188.kmenet.cz) has quit (Quit: sesivany)
+2015-12-09 23:41:56	<--	mailga (~mailga@fedora/mailga) has quit (Ping timeout: 272 seconds)
+2015-12-09 23:46:45	-->	potty (sid103074@fedora/potty) has joined #fedora-meeting
+2015-12-09 23:48:02	<--	kovalevsky (~sophie@fedora/kovalevsky) has quit (Ping timeout: 256 seconds)
+2015-12-09 23:52:52	-->	itamarjp (~itamar@138.122.51.123) has joined #fedora-meeting
+2015-12-09 23:52:52	<--	itamarjp (~itamar@138.122.51.123) has quit (Changing host)
+2015-12-09 23:52:52	-->	itamarjp (~itamar@fedora/itamarjp) has joined #fedora-meeting
+2015-12-09 23:56:38	-->	mailga (~mailga@fedora/mailga) has joined #fedora-meeting
+2015-12-09 23:57:25	<--	che_ (~che@redhat/che) has quit (Ping timeout: 250 seconds)
+2015-12-09 23:58:08	-->	rtnpro__ (~rtnpro@122.171.88.129) has joined #fedora-meeting
+2015-12-10 00:00:01	<--	rtnpro_ (~rtnpro@122.172.130.128) has quit (Ping timeout: 250 seconds)
+2015-12-10 00:01:41	<--	itamarjp (~itamar@fedora/itamarjp) has quit (Read error: Connection reset by peer)
+2015-12-10 00:04:11	<--	gnokii (~gnokii@fedora/gnokii) has quit (Ping timeout: 265 seconds)
+2015-12-10 00:10:01	-->	che_ (~che@redhat/che) has joined #fedora-meeting
+2015-12-10 00:20:17	<--	condor47579 (~chatzilla@163-64-212-66.spl.org) has quit (Quit: ChatZilla 0.9.92 [Firefox 42.0/20151102093730])
+2015-12-10 00:37:24	-->	kovalevsky (~sophie@201.226.63.37) has joined #fedora-meeting
+2015-12-10 00:37:24	<--	kovalevsky (~sophie@201.226.63.37) has quit (Changing host)
+2015-12-10 00:37:24	-->	kovalevsky (~sophie@fedora/kovalevsky) has joined #fedora-meeting
+2015-12-10 00:38:52	<--	kovalevsky (~sophie@fedora/kovalevsky) has quit (Client Quit)
+2015-12-10 00:45:16	-->	gnokii (~gnokii@103.47.133.83) has joined #fedora-meeting
+2015-12-10 00:45:16	<--	gnokii (~gnokii@103.47.133.83) has quit (Changing host)
+2015-12-10 00:45:16	-->	gnokii (~gnokii@fedora/gnokii) has joined #fedora-meeting
+2015-12-10 00:47:55	<--	gnokii (~gnokii@fedora/gnokii) has quit (Remote host closed the connection)
+2015-12-10 00:55:15	-->	SeVenSiXseVeN (~AsiNinE@188.172.219.43) has joined #fedora-meeting
+2015-12-10 00:55:57	-->	epico (~epico@1.202.240.44) has joined #fedora-meeting
+2015-12-10 01:02:01	-->	trendynick (~trendynic@188.25.73.88) has joined #fedora-meeting
+2015-12-10 01:13:16	<--	lukebrooker (lukebrooke@nat/redhat/x-soqkiexyfeuhkzvm) has quit (Read error: Connection reset by peer)
+2015-12-10 01:14:00	<--	aeng (aeng@nat/redhat/x-ymbtlcdvayranhuu) has quit (Remote host closed the connection)
+2015-12-10 01:17:20	<--	ryanlerch (ryanlerch@nat/redhat/x-yvokihdjrbkblmoj) has quit (Ping timeout: 246 seconds)
+2015-12-10 01:21:43	-->	lukebrooker (lukebrooke@nat/redhat/x-nblpbbtdccxwoobs) has joined #fedora-meeting
+2015-12-10 01:24:41	-->	paragan (~paragan@unaffiliated/paragan) has joined #fedora-meeting
+2015-12-10 01:25:27	-->	award3535 (~Thunderbi@h69-131-19-139.stmyga.broadband.dynamic.tds.net) has joined #fedora-meeting
+2015-12-10 01:30:09	<--	anish_ (~anish@203-219-165-190.static.tpgi.com.au) has quit (Read error: Connection timed out)
+2015-12-10 01:30:48	-->	anish_ (~anish@203-219-165-190.static.tpgi.com.au) has joined #fedora-meeting
+2015-12-10 01:44:32	-->	ryanlerch (ryanlerch@nat/redhat/x-rnmqavkcntvhlgwq) has joined #fedora-meeting
+2015-12-10 01:44:51	-->	pravins (~psatpute@106.77.62.189) has joined #fedora-meeting
+2015-12-10 01:47:36	<--	trendynick (~trendynic@188.25.73.88) has quit (Remote host closed the connection)
+2015-12-10 01:58:23	<--	satellit (~satellit@2601:602:200:ce50:c23f:d5ff:fe6a:eb77) has quit (Ping timeout: 264 seconds)
+2015-12-10 01:58:52	<--	award3535 (~Thunderbi@h69-131-19-139.stmyga.broadband.dynamic.tds.net) has quit (Quit: award3535)
+2015-12-10 01:59:22	-->	harish (harish@nat/redhat/x-yszfkjygrzrzaptk) has joined #fedora-meeting
+2015-12-10 02:05:10	<--	lukebrooker (lukebrooke@nat/redhat/x-nblpbbtdccxwoobs) has quit (Ping timeout: 256 seconds)
+2015-12-10 02:07:41	-->	satellit (~satellit@2601:602:200:ce50:c23f:d5ff:fe6a:eb77) has joined #fedora-meeting
+2015-12-10 02:08:14	<--	pravins (~psatpute@106.77.62.189) has quit (Ping timeout: 272 seconds)
+2015-12-10 02:08:48	-->	sayan (~sayanchow@fedora/sayan) has joined #fedora-meeting
+2015-12-10 02:14:48	-->	mclasen___ (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has joined #fedora-meeting
+2015-12-10 02:15:16	--	mclasen___ is now known as mclasen
+2015-12-10 02:24:45	-->	rtnpro_ (~rtnpro@122.171.108.238) has joined #fedora-meeting
+2015-12-10 02:24:59	-->	tyll_ (~till@fedora/tyll) has joined #fedora-meeting
+2015-12-10 02:27:21	<--	tyll (~till@fedora/tyll) has quit (Ping timeout: 250 seconds)
+2015-12-10 02:28:13	<--	rtnpro__ (~rtnpro@122.171.88.129) has quit (Ping timeout: 250 seconds)
+2015-12-10 02:29:00	<--	rtnpro_ (~rtnpro@122.171.108.238) has quit (Read error: Connection reset by peer)
+2015-12-10 02:29:28	-->	rtnpro_ (~rtnpro@122.172.59.220) has joined #fedora-meeting
+2015-12-10 02:38:38	<--	smdeep (~smdeep@dynamic-185.103.142.202.sitibroadband.in) has quit (Ping timeout: 272 seconds)
+2015-12-10 02:39:54	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 272 seconds)
+2015-12-10 02:44:02	<--	toppledwagon (~anonymous@208.185.20.30) has quit (Quit: toppledwagon)
+2015-12-10 02:50:44	-->	smdeep (~smdeep@dynamic-185.103.142.202.sitibroadband.in) has joined #fedora-meeting
+2015-12-10 03:06:40	-->	kk4ewt (~jbwillia@fedora/Southern-Gentleman) has joined #fedora-meeting
+2015-12-10 03:13:19	-->	deadrat_ (~chatzilla@106.51.22.113) has joined #fedora-meeting
+2015-12-10 03:14:57	--	deadrat_ is now known as fsociety
+2015-12-10 03:15:00	-->	lukebrooker (lukebrooke@nat/redhat/x-cibijpghnddqufkd) has joined #fedora-meeting
+2015-12-10 03:15:14	<--	fsociety (~chatzilla@106.51.22.113) has quit (Client Quit)
+2015-12-10 03:17:12	-->	travnewmatic_ (~travnewma@118-168-196-14.dynamic.hinet.net) has joined #fedora-meeting
+2015-12-10 03:19:26	<--	alvesadrian (~adrian@190.19.87.15) has quit (Ping timeout: 240 seconds)
+2015-12-10 03:19:55	-->	sayan (~sayanchow@fedora/sayan) has joined #fedora-meeting
+2015-12-10 03:20:43	-->	aeng (aeng@nat/redhat/x-ttraigkaeitwhjls) has joined #fedora-meeting
+2015-12-10 03:59:08	<--	tibbs|w (~tibbs@fedora/tibbs) has quit
+2015-12-10 04:07:46	<--	kk4ewt (~jbwillia@fedora/Southern-Gentleman) has quit (Ping timeout: 240 seconds)
+2015-12-10 04:08:29	-->	rtnpro__ (~rtnpro@122.167.23.109) has joined #fedora-meeting
+2015-12-10 04:11:26	<--	rtnpro_ (~rtnpro@122.172.59.220) has quit (Ping timeout: 240 seconds)
+2015-12-10 04:15:36	-->	Manikandan (Manikandan@nat/redhat/x-txccwpbkcmigdjle) has joined #fedora-meeting
+2015-12-10 04:17:29	-->	yoseft7 (uid114690@gateway/web/irccloud.com/x-fuqjnindcxduocec) has joined #fedora-meeting
+2015-12-10 04:23:20	-->	kk4ewt (~jbwillia@fedora/Southern-Gentleman) has joined #fedora-meeting
+2015-12-10 04:27:29	<--	travnewmatic_ (~travnewma@118-168-196-14.dynamic.hinet.net) has quit (Remote host closed the connection)
+2015-12-10 04:33:33	-->	pravins (psatpute@nat/redhat/x-sumnkgadxysoupbi) has joined #fedora-meeting
+2015-12-10 04:43:41	<--	Toledo (quassel@nat/redhat/x-lrmoeopxipbaezna) has quit (Quit: ?? ????????)
+2015-12-10 04:56:58	<--	juhp (~petersen@redhat/juhp) has quit (Quit: Ex-Chat)
+2015-12-10 04:59:10	-->	juhp (~petersen@210231102068.cidr.odn.ne.jp) has joined #fedora-meeting
+2015-12-10 04:59:10	<--	juhp (~petersen@210231102068.cidr.odn.ne.jp) has quit (Changing host)
+2015-12-10 04:59:10	-->	juhp (~petersen@redhat/juhp) has joined #fedora-meeting
+2015-12-10 05:03:54	-->	praiskup (praiskup@nat/redhat/x-dulahduilibqibbu) has joined #fedora-meeting
+2015-12-10 05:19:33	-->	suanand (suanand@nat/redhat/x-hdmjpdcpyenpymzr) has joined #fedora-meeting
+2015-12-10 05:22:38	<--	prth (~prth@106.51.241.177) has quit (Quit: Leaving)
+2015-12-10 05:28:22	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 272 seconds)
+2015-12-10 05:28:46	<--	kk4ewt (~jbwillia@fedora/Southern-Gentleman) has quit (Remote host closed the connection)
+2015-12-10 05:32:19	-->	Amita (~Amita@114.143.41.220) has joined #fedora-meeting
+2015-12-10 05:46:19	-->	rtnpro_ (~rtnpro@122.172.93.216) has joined #fedora-meeting
+2015-12-10 05:49:34	<--	rtnpro__ (~rtnpro@122.167.23.109) has quit (Ping timeout: 256 seconds)
+2015-12-10 05:50:57	-->	prth (~prth@182.74.218.98) has joined #fedora-meeting
+2015-12-10 05:58:34	<--	rtnpro_ (~rtnpro@122.172.93.216) has quit (Read error: Connection reset by peer)
+2015-12-10 05:59:08	-->	rtnpro_ (~rtnpro@122.172.160.18) has joined #fedora-meeting
+2015-12-10 06:02:35	<--	KageSenshi (kagesenshi@fedora/KageSenshi) has quit (Ping timeout: 264 seconds)
+2015-12-10 06:08:29	-->	sassmann (~sassmann@p579E960C.dip0.t-ipconnect.de) has joined #fedora-meeting
+2015-12-10 06:09:32	<--	prth (~prth@182.74.218.98) has quit (Ping timeout: 272 seconds)
+2015-12-10 06:11:11	-->	mzee1000 (~Zeeshan@106.51.243.97) has joined #fedora-meeting
+2015-12-10 06:12:42	<--	lukebrooker (lukebrooke@nat/redhat/x-cibijpghnddqufkd) has quit (Ping timeout: 272 seconds)
+2015-12-10 06:16:25	<--	aeng (aeng@nat/redhat/x-ttraigkaeitwhjls) has quit (Quit: Leaving)
+2015-12-10 06:24:02	-->	sayan (~sayanchow@fedora/sayan) has joined #fedora-meeting
+2015-12-10 06:25:15	-->	prth (~prth@182.74.218.98) has joined #fedora-meeting
+2015-12-10 06:25:31	<--	yoseft7 (uid114690@gateway/web/irccloud.com/x-fuqjnindcxduocec) has quit (Quit: Connection closed for inactivity)
+2015-12-10 06:28:13	-->	mkovarik (mkovarik@nat/redhat/x-pylaadpegtbkxrkm) has joined #fedora-meeting
+2015-12-10 06:28:22	-->	lukebrooker (~lukebrook@1.132.96.16) has joined #fedora-meeting
+2015-12-10 06:32:33	<--	rtnpro_ (~rtnpro@122.172.160.18) has quit (Remote host closed the connection)
+2015-12-10 06:38:11	-->	swatig (swatigoswa@nat/redhat/x-duhbosizmexfpmil) has joined #fedora-meeting
+2015-12-10 06:45:46	<--	mclasen (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2015-12-10 06:49:26	<--	lnovich (~lnovich@bzq-84-108-26-252.cablep.bezeqint.net) has quit (Ping timeout: 272 seconds)
+2015-12-10 07:01:32	-->	KageSenshi (kagesenshi@fedora/KageSenshi) has joined #fedora-meeting
+2015-12-10 07:02:33	-->	fab_ (~fab@bellet.info) has joined #fedora-meeting
+2015-12-10 07:07:10	<--	lukebrooker (~lukebrook@1.132.96.16) has quit (Ping timeout: 272 seconds)
+2015-12-10 07:07:34	<--	nchauvet_ (jsntp7i4tr@92.103.166.6) has quit (Remote host closed the connection)
+2015-12-10 07:15:31	<--	paragan (~paragan@unaffiliated/paragan) has quit (Ping timeout: 250 seconds)
+2015-12-10 07:16:34	-->	kgxx (kgxx@gateway/shell/bnc4free/x-ylrnjlzbgvzilgqq) has joined #fedora-meeting
+2015-12-10 07:18:34	-->	phracek (phracek@nat/redhat/x-ksqsveyyzrvgyiom) has joined #fedora-meeting
+2015-12-10 07:25:20	<--	pravins (psatpute@nat/redhat/x-sumnkgadxysoupbi) has quit (Ping timeout: 256 seconds)
+2015-12-10 07:28:10	-->	paragan (~paragan@unaffiliated/paragan) has joined #fedora-meeting
+2015-12-10 07:28:55	-->	nchauvet (5994qovqe6@92.103.166.6) has joined #fedora-meeting
+2015-12-10 07:29:20	<--	prth (~prth@182.74.218.98) has quit (Ping timeout: 272 seconds)
+2015-12-10 07:37:58	-->	pravins (psatpute@nat/redhat/x-xgzezzwntiskvyxv) has joined #fedora-meeting
+2015-12-10 07:45:18	-->	rtnpro (~rtnpro@122.172.160.18) has joined #fedora-meeting
+2015-12-10 07:47:46	-->	than_ (~than@p5DCD2742.dip0.t-ipconnect.de) has joined #fedora-meeting
+2015-12-10 07:48:41	-->	prth (~prth@182.74.218.98) has joined #fedora-meeting
+2015-12-10 07:49:26	<--	fab_ (~fab@bellet.info) has quit (Ping timeout: 240 seconds)
+2015-12-10 07:53:00	-->	lnovich (~lnovich@bzq-82-81-161-50.red.bezeqint.net) has joined #fedora-meeting
+2015-12-10 07:53:29	<--	phracek (phracek@nat/redhat/x-ksqsveyyzrvgyiom) has quit (Read error: Connection reset by peer)
+2015-12-10 07:55:23	<--	paragan (~paragan@unaffiliated/paragan) has quit (Ping timeout: 250 seconds)
+2015-12-10 07:57:38	-->	AquaL1te (~AquaL1te@unaffiliated/aqual1te) has joined #fedora-meeting
+2015-12-10 07:59:00	-->	aldapetr (~aldapetr@2001:1a48:6:1:ba88:e3ff:fef1:238e) has joined #fedora-meeting
+2015-12-10 08:03:09	-->	hhorak (hhorak@nat/redhat/x-jkolqhcyrixyavlq) has joined #fedora-meeting
+2015-12-10 08:04:22	-->	thozza (thozza@nat/redhat/x-jqnvjqinhdxdnwsu) has joined #fedora-meeting
+2015-12-10 08:05:16	-->	jpopelka (jpopelka@nat/redhat/x-fkmbnmngiqdfimmt) has joined #fedora-meeting
+2015-12-10 08:08:06	<--	KageSenshi (kagesenshi@fedora/KageSenshi) has quit (Ping timeout: 240 seconds)
+2015-12-10 08:08:24	<--	prth (~prth@182.74.218.98) has quit (Ping timeout: 256 seconds)
+2015-12-10 08:10:17	<--	jmracek (jmracek@nat/redhat/x-bedboapesorpuqca) has quit (Quit: Leaving)
+2015-12-10 08:10:30	<--	Amita (~Amita@114.143.41.220) has quit (Ping timeout: 272 seconds)
+2015-12-10 08:10:33	-->	jmracek (jmracek@nat/redhat/x-xhooumzkxquabsiy) has joined #fedora-meeting
+2015-12-10 08:11:29	-->	phracek (phracek@nat/redhat/x-aifchrcyzdqzpkob) has joined #fedora-meeting
+2015-12-10 08:16:20	<--	phracek (phracek@nat/redhat/x-aifchrcyzdqzpkob) has quit (Ping timeout: 256 seconds)
+2015-12-10 08:17:41	-->	msekleta (msekleta@nat/redhat/x-qdkeiqkiouzfucxq) has joined #fedora-meeting
+2015-12-10 08:20:04	-->	kirsti (kvanwess@nat/redhat/x-aznuekowiypccolk) has joined #fedora-meeting
+2015-12-10 08:23:21	-->	cwickert (~chris@fedora/cwickert) has joined #fedora-meeting
+2015-12-10 08:25:15	-->	prth (~prth@182.74.218.98) has joined #fedora-meeting
+2015-12-10 08:34:53	-->	Amita (Amita@nat/redhat/x-epsimmloxmmhazid) has joined #fedora-meeting
+2015-12-10 08:37:07	-->	fab_ (~fab@bonobo.creatis.insa-lyon.fr) has joined #fedora-meeting
+2015-12-10 08:43:01	-->	nils (~nils@HSI-KBW-109-193-200-181.hsi7.kabel-badenwuerttemberg.de) has joined #fedora-meeting
+2015-12-10 08:47:49	<--	jpopelka (jpopelka@nat/redhat/x-fkmbnmngiqdfimmt) has quit (Ping timeout: 250 seconds)
+2015-12-10 08:47:55	-->	jpopelka_ (jpopelka@nat/redhat/x-xsmzsvsnenyjmkin) has joined #fedora-meeting
+2015-12-10 08:48:07	<--	fab_ (~fab@bonobo.creatis.insa-lyon.fr) has quit (Quit: Leaving)
+2015-12-10 08:48:27	-->	fab (~fab@bonobo.creatis.insa-lyon.fr) has joined #fedora-meeting
+2015-12-10 08:51:34	-->	kushal (~kdas@fedora/kushal) has joined #fedora-meeting
+2015-12-10 08:53:10	-->	msekleta_ (msekleta@nat/redhat/x-nwmzlqpodezmwwwa) has joined #fedora-meeting
+2015-12-10 08:53:10	<--	smdeep (~smdeep@dynamic-185.103.142.202.sitibroadband.in) has quit (Ping timeout: 256 seconds)
+2015-12-10 08:53:29	<--	kushal (~kdas@fedora/kushal) has quit (Read error: Connection reset by peer)
+2015-12-10 08:53:49	-->	kushal (~kdas@fedora/kushal) has joined #fedora-meeting
+2015-12-10 08:54:46	<--	msekleta (msekleta@nat/redhat/x-qdkeiqkiouzfucxq) has quit (Ping timeout: 240 seconds)
+2015-12-10 08:58:45	-->	Gibba (gwhite@nat/ibm/x-ipbhxhxacrzxpret) has joined #fedora-meeting
+2015-12-10 08:59:26	<--	thozza (thozza@nat/redhat/x-jqnvjqinhdxdnwsu) has quit (Ping timeout: 240 seconds)
+2015-12-10 09:02:43	-->	jpopelka (jpopelka@nat/redhat/x-qtpdhynfpxvldinw) has joined #fedora-meeting
+2015-12-10 09:06:27	<--	jpopelka_ (jpopelka@nat/redhat/x-xsmzsvsnenyjmkin) has quit (Ping timeout: 250 seconds)
+2015-12-10 09:16:22	<--	nchauvet (5994qovqe6@92.103.166.6) has quit (Ping timeout: 272 seconds)
+2015-12-10 09:17:33	-->	thozza (thozza@nat/redhat/x-njzhshkjlvmsatlp) has joined #fedora-meeting
+2015-12-10 09:17:42	-->	jskarvad (~jskarvad@ip4-83-240-109-43.cust.nbox.cz) has joined #fedora-meeting
+2015-12-10 09:17:42	<--	jskarvad (~jskarvad@ip4-83-240-109-43.cust.nbox.cz) has quit (Changing host)
+2015-12-10 09:17:42	-->	jskarvad (~jskarvad@redhat/jskarvad) has joined #fedora-meeting
+2015-12-10 09:20:11	-->	nchauvet (3m1mpdwy3a@92.103.166.6) has joined #fedora-meeting
+2015-12-10 09:21:26	<--	SeVenSiXseVeN (~AsiNinE@188.172.219.43) has quit (Ping timeout: 272 seconds)
+2015-12-10 09:28:46	<--	juhp (~petersen@redhat/juhp) has quit (Quit: Ex-Chat)
+2015-12-10 09:32:01	<--	mzee1000 (~Zeeshan@106.51.243.97) has quit (Ping timeout: 250 seconds)
+2015-12-10 09:33:44	<--	fab (~fab@bonobo.creatis.insa-lyon.fr) has quit (Remote host closed the connection)
+2015-12-10 09:34:50	-->	fab (~fab@bonobo.creatis.insa-lyon.fr) has joined #fedora-meeting
+2015-12-10 09:35:00	<--	anish_ (~anish@203-219-165-190.static.tpgi.com.au) has quit (Quit: This computer has gone to sleep)
+2015-12-10 09:36:58	<--	rtnpro (~rtnpro@122.172.160.18) has quit (Read error: Connection reset by peer)
+2015-12-10 09:37:36	-->	rtnpro (~rtnpro@122.172.30.54) has joined #fedora-meeting
+2015-12-10 09:37:37	--	dazo_afk is now known as dazo
+2015-12-10 09:38:52	<--	pravins (psatpute@nat/redhat/x-xgzezzwntiskvyxv) has quit (Quit: Leaving)
+2015-12-10 09:38:55	-->	smdeep (~smdeep@dynamic-178.116.142.202.sitibroadband.in) has joined #fedora-meeting
+2015-12-10 09:41:17	-->	ngoswami (ngoswami@nat/redhat/x-xiktbmamvvhaxhps) has joined #fedora-meeting
+2015-12-10 09:43:34	-->	rtnpro_ (~rtnpro@122.171.120.134) has joined #fedora-meeting
+2015-12-10 09:46:46	<--	rtnpro (~rtnpro@122.172.30.54) has quit (Ping timeout: 272 seconds)
+2015-12-10 09:47:24	-->	rtnpro__ (~rtnpro@122.167.16.215) has joined #fedora-meeting
+2015-12-10 09:48:09	-->	RGeri77 (~RGeri77@catv-176-63-58-249.catv.broadband.hu) has joined #fedora-meeting
+2015-12-10 09:49:18	<--	smdeep (~smdeep@dynamic-178.116.142.202.sitibroadband.in) has quit (Ping timeout: 272 seconds)
+2015-12-10 09:49:20	-->	phracek (phracek@nat/redhat/x-oynxaslilvrogqyj) has joined #fedora-meeting
+2015-12-10 09:50:48	-->	cwickert1 (~chris@2a02:2450:102e:8041:f2de:f1ff:fe11:836c) has joined #fedora-meeting
+2015-12-10 09:50:58	<--	rtnpro_ (~rtnpro@122.171.120.134) has quit (Ping timeout: 256 seconds)
+2015-12-10 09:53:48	<--	cwickert (~chris@fedora/cwickert) has quit (Ping timeout: 256 seconds)
+2015-12-10 09:55:45	-->	juhp (~petersen@210231102068.cidr.odn.ne.jp) has joined #fedora-meeting
+2015-12-10 09:55:45	<--	juhp (~petersen@210231102068.cidr.odn.ne.jp) has quit (Changing host)
+2015-12-10 09:55:45	-->	juhp (~petersen@redhat/juhp) has joined #fedora-meeting
+2015-12-10 09:56:07	<--	fab (~fab@bonobo.creatis.insa-lyon.fr) has quit (Remote host closed the connection)
+2015-12-10 09:57:06	<--	harish (harish@nat/redhat/x-yszfkjygrzrzaptk) has quit (Ping timeout: 240 seconds)
+2015-12-10 09:57:09	-->	aday (~aday@host86-178-149-243.range86-178.btcentralplus.com) has joined #fedora-meeting
+2015-12-10 09:57:13	-->	fab (~fab@bonobo.creatis.insa-lyon.fr) has joined #fedora-meeting
+2015-12-10 09:58:10	-->	neugens (~neugens@p20030057EA6AF91DCE3D82FFFE7CF56A.dip0.t-ipconnect.de) has joined #fedora-meeting
+2015-12-10 09:58:26	-->	mzee1000 (~Zeeshan@122.166.176.189) has joined #fedora-meeting
+2015-12-10 10:00:06	<--	potty (sid103074@fedora/potty) has quit (Ping timeout: 240 seconds)
+2015-12-10 10:00:06	<--	michel_slm (sid16025@gateway/web/irccloud.com/x-eukhksngrbwzsmbn) has quit (Ping timeout: 240 seconds)
+2015-12-10 10:02:22	-->	michel_slm (sid16025@gateway/web/irccloud.com/x-kvlawkqhtbpvkqyg) has joined #fedora-meeting
+2015-12-10 10:02:23	-->	potty (sid103074@fedora/potty) has joined #fedora-meeting
+2015-12-10 10:03:26	<--	lnovich (~lnovich@bzq-82-81-161-50.red.bezeqint.net) has quit (Ping timeout: 240 seconds)
+2015-12-10 10:04:07	<--	epico (~epico@1.202.240.44) has quit (Quit: Leaving)
+2015-12-10 10:06:06	<--	Gibba (gwhite@nat/ibm/x-ipbhxhxacrzxpret) has quit (Ping timeout: 240 seconds)
+2015-12-10 10:08:34	-->	sesivany (jeischma@nat/redhat/x-rowjetxsougxuhtx) has joined #fedora-meeting
+2015-12-10 10:13:37	<--	prth (~prth@182.74.218.98) has quit (Ping timeout: 250 seconds)
+2015-12-10 10:18:47	-->	firemanxbr (~firemanxb@177.66.5.244) has joined #fedora-meeting
+2015-12-10 10:21:00	-->	Gibba (gwhite@nat/ibm/x-bjyceteeshxznmbe) has joined #fedora-meeting
+2015-12-10 10:21:55	-->	lnovich (~lnovich@bzq-82-81-161-51.red.bezeqint.net) has joined #fedora-meeting
+2015-12-10 10:22:08	<--	mailga (~mailga@fedora/mailga) has quit (Ping timeout: 256 seconds)
+2015-12-10 10:26:32	-->	bexelbie_ (~bexelbie@fedora/bexelbie) has joined #fedora-meeting
+2015-12-10 10:26:33	<--	kirsti (kvanwess@nat/redhat/x-aznuekowiypccolk) has quit (Quit: Leaving)
+2015-12-10 10:26:40	-->	prth (~prth@182.74.218.98) has joined #fedora-meeting
+2015-12-10 10:32:15	<--	thozza (thozza@nat/redhat/x-njzhshkjlvmsatlp) has quit (Ping timeout: 250 seconds)
+2015-12-10 10:32:35	-->	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has joined #fedora-meeting
+2015-12-10 10:33:29	-->	KageSenshi (kagesenshi@fedora/KageSenshi) has joined #fedora-meeting
+2015-12-10 10:36:47	-->	Zeeshan_ (~Zeeshan@106.51.243.97) has joined #fedora-meeting
+2015-12-10 10:39:46	<--	mzee1000 (~Zeeshan@122.166.176.189) has quit (Ping timeout: 240 seconds)
+2015-12-10 10:39:52	--	Zeeshan_ is now known as mzee1000
+2015-12-10 10:52:20	-->	thozza (thozza@nat/redhat/x-mvvnvrrbbltutckq) has joined #fedora-meeting
+2015-12-10 10:54:11	<--	apahim (~apahim@187.63.170.157) has quit (Read error: No route to host)
+2015-12-10 10:54:43	-->	apahim (~apahim@187.63.170.157) has joined #fedora-meeting
+2015-12-10 10:54:46	<--	msekleta_ (msekleta@nat/redhat/x-nwmzlqpodezmwwwa) has quit (Ping timeout: 240 seconds)
+2015-12-10 11:00:03	-->	mhroncok (~mhroncok@redhat/mhroncok) has joined #fedora-meeting
+2015-12-10 11:02:38	-->	csoriano_ (csoriano@nat/redhat/x-gmgtttpcxbkmeqxp) has joined #fedora-meeting
+2015-12-10 11:04:23	-->	chinosoliard (~asoliard@181.228.35.157) has joined #fedora-meeting
+2015-12-10 11:04:25	-->	jkurik (jkurik@nat/redhat/x-bbdwmvqybwtvccar) has joined #fedora-meeting
+2015-12-10 11:04:57	<--	sesivany (jeischma@nat/redhat/x-rowjetxsougxuhtx) has quit (Quit: sesivany)
+2015-12-10 11:06:34	<--	lnovich (~lnovich@bzq-82-81-161-51.red.bezeqint.net) has quit (Ping timeout: 272 seconds)
+2015-12-10 11:13:15	-->	sesivany (jeischma@nat/redhat/x-kynnitxapudtfnbm) has joined #fedora-meeting
+2015-12-10 11:14:46	<--	Gibba (gwhite@nat/ibm/x-bjyceteeshxznmbe) has quit (Ping timeout: 240 seconds)
+2015-12-10 11:16:53	<--	cwickert1 (~chris@2a02:2450:102e:8041:f2de:f1ff:fe11:836c) has quit (Ping timeout: 250 seconds)
+2015-12-10 11:19:05	-->	mclasen___ (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has joined #fedora-meeting
+2015-12-10 11:19:34	--	mclasen___ is now known as mclasen
+2015-12-10 11:25:39	<--	kgxx (kgxx@gateway/shell/bnc4free/x-ylrnjlzbgvzilgqq) has quit (Quit: fBNC - http://bnc4free.com/)
+2015-12-10 11:27:35	-->	Gibba (gwhite@nat/ibm/x-xjvpxtwrwoeuekad) has joined #fedora-meeting
+2015-12-10 11:28:18	<--	praiskup (praiskup@nat/redhat/x-dulahduilibqibbu) has quit (Quit: Leaving)
+2015-12-10 11:28:42	-->	praiskup (praiskup@nat/redhat/x-frsyjlsojfysulzn) has joined #fedora-meeting
+2015-12-10 11:32:05	-->	kirsti (kvanwess@nat/redhat/x-xfhoqpfezdxwhsme) has joined #fedora-meeting
+2015-12-10 11:37:00	-->	geek_cl (~lletelier@190-22-254-152.baf.movistar.cl) has joined #fedora-meeting
+2015-12-10 11:39:26	<--	Gibba (gwhite@nat/ibm/x-xjvpxtwrwoeuekad) has quit (Ping timeout: 240 seconds)
+2015-12-10 11:41:38	<--	kirsti (kvanwess@nat/redhat/x-xfhoqpfezdxwhsme) has quit (Quit: Leaving)
+2015-12-10 11:43:18	<--	Manikandan (Manikandan@nat/redhat/x-txccwpbkcmigdjle) has quit (Ping timeout: 272 seconds)
+2015-12-10 11:45:14	<--	orc_emac_ (~orc_fedo@lsb/orc-orc) has quit (Ping timeout: 246 seconds)
+2015-12-10 11:47:28	<--	sesivany (jeischma@nat/redhat/x-kynnitxapudtfnbm) has quit (Remote host closed the connection)
+2015-12-10 11:47:30	-->	jreznik_ (jreznik@nat/redhat/x-muymgqsybaflzxva) has joined #fedora-meeting
+2015-12-10 11:48:59	-->	sesivany (jeischma@nat/redhat/x-wjohscldgpmnnehk) has joined #fedora-meeting
+2015-12-10 11:56:40	-->	Manikandan (Manikandan@nat/redhat/x-mlvkgcprdifyrnnm) has joined #fedora-meeting
+2015-12-10 11:58:26	<--	mclasen (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has quit (Quit: mclasen)
+2015-12-10 12:05:25	<--	prth (~prth@182.74.218.98) has quit (Ping timeout: 250 seconds)
+2015-12-10 12:13:13	<--	chinosoliard (~asoliard@181.228.35.157) has quit (Ping timeout: 250 seconds)
+2015-12-10 12:15:12	-->	harish_ (~harish@103.252.200.120) has joined #fedora-meeting
+2015-12-10 12:16:01	-->	msekleta_ (msekleta@nat/redhat/x-igqckrmdehauaddg) has joined #fedora-meeting
+2015-12-10 12:19:10	-->	alvesadrian (~adrian@190.19.87.15) has joined #fedora-meeting
+2015-12-10 12:19:28	<--	msekleta_ (msekleta@nat/redhat/x-igqckrmdehauaddg) has quit (Client Quit)
+2015-12-10 12:19:45	-->	msekleta (msekleta@nat/redhat/x-akjymeaswvclsqdu) has joined #fedora-meeting
+2015-12-10 12:20:19	<--	mhroncok (~mhroncok@redhat/mhroncok) has quit (Quit: Leaving.)
+2015-12-10 12:26:29	-->	chinosoliard (~asoliard@181.228.35.157) has joined #fedora-meeting
+2015-12-10 12:41:04	-->	mclasen___ (mclasen@nat/redhat/x-zmpnxctslhnrswce) has joined #fedora-meeting
+2015-12-10 12:41:32	--	mclasen___ is now known as mclasen
+2015-12-10 12:46:38	<--	Manikandan (Manikandan@nat/redhat/x-mlvkgcprdifyrnnm) has quit (Ping timeout: 256 seconds)
+2015-12-10 12:52:25	-->	prth (~prth@182.74.218.98) has joined #fedora-meeting
+2015-12-10 12:57:21	<--	pjones (pjones@fedora/pjones) has quit (Ping timeout: 250 seconds)
+2015-12-10 12:57:21	<--	praveenkumar (praveenkum@nat/redhat/x-enpgdsypkjaagdri) has quit (Ping timeout: 250 seconds)
+2015-12-10 12:57:58	-->	pjones (pjones@nat/redhat/x-knmjigfkuqpbmunc) has joined #fedora-meeting
+2015-12-10 12:59:47	-->	praveenkumar (praveenkum@nat/redhat/x-bxlbitdoaestvufk) has joined #fedora-meeting
+2015-12-10 13:00:52	<--	mclasen (mclasen@nat/redhat/x-zmpnxctslhnrswce) has quit (Quit: mclasen)
+2015-12-10 13:03:07	<--	sudhir (sudhir@nat/redhat/x-wwgylszpxbuycanl) has quit (Quit: Coyote finally caught me)
+2015-12-10 13:06:57	<--	Amita (Amita@nat/redhat/x-epsimmloxmmhazid) has quit (Ping timeout: 250 seconds)
+2015-12-10 13:07:29	-->	sudhir (sudhir@nat/redhat/x-sdviedvjmckrnwfg) has joined #fedora-meeting
+2015-12-10 13:09:56	--	bexelbie_ is now known as bexelbie
+2015-12-10 13:11:39	-->	mclasen___ (mclasen@nat/redhat/x-mrakqvqpwwimbvje) has joined #fedora-meeting
+2015-12-10 13:12:08	--	mclasen___ is now known as mclasen
+2015-12-10 13:14:45	<--	d0nn1e (~d0nn1e@cpe-75-183-8-113.triad.res.rr.com) has quit (Ping timeout: 250 seconds)
+2015-12-10 13:17:15	-->	d0nn1e (~d0nn1e@cpe-75-183-8-113.triad.res.rr.com) has joined #fedora-meeting
+2015-12-10 13:17:27	<--	mclasen (mclasen@nat/redhat/x-mrakqvqpwwimbvje) has quit (Quit: mclasen)
+2015-12-10 13:20:04	<--	alvesadrian (~adrian@190.19.87.15) has quit (Ping timeout: 256 seconds)
+2015-12-10 13:21:09	-->	mclasen___ (mclasen@nat/redhat/x-koyokejjoclcnfeq) has joined #fedora-meeting
+2015-12-10 13:21:38	--	mclasen___ is now known as mclasen
+2015-12-10 13:25:00	-->	rtnpro_ (~rtnpro@122.172.216.40) has joined #fedora-meeting
+2015-12-10 13:26:21	<--	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has quit (Remote host closed the connection)
+2015-12-10 13:27:06	<--	prth (~prth@182.74.218.98) has quit (Ping timeout: 240 seconds)
+2015-12-10 13:28:00	<--	rtnpro__ (~rtnpro@122.167.16.215) has quit (Ping timeout: 256 seconds)
+2015-12-10 13:32:32	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 256 seconds)
+2015-12-10 13:35:00	-->	Gibba (~gwhite@grahamandbeth.plus.com) has joined #fedora-meeting
+2015-12-10 13:41:50	-->	rtnpro__ (~rtnpro@122.171.100.147) has joined #fedora-meeting
+2015-12-10 13:42:13	--	rtnpro__ is now known as rtnpro
+2015-12-10 13:44:00	-->	paragan (~paragan@182.77.90.34) has joined #fedora-meeting
+2015-12-10 13:44:00	<--	paragan (~paragan@182.77.90.34) has quit (Changing host)
+2015-12-10 13:44:00	-->	paragan (~paragan@unaffiliated/paragan) has joined #fedora-meeting
+2015-12-10 13:44:26	<--	rtnpro_ (~rtnpro@122.172.216.40) has quit (Ping timeout: 256 seconds)
+2015-12-10 13:45:36	-->	rtnpro_ (~rtnpro@122.171.107.18) has joined #fedora-meeting
+2015-12-10 13:45:46	-->	derekh (derekh@nat/redhat/x-xxiwkbremwpjzfeq) has joined #fedora-meeting
+2015-12-10 13:48:33	<--	rtnpro (~rtnpro@122.171.100.147) has quit (Ping timeout: 250 seconds)
+2015-12-10 13:49:20	-->	cwickert (~chris@fedora/cwickert) has joined #fedora-meeting
+2015-12-10 13:49:24	<--	mzee1000 (~Zeeshan@106.51.243.97) has quit (Quit: Going offline, see ya! (www.adiirc.com))
+2015-12-10 13:50:26	<--	linex (~quassel@159.187.50.60.cbj01-home.tm.net.my) has quit (Ping timeout: 240 seconds)
+2015-12-10 13:56:11	-->	fsociety (~chatzilla@106.51.22.223) has joined #fedora-meeting
+2015-12-10 13:56:30	--	fsociety is now known as Guest46523
+2015-12-10 13:57:15	--	Guest46523 is now known as nightraven
+2015-12-10 13:57:56	-->	zerng07 (~zerng07@36-236-56-55.dynamic-ip.hinet.net) has joined #fedora-meeting
+2015-12-10 14:00:12	--	nightraven is now known as dead
+2015-12-10 14:00:27	<--	jstribny_ (jstribny@nat/redhat/x-qkxgmhrfvvoeujxr) has quit (Quit: Leaving)
+2015-12-10 14:00:42	--	dead is now known as Guest30030
+2015-12-10 14:00:48	-->	ira (~ira@samba/team/ira) has joined #fedora-meeting
+2015-12-10 14:00:49	--	Guest30030 is now known as pickanick
+2015-12-10 14:01:14	--	pickanick is now known as stupidgit
+2015-12-10 14:01:43	<--	mclasen (mclasen@nat/redhat/x-koyokejjoclcnfeq) has quit (Quit: mclasen)
+2015-12-10 14:01:53	-->	d-caf (~D-Caf@share.cafarotech.com) has joined #fedora-meeting
+2015-12-10 14:01:56	-->	jstribny_ (jstribny@nat/redhat/x-flucuimndxbxlbmm) has joined #fedora-meeting
+2015-12-10 14:02:07	-->	Sparks (~Sparks@redhat/sparks) has joined #fedora-meeting
+2015-12-10 14:02:16	-->	mclasen___ (mclasen@nat/redhat/x-graacmphlqfyttle) has joined #fedora-meeting
+2015-12-10 14:02:38	<--	jstribny_ (jstribny@nat/redhat/x-flucuimndxbxlbmm) has quit (Client Quit)
+2015-12-10 14:02:45	--	mclasen___ is now known as mclasen
+2015-12-10 14:02:59	<--	jstribny (jstribny@nat/redhat/x-ohdcwmshbopjzebs) has quit (Remote host closed the connection)
+2015-12-10 14:03:29	Sparks	#startmeeting Security Team Meeting - Agenda: https://fedoraproject.org/wiki/Security_Team_meetings
+2015-12-10 14:03:29	zodbot	Meeting started Thu Dec 10 14:03:29 2015 UTC.  The chair is Sparks. Information about MeetBot at http://wiki.debian.org/MeetBot.
+2015-12-10 14:03:29	zodbot	Useful Commands: #action #agreed #halp #info #idea #link #topic.
+2015-12-10 14:03:29	--	zodbot has changed topic for #fedora-meeting from "Fedora Meeting channel | Meetings are often logged | See https://apps.fedoraproject.org/calendar/location/fedora-meeting%40irc.freenode.net/ for meeting schedule | For support please go to #fedora" to " (Meeting topic: Security Team Meeting - Agenda: https://fedoraproject.org/wiki/Security_Team_meetings)"
+2015-12-10 14:03:29	zodbot	The meeting name has been set to 'security_team_meeting_-_agenda:_https://fedoraproject.org/wiki/security_team_meetings'
+2015-12-10 14:03:32	Sparks	#meetingname Fedora Security Team
+2015-12-10 14:03:32	zodbot	The meeting name has been set to 'fedora_security_team'
+2015-12-10 14:03:34	Sparks	#topic Roll Call
+2015-12-10 14:03:34	--	zodbot has changed topic for #fedora-meeting from " (Meeting topic: Security Team Meeting - Agenda: https://fedoraproject.org/wiki/Security_Team_meetings)" to "Roll Call (Meeting topic: Security Team Meeting - Agenda: https://fedoraproject.org/wiki/Security_Team_meetings)"
+2015-12-10 14:03:36	 *	Sparks 
+2015-12-10 14:03:40	 *	d-caf 
+2015-12-10 14:04:02	-->	jstribny (jstribny@nat/redhat/x-yznkgplgpunjgmsa) has joined #fedora-meeting
+2015-12-10 14:04:08	<--	jstribny (jstribny@nat/redhat/x-yznkgplgpunjgmsa) has quit (Remote host closed the connection)
+2015-12-10 14:04:22	-->	jstribny (jstribny@nat/redhat/x-zemqxxkzghfrombu) has joined #fedora-meeting
+2015-12-10 14:04:32	-->	rtnpro__ (~rtnpro@122.172.110.47) has joined #fedora-meeting
+2015-12-10 14:06:32	<--	rtnpro_ (~rtnpro@122.171.107.18) has quit (Ping timeout: 256 seconds)
+2015-12-10 14:07:39	Sparks	Ugh, I'm woefully illprepared for today.
+2015-12-10 14:08:41	-->	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has joined #fedora-meeting
+2015-12-10 14:08:41	d-caf	Sparks: ok, not to many to be ill prepared for it would seem
+2015-12-10 14:09:23	d-caf	I didn't get to writing up any of the stuff I wanted to either
+2015-12-10 14:09:51	-->	itamarjp (~itamar@mail.ispbrasil.com.br) has joined #fedora-meeting
+2015-12-10 14:09:51	<--	itamarjp (~itamar@mail.ispbrasil.com.br) has quit (Changing host)
+2015-12-10 14:09:51	-->	itamarjp (~itamar@fedora/itamarjp) has joined #fedora-meeting
+2015-12-10 14:10:49	-->	jamielinux (~jamielinu@fedora/jamielinux) has joined #fedora-meeting
+2015-12-10 14:11:21	<--	jamielinux (~jamielinu@fedora/jamielinux) has quit (Client Quit)
+2015-12-10 14:11:35	Sparks	d-caf: Okay, if it's okay with you lets just not meet today.
+2015-12-10 14:11:38	Sparks	unless you have something
+2015-12-10 14:11:49	d-caf	nope, nothing really
+2015-12-10 14:12:01	Sparks	My recent upgrade to F23 has messed up my computer
+2015-12-10 14:12:46	<--	cwickert (~chris@fedora/cwickert) has quit (Ping timeout: 240 seconds)
+2015-12-10 14:12:48	d-caf	doh
+2015-12-10 14:12:55	Sparks	Yeah
+2015-12-10 14:12:57	-->	Astra_ (51106a5f@gateway/web/freenode/ip.81.16.106.95) has joined #fedora-meeting
+2015-12-10 14:13:16	Astra_	.hello astra
+2015-12-10 14:13:17	zodbot	Astra_: astra 'David Kaufmann' <astra@ionic.at>
+2015-12-10 14:13:24	-->	alvesadrian (~adrian@190.19.87.15) has joined #fedora-meeting
+2015-12-10 14:13:25	d-caf	I'm running CentOS 7 for my computer, just can't handle the frequent updates of fedora for my primary machine
+2015-12-10 14:13:55	d-caf	Fedora is my vm OS for testing stuff or running latest greatest things..
+2015-12-10 14:14:02	<--	thozza (thozza@nat/redhat/x-mvvnvrrbbltutckq) has quit (Ping timeout: 272 seconds)
+2015-12-10 14:14:22	-->	jamielinux (~jamielinu@fedora/jamielinux) has joined #fedora-meeting
+2015-12-10 14:14:26	Sparks	d-caf: Well, this is my work computer.  I think my next work computer will have RHEL 7 so... yeah, ditto.
+2015-12-10 14:14:49	Sparks	Astra_: Do you have anything to discuss today?  I just realized that after my recent upgrade my computer isn't working properly.
+2015-12-10 14:15:11	Sparks	...and we were just going to revisit everything next week and negate the meeting for this week.
+2015-12-10 14:15:11	Astra_	haha, i'm also here under a different username because my box doesn't work properly^^
+2015-12-10 14:15:39	Astra_	but for me it's a provider issue i think (no dns, not all of internet reachable (only city-local net i think)
+2015-12-10 14:16:00	Astra_	nothing specific, maybe i'll send the weekly report if noone has done it so far
+2015-12-10 14:16:08	Astra_	but no topics from me
+2015-12-10 14:16:36	Sparks	I booted my computer this morning only to find that I had no konsole!
+2015-12-10 14:17:01	Astra_	rxvt-unicode ftw ;)
+2015-12-10 14:19:28	Sparks	Okay, if no one has anything...
+2015-12-10 14:19:44	<--	zerng07 (~zerng07@36-236-56-55.dynamic-ip.hinet.net) has quit (Quit: zerng07)
+2015-12-10 14:19:59	<--	swatig (swatigoswa@nat/redhat/x-duhbosizmexfpmil) has quit (Quit: Leaving)
+2015-12-10 14:20:50	-->	zerng07 (~zerng07@36-236-56-55.dynamic-ip.hinet.net) has joined #fedora-meeting
+2015-12-10 14:20:56	Sparks	#endmeeting
+2015-12-10 14:20:56	--	zodbot has changed topic for #fedora-meeting from "Roll Call (Meeting topic: Security Team Meeting - Agenda: https://fedoraproject.org/wiki/Security_Team_meetings)" to "Fedora Meeting channel | Meetings are often logged | See https://apps.fedoraproject.org/calendar/location/fedora-meeting%40irc.freenode.net/ for meeting schedule | For support please go to #fedora"
+2015-12-10 14:20:56	zodbot	Meeting ended Thu Dec 10 14:20:56 2015 UTC. Information about MeetBot at http://wiki.debian.org/MeetBot .
+2015-12-10 14:20:56	zodbot	Minutes: http://meetbot.fedoraproject.org/fedora-meeting/2015-12-10/fedora_security_team.2015-12-10-14.03.html
+2015-12-10 14:20:56	zodbot	Minutes (text): http://meetbot.fedoraproject.org/fedora-meeting/2015-12-10/fedora_security_team.2015-12-10-14.03.txt
+2015-12-10 14:20:56	zodbot	Log: http://meetbot.fedoraproject.org/fedora-meeting/2015-12-10/fedora_security_team.2015-12-10-14.03.log.html
+2015-12-10 14:21:08	Sparks	Okay, thanks, everyone.  We'll be better ready next week.
+2015-12-10 14:21:42	d-caf	ok
+2015-12-10 14:21:46	<--	d-caf (~D-Caf@share.cafarotech.com) has left #fedora-meeting
+2015-12-10 14:22:24	<--	stupidgit (~chatzilla@106.51.22.223) has quit (Quit: someone killed rat)
+2015-12-10 14:22:27	-->	pjp (~pjp@122.161.158.139) has joined #fedora-meeting
+2015-12-10 14:22:30	pjp	Hi,
+2015-12-10 14:22:42	Sparks	pjp: Too late... we bagged the meeting
+2015-12-10 14:22:58	pjp	Sparks: Oh, no-one around?
+2015-12-10 14:23:43	-->	laubersm (laubersm@nat/redhat/x-hvmntzhvbrqwfnxc) has joined #fedora-meeting
+2015-12-10 14:24:31	Astra_	not really. those two who were around were occupied with fixing their boxes ;)
+2015-12-10 14:24:47	-->	lnovich (~lnovich@bzq-84-108-26-252.cablep.bezeqint.net) has joined #fedora-meeting
+2015-12-10 14:25:31	Astra_	oh, two of three i think
+2015-12-10 14:26:33	<--	jamielinux (~jamielinu@fedora/jamielinux) has quit (Quit: quit)
+2015-12-10 14:28:38	-->	gnokii (~gnokii@103.47.133.108) has joined #fedora-meeting
+2015-12-10 14:28:38	<--	gnokii (~gnokii@103.47.133.108) has quit (Changing host)
+2015-12-10 14:28:38	-->	gnokii (~gnokii@fedora/gnokii) has joined #fedora-meeting
+2015-12-10 14:28:46	<--	Sparks (~Sparks@redhat/sparks) has left #fedora-meeting
+2015-12-10 14:30:29	-->	thozza (thozza@nat/redhat/x-jgmiotncamcnnugf) has joined #fedora-meeting
+2015-12-10 14:30:34	-->	prth (~prth@182.74.218.98) has joined #fedora-meeting
+2015-12-10 14:31:24	-->	jkurik_mtg (jkurik@nat/redhat/x-jtbmbjxywugqomtt) has joined #fedora-meeting
+2015-12-10 14:32:53	<--	jkurik (jkurik@nat/redhat/x-bbdwmvqybwtvccar) has quit (Ping timeout: 246 seconds)
+2015-12-10 14:36:08	<--	mkovarik (mkovarik@nat/redhat/x-pylaadpegtbkxrkm) has quit (Quit: Leaving)
+2015-12-10 14:37:05	<--	thozza (thozza@nat/redhat/x-jgmiotncamcnnugf) has quit (Ping timeout: 250 seconds)
+2015-12-10 14:41:22	-->	linex (~quassel@159.187.50.60.cbj01-home.tm.net.my) has joined #fedora-meeting
+2015-12-10 14:45:43	<--	Astra_ (51106a5f@gateway/web/freenode/ip.81.16.106.95) has quit (Quit: Page closed)
+2015-12-10 14:46:58	-->	lbazan (~LoKoMurdo@fedora/LoKoMurdoK) has joined #fedora-meeting
+2015-12-10 14:50:15	<--	kushal (~kdas@fedora/kushal) has quit (Quit: Leaving)
+2015-12-10 14:50:23	-->	jamielinux (~jamielinu@fedora/jamielinux) has joined #fedora-meeting
+2015-12-10 14:50:47	<--	praiskup (praiskup@nat/redhat/x-frsyjlsojfysulzn) has quit (Quit: Leaving)
+2015-12-10 14:50:57	-->	thozza (thozza@nat/redhat/x-egubkmyeabkwqdkk) has joined #fedora-meeting
+2015-12-10 14:53:15	<--	pjones (pjones@nat/redhat/x-knmjigfkuqpbmunc) has quit (Quit: I shouldn't really be here - dircproxy 1.2.0)
+2015-12-10 14:53:31	-->	pjones (pjones@nat/redhat/x-ocxfpdarstyacntf) has joined #fedora-meeting
+2015-12-10 14:54:12	pjp	Ah,
+2015-12-10 14:54:24	<--	pjp (~pjp@122.161.158.139) has left #fedora-meeting ("Leaving")
+2015-12-10 15:04:11	<--	roshi (~roshi@fedora/roshi) has left #fedora-meeting
+2015-12-10 15:08:00	-->	mailga (~mailga@93-38-254-175.ip73.fastwebnet.it) has joined #fedora-meeting
+2015-12-10 15:08:00	<--	mailga (~mailga@93-38-254-175.ip73.fastwebnet.it) has quit (Changing host)
+2015-12-10 15:08:00	-->	mailga (~mailga@fedora/mailga) has joined #fedora-meeting
+2015-12-10 15:14:23	<--	phracek (phracek@nat/redhat/x-oynxaslilvrogqyj) has quit (Quit: Leaving)
+2015-12-10 15:19:52	-->	orc_emac_ (~orc_fedo@igloo.owlriver.net) has joined #fedora-meeting
+2015-12-10 15:19:52	<--	orc_emac_ (~orc_fedo@igloo.owlriver.net) has quit (Changing host)
+2015-12-10 15:19:52	-->	orc_emac_ (~orc_fedo@lsb/orc-orc) has joined #fedora-meeting
+2015-12-10 15:21:24	-->	jkurik1 (jkurik@nat/redhat/x-qfizbtpkfhvkwqvk) has joined #fedora-meeting
+2015-12-10 15:21:24	--	jkurik1 is now known as jkurik
+2015-12-10 15:25:23	<--	jkurik_mtg (jkurik@nat/redhat/x-jtbmbjxywugqomtt) has quit (Ping timeout: 246 seconds)
+2015-12-10 15:26:34	<--	gnokii (~gnokii@fedora/gnokii) has quit (Quit: Verlassend)
+2015-12-10 15:27:36	<--	jmracek (jmracek@nat/redhat/x-xhooumzkxquabsiy) has quit (Quit: Leaving)
+2015-12-10 15:44:10	<--	itamarjp (~itamar@fedora/itamarjp) has quit (Quit: Leaving)
+2015-12-10 15:44:21	<--	mclasen (mclasen@nat/redhat/x-graacmphlqfyttle) has quit (Quit: mclasen)
+2015-12-10 15:44:48	-->	mclasen___ (mclasen@nat/redhat/x-zjutrbltxosavlhc) has joined #fedora-meeting
+2015-12-10 15:45:16	--	mclasen___ is now known as mclasen
+2015-12-10 15:53:17	--	rtnpro__ is now known as rtnpro
+2015-12-10 15:56:17	<--	aldapetr (~aldapetr@2001:1a48:6:1:ba88:e3ff:fef1:238e) has quit (Quit: Leaving)
+2015-12-10 15:57:07	<--	suanand (suanand@nat/redhat/x-hdmjpdcpyenpymzr) has quit (Remote host closed the connection)
+2015-12-10 15:57:16	<--	thozza (thozza@nat/redhat/x-egubkmyeabkwqdkk) has quit (Ping timeout: 272 seconds)
+2015-12-10 16:01:35	<--	msekleta (msekleta@nat/redhat/x-akjymeaswvclsqdu) has quit (Ping timeout: 250 seconds)
+2015-12-10 16:02:20	<--	sesivany (jeischma@nat/redhat/x-wjohscldgpmnnehk) has quit (Ping timeout: 272 seconds)
+2015-12-10 16:02:29	-->	mkovarik (~mkovarik@94.112.109.74) has joined #fedora-meeting
+2015-12-10 16:02:37	<--	mkovarik (~mkovarik@94.112.109.74) has quit (Remote host closed the connection)
+2015-12-10 16:02:53	<--	csoriano_ (csoriano@nat/redhat/x-gmgtttpcxbkmeqxp) has quit (Ping timeout: 250 seconds)
+2015-12-10 16:03:40	<--	mclasen (mclasen@nat/redhat/x-zjutrbltxosavlhc) has quit (Quit: mclasen)
+2015-12-10 16:04:02	-->	mclasen___ (mclasen@nat/redhat/x-pyhliujnchepjery) has joined #fedora-meeting
+2015-12-10 16:04:37	--	mclasen___ is now known as mclasen
+2015-12-10 16:05:52	-->	msekleta (msekleta@nat/redhat/x-sjxizmtpyhafwmfl) has joined #fedora-meeting
+2015-12-10 16:14:43	-->	thozza (thozza@nat/redhat/x-gfcgiwihldpznnnh) has joined #fedora-meeting
+2015-12-10 16:17:53	<--	hhorak (hhorak@nat/redhat/x-jkolqhcyrixyavlq) has quit (Quit: Leaving.)
+2015-12-10 16:18:01	-->	sesivany (jeischma@nat/redhat/x-kjyiparacotzkilm) has joined #fedora-meeting
+2015-12-10 16:18:49	<--	cydrobolt (~cydrobolt@fedora/cydrobolt) has quit (Ping timeout: 272 seconds)
+2015-12-10 16:19:11	-->	cydrobolt (~cydrobolt@spinel.cydrobolt.com) has joined #fedora-meeting
+2015-12-10 16:19:11	<--	cydrobolt (~cydrobolt@spinel.cydrobolt.com) has quit (Changing host)
+2015-12-10 16:19:11	-->	cydrobolt (~cydrobolt@fedora/cydrobolt) has joined #fedora-meeting
+2015-12-10 16:19:35	<--	chinosoliard (~asoliard@181.228.35.157) has quit
+2015-12-10 16:20:26	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 240 seconds)
+2015-12-10 16:27:41	<--	AquaL1te (~AquaL1te@unaffiliated/aqual1te) has quit (Quit: leaving)
+2015-12-10 16:34:13	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting
+2015-12-10 16:36:26	<--	RGeri77 (~RGeri77@catv-176-63-58-249.catv.broadband.hu) has quit (Ping timeout: 240 seconds)
+2015-12-10 16:37:48	<--	sesivany (jeischma@nat/redhat/x-kjyiparacotzkilm) has quit (Ping timeout: 272 seconds)
+2015-12-10 16:41:23	-->	RGeri77 (~RGeri77@catv-176-63-58-249.catv.broadband.hu) has joined #fedora-meeting
+2015-12-10 16:43:18	-->	csoriano_ (csoriano@nat/redhat/x-viekbftfifznrccf) has joined #fedora-meeting
+2015-12-10 16:49:00	<--	zerng07 (~zerng07@36-236-56-55.dynamic-ip.hinet.net) has quit (Quit: zerng07)
+2015-12-10 16:49:17	-->	Amita (~Amita@114.143.41.220) has joined #fedora-meeting
+2015-12-10 16:51:09	-->	tomspur (~tomspur@fedora/tomspur) has joined #fedora-meeting
+2015-12-10 16:51:25	<--	rtnpro (~rtnpro@122.172.110.47) has quit (Ping timeout: 250 seconds)
+2015-12-10 16:52:03	<--	jkurik (jkurik@nat/redhat/x-qfizbtpkfhvkwqvk) has quit (Quit: Terminated!)
+2015-12-10 16:53:52	-->	rtnpro (~rtnpro@122.171.123.95) has joined #fedora-meeting
+2015-12-10 16:53:53	-->	mkolman (mkolman@nat/redhat/x-uulekffaqdxwapwn) has joined #fedora-meeting
+2015-12-10 16:56:40	<--	mclasen (mclasen@nat/redhat/x-pyhliujnchepjery) has quit (Quit: mclasen)
+2015-12-10 16:57:02	-->	mclasen___ (mclasen@nat/redhat/x-rlyvhutcfewvobtp) has joined #fedora-meeting
+2015-12-10 16:57:30	--	mclasen___ is now known as mclasen
+2015-12-10 17:01:10	<--	mclasen (mclasen@nat/redhat/x-rlyvhutcfewvobtp) has quit (Client Quit)
+2015-12-10 17:07:13	<--	jreznik_ (jreznik@nat/redhat/x-muymgqsybaflzxva) has quit (Quit: Konversation terminated!)
+2015-12-10 17:08:29	-->	jreznik (jreznik@nat/redhat/x-zgjylgqpbxsmygls) has joined #fedora-meeting
+2015-12-10 17:09:22	<--	paragan (~paragan@unaffiliated/paragan) has quit (Remote host closed the connection)
+2015-12-10 17:11:16	<--	thozza (thozza@nat/redhat/x-gfcgiwihldpznnnh) has quit (Ping timeout: 256 seconds)
+2015-12-10 17:13:22	-->	Manikandan (~Manikanda@106.216.184.17) has joined #fedora-meeting
+2015-12-10 17:15:48	<--	msekleta (msekleta@nat/redhat/x-sjxizmtpyhafwmfl) has quit (Ping timeout: 272 seconds)
+2015-12-10 17:18:29	<--	aday (~aday@host86-178-149-243.range86-178.btcentralplus.com) has quit (Quit: aday)
+2015-12-10 17:18:39	-->	aday_ (~aday@host86-178-149-243.range86-178.btcentralplus.com) has joined #fedora-meeting
+2015-12-10 17:18:41	--	aday_ is now known as aday
+2015-12-10 17:19:44	-->	tibbs|w (~tibbs@fedora/tibbs) has joined #fedora-meeting
+2015-12-10 17:20:06	<--	fab (~fab@bonobo.creatis.insa-lyon.fr) has quit (Ping timeout: 240 seconds)
+2015-12-10 17:21:38	-->	flainn (~flainn@169.203.225.176) has joined #fedora-meeting
+2015-12-10 17:22:30	<--	nils (~nils@HSI-KBW-109-193-200-181.hsi7.kabel-badenwuerttemberg.de) has quit (Quit: Leaving)
+2015-12-10 17:23:18	-->	jonmasters (~jcm@edison.jonmasters.org) has joined #fedora-meeting
+2015-12-10 17:23:32	-->	rtnpro_ (~rtnpro@122.171.116.108) has joined #fedora-meeting
+2015-12-10 17:24:56	-->	cwickert (~chris@fedora/cwickert) has joined #fedora-meeting
+2015-12-10 17:25:23	-->	mclasen___ (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has joined #fedora-meeting
+2015-12-10 17:25:39	-->	sagarhani__ (~sagarhani@106.216.182.1) has joined #fedora-meeting
+2015-12-10 17:25:51	--	mclasen___ is now known as mclasen
+2015-12-10 17:26:00	<--	Gibba (~gwhite@grahamandbeth.plus.com) has quit (Ping timeout: 256 seconds)
+2015-12-10 17:26:04	-->	vivek_ (~vivek@124.124.42.72) has joined #fedora-meeting
+2015-12-10 17:26:34	<--	rtnpro (~rtnpro@122.171.123.95) has quit (Ping timeout: 256 seconds)
+2015-12-10 17:28:56	<--	rtnpro_ (~rtnpro@122.171.116.108) has quit (Ping timeout: 256 seconds)
+2015-12-10 17:30:08	-->	rtnpro_ (~rtnpro@122.172.131.119) has joined #fedora-meeting
+2015-12-10 17:41:41	<--	jreznik (jreznik@nat/redhat/x-zgjylgqpbxsmygls) has quit (Ping timeout: 250 seconds)
+2015-12-10 17:41:46	<--	neugens (~neugens@p20030057EA6AF91DCE3D82FFFE7CF56A.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2015-12-10 17:42:37	<--	jskarvad (~jskarvad@redhat/jskarvad) has quit (Quit: Quit)
+2015-12-10 17:42:47	<--	jstribny (jstribny@nat/redhat/x-zemqxxkzghfrombu) has quit (Quit: Leaving)
+2015-12-10 17:45:20	<--	tomspur (~tomspur@fedora/tomspur) has quit (Quit: Leaving)
+2015-12-10 17:47:16	-->	aldapetr (~aldapetr@85.207.42.154) has joined #fedora-meeting
+2015-12-10 17:49:02	-->	tomprince (~tomprince@socrates.hocat.ca) has joined #fedora-meeting
+2015-12-10 17:49:10	-->	brainspoil (~petev@76.122.14.67) has joined #fedora-meeting
+2015-12-10 17:50:38	-->	smooge (~smooge@linode01.smoogespace.com) has joined #fedora-meeting
+2015-12-10 17:52:26	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 240 seconds)
+2015-12-10 17:54:15	-->	jmadriag (jmadriag@nat/redhat/x-jcrlyafbfjrubxbj) has joined #fedora-meeting
+2015-12-10 17:58:06	-->	fab (~fab@bellet.info) has joined #fedora-meeting
+2015-12-10 17:58:39	-->	aikidouke (~aikidouke@unaffiliated/aikidouke) has joined #fedora-meeting
+2015-12-10 17:59:18	<--	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has quit (Quit: smdeep)
+2015-12-10 17:59:41	-->	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has joined #fedora-meeting
+2015-12-10 18:00:26	nirik	#startmeeting Infrastructure (2015-12-10)
+2015-12-10 18:00:26	zodbot	Meeting started Thu Dec 10 18:00:26 2015 UTC.  The chair is nirik. Information about MeetBot at http://wiki.debian.org/MeetBot.
+2015-12-10 18:00:26	zodbot	Useful Commands: #action #agreed #halp #info #idea #link #topic.
+2015-12-10 18:00:26	--	zodbot has changed topic for #fedora-meeting from "Fedora Meeting channel | Meetings are often logged | See https://apps.fedoraproject.org/calendar/location/fedora-meeting%40irc.freenode.net/ for meeting schedule | For support please go to #fedora" to " (Meeting topic: Infrastructure (2015-12-10))"
+2015-12-10 18:00:26	zodbot	The meeting name has been set to 'infrastructure_(2015-12-10)'
+2015-12-10 18:00:26	nirik	#meetingname infrastructure
+2015-12-10 18:00:26	nirik	#topic aloha
+2015-12-10 18:00:26	nirik	#chair smooge relrod nirik abadger1999 lmacken dgilmore mdomsch threebean pingou puiterwijk pbrobinson
+2015-12-10 18:00:26	zodbot	The meeting name has been set to 'infrastructure'
+2015-12-10 18:00:26	nirik	#topic New folks introductions / Apprentice feedback
+2015-12-10 18:00:26	--	zodbot has changed topic for #fedora-meeting from " (Meeting topic: Infrastructure (2015-12-10))" to "aloha (Meeting topic: Infrastructure (2015-12-10))"
+2015-12-10 18:00:26	zodbot	Current chairs: abadger1999 dgilmore lmacken mdomsch nirik pbrobinson pingou puiterwijk relrod smooge threebean
+2015-12-10 18:00:27	--	zodbot has changed topic for #fedora-meeting from "aloha (Meeting topic: Infrastructure (2015-12-10))" to "New folks introductions / Apprentice feedback (Meeting topic: Infrastructure (2015-12-10))"
+2015-12-10 18:00:37	dgilmore	hey all
+2015-12-10 18:00:44	puiterwijk	hi
+2015-12-10 18:00:51	nirik	morning everyone.
+2015-12-10 18:01:00	 *	pingou here
+2015-12-10 18:01:10	aikidouke	hello
+2015-12-10 18:01:10	flainn	ahoy hoy
+2015-12-10 18:01:14	nirik	any new folks like to give a short one line introduction of themselves? or any apprentices have questions or comments they want to bring up?
+2015-12-10 18:01:34	odin2016	morning
+2015-12-10 18:01:44	flainn	I'm new, happy to be here, Linux guy with the US Bureau of Indian Affairs. Hi!
+2015-12-10 18:01:56	nirik	hey flainn. welcome. :)
+2015-12-10 18:01:57	-->	offdutypirate (~offdutypi@cpe-24-26-62-20.mi.res.rr.com) has joined #fedora-meeting
+2015-12-10 18:02:42	odin2016	Welcome, flainn
+2015-12-10 18:02:42	nirik	flainn: I saw your intro email... did we already get you added to the apprentice group? if not, see me in #fedora-admin after the meeting and I can get you setup.
+2015-12-10 18:03:03	flainn	Thanks. No, we haven't yet, I meant to look around but got caught up in  work-work.
+2015-12-10 18:03:25	nirik	happens to us all for sure. :)
+2015-12-10 18:03:26	-->	smdeep_ (~smdeep@116.202.220.247) has joined #fedora-meeting
+2015-12-10 18:03:44	 *	adrianr also here
+2015-12-10 18:03:52	nirik	ok, any other new folks or apprentices with questions? if not will move on in a min...
+2015-12-10 18:03:55	 *	smdeep_ is also here
+2015-12-10 18:04:34	<--	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has quit (Ping timeout: 256 seconds)
+2015-12-10 18:04:55	nirik	ok, status/info dump. Hold on to your clients. ;)
+2015-12-10 18:04:59	nirik	#topic announcements and information
+2015-12-10 18:04:59	--	zodbot has changed topic for #fedora-meeting from "New folks introductions / Apprentice feedback (Meeting topic: Infrastructure (2015-12-10))" to "announcements and information (Meeting topic: Infrastructure (2015-12-10))"
+2015-12-10 18:04:59	nirik	#info [release] supybot-fedmsg: 0.2.0 - Ralph
+2015-12-10 18:04:59	nirik	#link http://lists.fedoraproject.org/archives/list/infrastructure@lists.fedoraproject.org/message/PTAJEMDYPZ7H2OVNXJ2RBW4NCB33QKPB/
+2015-12-10 18:04:59	nirik	#info [release] nuancier 0.9.0 and 0.10.0 - Pierre-Yves
+2015-12-10 18:04:59	nirik	#link http://lists.fedoraproject.org/archives/list/infrastructure@lists.fedoraproject.org/message/ITMLVKBA2PCGVGNM3PPIICZN37IWZC4A/
+2015-12-10 18:05:00	<--	smdeep_ (~smdeep@116.202.220.247) has quit (Client Quit)
+2015-12-10 18:05:01	nirik	#link http://lists.fedoraproject.org/archives/list/infrastructure@lists.fedoraproject.org/message/G6V7IF4Q4RXJB4R7IOG7OYBQVWQKL6G3/
+2015-12-10 18:05:04	nirik	#info [release] pkgdb2: 1.33.0 and 1.33.1 - Pierre-Yves
+2015-12-10 18:05:06	nirik	#link http://lists.fedoraproject.org/archives/list/infrastructure@lists.fedoraproject.org/message/ULK3A5XZI3RG7LWYIBERP4IMWJFGW4LM/
+2015-12-10 18:05:09	nirik	#link http://lists.fedoraproject.org/archives/list/infrastructure@lists.fedoraproject.org/message/FPMHDFJHAOIJRARUVLRKZD4VS6VQV6D5/
+2015-12-10 18:05:12	nirik	#info Installed a rhel7 hosted01, we need to work on getting it ready to migrate hosted03 to - kevin
+2015-12-10 18:05:15	-->	smdeep_ (~smdeep@116.202.220.247) has joined #fedora-meeting
+2015-12-10 18:05:15	nirik	#info New arm koji/db is ready to migrate to, hopefully soon - kevin
+2015-12-10 18:05:17	<--	d0nn1e (~d0nn1e@cpe-75-183-8-113.triad.res.rr.com) has quit (Excess Flood)
+2015-12-10 18:05:17	nirik	#info Equalogics outage, all data safe and now we are updated on firmware - patrick
+2015-12-10 18:05:19	nirik	#info REMINDER: no meetings on the 24th or 31st - everyone
+2015-12-10 18:05:23	nirik	#info REMINDER: technical debt work week jan 5th to 8th - everyone
+2015-12-10 18:05:25	nirik	#info REMINDER: smooge and nirik will be at phx jan 11th to 15th - nirik/smooge
+2015-12-10 18:05:27	nirik	#info All Fedora hosts will now auto apply security updates daily - kevin
+2015-12-10 18:05:29	nirik	#info ntp in phx2 now uses bastion01/02 everything else uses public rhel pool - kevin
+2015-12-10 18:05:31	nirik	#info Our playbook almost all ansible 2.0 ready - kevin
+2015-12-10 18:05:33	nirik	any items there folks would like to expand on, question or add to?
+2015-12-10 18:05:41	-->	d0nn1e (~d0nn1e@cpe-75-183-8-113.triad.res.rr.com) has joined #fedora-meeting
+2015-12-10 18:05:57	smooge	is the technical debt working on fixing debt or outlining what the debt is?
+2015-12-10 18:06:09	nirik	both I guess. ;)
+2015-12-10 18:06:17	nirik	threebean had a wiki page for it... let me see.
+2015-12-10 18:06:18	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting
+2015-12-10 18:06:51	nirik	https://fedoraproject.org/wiki/Infrastructure/Debt
+2015-12-10 18:07:46	pingou	#info [release] pkgdb2: 1.33.3 - pingou
+2015-12-10 18:07:50	pingou	#undo
+2015-12-10 18:07:50	zodbot	Removing item from minutes: INFO by pingou at 18:07:46 : [release] pkgdb2: 1.33.3 - pingou
+2015-12-10 18:07:53	pingou	#info [release] pkgdb2: 1.33.2 - pingou
+2015-12-10 18:08:00	pingou	let's not be too quick :)
+2015-12-10 18:08:06	nirik	:)
+2015-12-10 18:08:41	nirik	ok, I don't see any items in our discussion section. Unless there's something someone wants to bring up?
+2015-12-10 18:09:45	nirik	alright then, lets move on to me bloviating about ansible 2.0. ;)
+2015-12-10 18:09:58	nirik	#topic Learn about: ansible 2.0 - kevin
+2015-12-10 18:09:58	--	zodbot has changed topic for #fedora-meeting from "announcements and information (Meeting topic: Infrastructure (2015-12-10))" to "Learn about: ansible 2.0 - kevin (Meeting topic: Infrastructure (2015-12-10))"
+2015-12-10 18:10:06	-->	wrnash (uid63446@gateway/web/irccloud.com/x-wlfwbqneteewpeff) has joined #fedora-meeting
+2015-12-10 18:10:22	-->	nydel07 (~ginslo@pool-108-21-66-163.nycmny.fios.verizon.net) has joined #fedora-meeting
+2015-12-10 18:10:30	nirik	so, ansible 2.0 is going to be out "soon"
+2015-12-10 18:10:39	nirik	There's an rc2 available now, and a few fixes after that.
+2015-12-10 18:11:00	nirik	I've been trying to work with the ansible upstream folks to test and find bugs
+2015-12-10 18:11:13	-->	sayan (~sayanchow@fedora/sayan) has joined #fedora-meeting
+2015-12-10 18:11:18	nirik	The good news is that our playbooks are now almost 100% ready/working with 2.0
+2015-12-10 18:11:40	nirik	There's a glance_image bug that prevents the fed-cloud09 host playbook from finishing and I think thats all.
+2015-12-10 18:12:06	nirik	The bad news is: our scripts and handlers need re-writing
+2015-12-10 18:12:32	nirik	I'm going to try and look at that in the coming weeks, but if anyone else has cycles it would be great to help.
+2015-12-10 18:12:46	<--	jpopelka (jpopelka@nat/redhat/x-qtpdhynfpxvldinw) has quit (Ping timeout: 240 seconds)
+2015-12-10 18:12:59	lmacken	hm, it says they are aiming for 100% backwards compat with 2.0?
+2015-12-10 18:12:59	nirik	So, some things about 2.0
+2015-12-10 18:13:05	nirik	for playbooks, yep.
+2015-12-10 18:13:09	lmacken	ah
+2015-12-10 18:13:10	odin2016	that something that apprentices could help with?
+2015-12-10 18:13:20	nirik	but the api has never been stable or something they said you could depend on
+2015-12-10 18:13:42	nirik	odin2016: sure. You may need to test in a home env, but that shouldn't be too hard.
+2015-12-10 18:14:05	odin2016	nirik, oh good.. gives me a reason to do more than read on standing it up...
+2015-12-10 18:14:22	nirik	https://github.com/ansible/ansible/blob/devel/CHANGELOG.md is the changelog
+2015-12-10 18:14:39	nirik	there's lots and lots of fixes to the core setup that should make it easier to maintain
+2015-12-10 18:14:48	nirik	and some nifty new features we could use...
+2015-12-10 18:15:05	nirik	some interesting ones:
+2015-12-10 18:15:17	nirik	block/rescue/always blocks: http://docs.ansible.com/ansible/playbooks_blocks.html
+2015-12-10 18:15:42	nirik	https://docs.ansible.com/ansible/playbooks_strategies.html is also likely to be handy for us
+2015-12-10 18:16:44	nirik	FYI, it takes about 4.5 hours to run over all our playbooks. With a different strategy it could be a good deal faster.
+2015-12-10 18:17:20	pingou	sounds nice
+2015-12-10 18:17:34	nirik	There are also a bunch of new openstack modules... but we can keep using the existing ones until we get around to moving
+2015-12-10 18:18:22	nirik	so, things that need working on:
+2015-12-10 18:18:45	puiterwijk	nirik: I'm switching my own setup to the new modules, so can look at fixing the Fedora ones by the time we're upgrading openstack
+2015-12-10 18:18:48	nirik	all our callback_plugins don't work with the new api: http://infrastructure.fedoraproject.org/cgit/ansible.git/tree/callback_plugins
+2015-12-10 18:18:51	threebean	sweet new features :)
+2015-12-10 18:19:20	nirik	I dont think the filter_plugins work, but we may not need all of them either
+2015-12-10 18:19:23	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 250 seconds)
+2015-12-10 18:19:56	nirik	puiterwijk: sure, but we shouldn't move until we commit to staying on 2.0 on batcave...
+2015-12-10 18:20:24	nirik	a number of scripts don't work: http://infrastructure.fedoraproject.org/cgit/ansible.git/tree/scripts
+2015-12-10 18:20:34	nirik	(some of those are just shell scripts they work fine)
+2015-12-10 18:20:41	puiterwijk	nirik: sure. But that's going to be a little time anyway :).
+2015-12-10 18:21:36	 *	nirik nods. 
+2015-12-10 18:21:44	-->	dotEast2015 (~doEast@95.186.118.147) has joined #fedora-meeting
+2015-12-10 18:21:53	 *	dotEast2015 late
+2015-12-10 18:22:01	-->	sayan (~sayanchow@fedora/sayan) has joined #fedora-meeting
+2015-12-10 18:22:21	nirik	lets see... I think thats the highlights. Anyone have any questions on it?
+2015-12-10 18:22:51	odin2016	not yet...
+2015-12-10 18:23:10	nirik	note that ansible 2.0 still isn't python3... that discussion was pushed to post 2.0 release...
+2015-12-10 18:23:59	aldapetr	hi, late..
+2015-12-10 18:24:28	nirik	also, it's easy to test a ansible version from git, just check it out and 'source hacking/env-setup' and it will use that ansible.
+2015-12-10 18:25:22	nirik	ok, if nothing else on ansible 2.0...
+2015-12-10 18:25:52	nirik	#topic Open Floor
+2015-12-10 18:25:52	--	zodbot has changed topic for #fedora-meeting from "Learn about: ansible 2.0 - kevin (Meeting topic: Infrastructure (2015-12-10))" to "Open Floor (Meeting topic: Infrastructure (2015-12-10))"
+2015-12-10 18:26:11	nirik	anyone want to teach about something next week? or have ideas what you would like to learn about?
+2015-12-10 18:27:10	threebean	the new package namespacing work that some of us have been poking at could be an interesting topic.
+2015-12-10 18:27:31	threebean	also, I could talk about PDC at some point too.  maybe after the holidays, though.
+2015-12-10 18:27:52	nirik	yeah,
+2015-12-10 18:28:02	nirik	we have next week's meeting then I think we skip the next two
+2015-12-10 18:28:31	nirik	ok, I can ask around and see if I can come up with something. ;)
+2015-12-10 18:28:37	nirik	any other general items for open floor?
+2015-12-10 18:28:39	pingou	btw, ftr pkgdb2/distgit in stg is currently broken
+2015-12-10 18:28:47	pingou	for some definition of broken
+2015-12-10 18:28:53	nirik	ok
+2015-12-10 18:29:08	pingou	but that's in purpose, so don't worry and if you're not sure if some behavior is expected, feel free to ask :)
+2015-12-10 18:29:18	nirik	fair enough.
+2015-12-10 18:29:19	pingou	(pkgdb2 in stg already has the namespacing in its UI)
+2015-12-10 18:29:48	pingou	so to be precise, both pkgdb2 and dist-git are working, just the link in between isn't so, some things won't work
+2015-12-10 18:29:56	nirik	FYI, I have also been working this week (as I often do) on reducing the number of emails that get sent to people... hopefully it will be at an all time low for the holidays. ;)
+2015-12-10 18:30:06	threebean	+1 :)
+2015-12-10 18:30:22	nirik	if we could try and address chronic nagios alerters too that would be good.
+2015-12-10 18:31:10	<--	prth (~prth@182.74.218.98) has quit (Ping timeout: 256 seconds)
+2015-12-10 18:31:33	nirik	ok then... lets close up early and give everyone an extra 30min to relax. ;)
+2015-12-10 18:31:38	nirik	Thanks for coming everyone!
+2015-12-10 18:31:41	nirik	#endmeeting
+2015-12-10 18:31:41	--	zodbot has changed topic for #fedora-meeting from "Open Floor (Meeting topic: Infrastructure (2015-12-10))" to "Fedora Meeting channel | Meetings are often logged | See https://apps.fedoraproject.org/calendar/location/fedora-meeting%40irc.freenode.net/ for meeting schedule | For support please go to #fedora"
+2015-12-10 18:31:41	zodbot	Meeting ended Thu Dec 10 18:31:41 2015 UTC. Information about MeetBot at http://wiki.debian.org/MeetBot .
+2015-12-10 18:31:41	zodbot	Minutes: http://meetbot.fedoraproject.org/fedora-meeting/2015-12-10/infrastructure.2015-12-10-18.00.html
+2015-12-10 18:31:41	zodbot	Minutes (text): http://meetbot.fedoraproject.org/fedora-meeting/2015-12-10/infrastructure.2015-12-10-18.00.txt
+2015-12-10 18:31:41	zodbot	Log: http://meetbot.fedoraproject.org/fedora-meeting/2015-12-10/infrastructure.2015-12-10-18.00.log.html
+2015-12-10 18:32:09	flainn	take care
+2015-12-10 18:32:18	<--	flainn (~flainn@169.203.225.176) has left #fedora-meeting ("Leaving")
+2015-12-10 18:32:28	threebean	nirik: oo, for a future week.. want to return to that review of serial nagios offenders we used to do?
+2015-12-10 18:32:39	nirik	we could yeah...
+2015-12-10 18:32:46	threebean	can't recall if there was a reason we stopped.
+2015-12-10 18:33:01	threebean	maybe just the change in meeting format we tried.
+2015-12-10 18:33:04	nirik	I think we had a bit there were it was all connection problems beyond our control.
+2015-12-10 18:33:11	nirik	but yeah, could be that too
+2015-12-10 18:33:21	nirik	The only one that leaps to mind right now is mm-frontend
+2015-12-10 18:34:03	-->	msekleta (~msekleta@ip4-95-82-163-107.cust.nbox.cz) has joined #fedora-meeting
+2015-12-10 18:34:28	puiterwijk	nirik: and datagrepper
+2015-12-10 18:34:42	nirik	yeah, but I think threebean fixed that the other day. ;)
+2015-12-10 18:34:42	 *	nb says hi
+2015-12-10 18:34:50	puiterwijk	Ah, okay, cool!
+2015-12-10 18:34:52	puiterwijk	threebean++
+2015-12-10 18:37:59	<--	bexelbie (~bexelbie@fedora/bexelbie) has quit (Quit: Leaving)
+2015-12-10 18:38:23	<--	aday (~aday@host86-178-149-243.range86-178.btcentralplus.com) has quit (Quit: aday)
+2015-12-10 18:39:45	<--	jmadriag (jmadriag@nat/redhat/x-jcrlyafbfjrubxbj) has quit (Ping timeout: 250 seconds)
+2015-12-10 18:43:12	-->	prth (~prth@106.51.241.177) has joined #fedora-meeting
+2015-12-10 18:44:46	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 240 seconds)
+2015-12-10 18:47:02	<--	mclasen (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has quit (Quit: mclasen)
+2015-12-10 18:47:27	-->	mclasen___ (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has joined #fedora-meeting
+2015-12-10 18:47:56	--	mclasen___ is now known as mclasen
+2015-12-10 18:51:22	<--	ngoswami (ngoswami@nat/redhat/x-xiktbmamvvhaxhps) has quit (Quit: Leaving)
+2015-12-10 19:04:30	<--	firemanxbr (~firemanxb@177.66.5.244) has quit (Quit: Leaving)
+2015-12-10 19:05:10	<--	Manikandan (~Manikanda@106.216.184.17) has quit (Ping timeout: 256 seconds)
+2015-12-10 19:07:31	 *	decause needs to dst is infra calendar reminder
+2015-12-10 19:09:50	<--	aikidouke (~aikidouke@unaffiliated/aikidouke) has left #fedora-meeting ("Leaving")
+2015-12-10 19:13:26	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 240 seconds)
+2015-12-10 19:19:11	<--	prth (~prth@106.51.241.177) has quit (Ping timeout: 250 seconds)
+2015-12-10 19:22:20	-->	ladisone (~ladisone@2a00:1028:9199:ebea:52b7:c3ff:fee9:e2e7) has joined #fedora-meeting
+2015-12-10 19:24:33	<--	vivek_ (~vivek@124.124.42.72) has left #fedora-meeting ("Leaving")
+2015-12-10 19:27:03	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting
+2015-12-10 19:28:03	<--	smdeep_ (~smdeep@116.202.220.247) has quit (Quit: Leaving)
+2015-12-10 19:32:29	-->	prth (~prth@61.12.83.194) has joined #fedora-meeting
+2015-12-10 19:36:22	<--	sagarhani__ (~sagarhani@106.216.182.1) has quit (Quit: I'll be back soon.)
+2015-12-10 19:36:45	-->	sagarhani__ (~sagarhani@106.216.182.1) has joined #fedora-meeting
+2015-12-10 19:37:50	<--	ladisone (~ladisone@2a00:1028:9199:ebea:52b7:c3ff:fee9:e2e7) has left #fedora-meeting
+2015-12-10 19:38:26	<--	kparal (~kparal@ip4-83-240-81-233.cust.nbox.cz) has quit (Ping timeout: 240 seconds)
+2015-12-10 19:41:12	-->	kparal (~kparal@ip4-83-240-81-233.cust.nbox.cz) has joined #fedora-meeting
+2015-12-10 19:42:46	<--	prth (~prth@61.12.83.194) has quit (Ping timeout: 240 seconds)
+2015-12-10 19:43:51	<--	tibbs (~tibbs@73.32.46.10) has quit (Ping timeout: 260 seconds)
+2015-12-10 19:46:53	--	smooge is now known as smooge_away
+2015-12-10 19:47:57	-->	tibbs (~tibbs@fedora/tibbs) has joined #fedora-meeting
+2015-12-10 19:55:39	<--	barto (~Freddy@ayacucho.vicepresidencia.gob.bo) has quit (Remote host closed the connection)
+2015-12-10 19:55:56	<--	FedoraUser (user@fedora/FedoraUser) has quit (Ping timeout: 246 seconds)
+2015-12-10 19:56:26	--	smooge_away is now known as smooge
+2015-12-10 19:58:39	-->	prth (~prth@106.51.241.177) has joined #fedora-meeting
+2015-12-10 19:59:54	<--	sagarhani__ (~sagarhani@106.216.182.1) has quit (Quit: I'll be back soon.)
+2015-12-10 19:59:58	-->	barto (~Freddy@ayacucho.vicepresidencia.gob.bo) has joined #fedora-meeting
+2015-12-10 20:01:00	-->	sagarhani__ (~sagarhani@106.216.182.1) has joined #fedora-meeting
+2015-12-10 20:01:03	<--	barto (~Freddy@ayacucho.vicepresidencia.gob.bo) has quit (Remote host closed the connection)
+2015-12-10 20:03:25	-->	toppledwagon (~anonymous@208.185.20.30) has joined #fedora-meeting
+2015-12-10 20:06:05	-->	barto (~Freddy@ayacucho.vicepresidencia.gob.bo) has joined #fedora-meeting
+2015-12-10 20:12:46	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 240 seconds)
+2015-12-10 20:17:37	<--	sassmann (~sassmann@p579E960C.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-12-10 20:19:00	<--	sagarhani__ (~sagarhani@106.216.182.1) has quit (Quit: I'll be back soon.)
+2015-12-10 20:19:59	<--	cwickert (~chris@fedora/cwickert) has quit (Ping timeout: 264 seconds)
+2015-12-10 20:26:35	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting
+2015-12-10 20:26:47	<--	than_ (~than@p5DCD2742.dip0.t-ipconnect.de) has quit (Quit: Konversation terminated!)
+2015-12-10 20:28:02	<--	Southern_Gentlem (~notfred@fedora/Southern-Gentleman) has quit (Remote host closed the connection)
+2015-12-10 20:28:47	-->	sagarhani__ (~sagarhani@106.216.182.1) has joined #fedora-meeting
+2015-12-10 20:30:56	-->	FedoraUser (user@fedora/FedoraUser) has joined #fedora-meeting
+2015-12-10 20:30:59	<--	satellit (~satellit@2601:602:200:ce50:c23f:d5ff:fe6a:eb77) has quit (Quit: Leaving)
+2015-12-10 20:32:54	-->	Southern_Gentlem (~notfred@2001:468:c80:6118:ec4:7aff:fe34:1148) has joined #fedora-meeting
+2015-12-10 20:32:54	<--	Southern_Gentlem (~notfred@2001:468:c80:6118:ec4:7aff:fe34:1148) has quit (Changing host)
+2015-12-10 20:32:54	-->	Southern_Gentlem (~notfred@fedora/Southern-Gentleman) has joined #fedora-meeting
+2015-12-10 20:33:26	<--	Southern_Gentlem (~notfred@fedora/Southern-Gentleman) has quit (Client Quit)
+2015-12-10 20:34:44	-->	Southern_Gentlem (~notfred@fedora/Southern-Gentleman) has joined #fedora-meeting
+2015-12-10 20:37:04	<--	Southern_Gentlem (~notfred@fedora/Southern-Gentleman) has quit (Remote host closed the connection)
+2015-12-10 20:38:44	-->	smdeep (~smdeep@202.142.125.95) has joined #fedora-meeting
+2015-12-10 20:40:22	-->	jchaves (ba20c983@gateway/web/freenode/ip.186.32.201.131) has joined #fedora-meeting
+2015-12-10 20:42:20	<--	jchaves (ba20c983@gateway/web/freenode/ip.186.32.201.131) has quit (Client Quit)
+2015-12-10 20:46:42	<--	Amita (~Amita@114.143.41.220) has quit (Ping timeout: 272 seconds)
+2015-12-10 20:48:22	-->	aeng (~aeng@27-33-180-60.static.tpgi.com.au) has joined #fedora-meeting
+2015-12-10 21:03:10	<--	laubersm (laubersm@nat/redhat/x-hvmntzhvbrqwfnxc) has quit (Ping timeout: 272 seconds)
+2015-12-10 21:13:04	<--	aldapetr (~aldapetr@85.207.42.154) has quit (Quit: Leaving)
+2015-12-10 21:17:18	<--	RGeri77 (~RGeri77@catv-176-63-58-249.catv.broadband.hu) has quit (Remote host closed the connection)
+2015-12-10 21:21:06	<--	msekleta (~msekleta@ip4-95-82-163-107.cust.nbox.cz) has quit (Ping timeout: 240 seconds)
+2015-12-10 21:21:07	-->	flainn (~flainn@169.203.225.176) has joined #fedora-meeting
+2015-12-10 21:21:21	<--	flainn (~flainn@169.203.225.176) has left #fedora-meeting ("Leaving")
+2015-12-10 21:22:52	<--	fab (~fab@bellet.info) has quit (Ping timeout: 256 seconds)
+2015-12-10 21:23:31	-->	rtnpro__ (~rtnpro@122.171.92.154) has joined #fedora-meeting
+2015-12-10 21:23:43	-->	fab (~fab@bellet.info) has joined #fedora-meeting
+2015-12-10 21:26:40	<--	sagarhani__ (~sagarhani@106.216.182.1) has quit (Quit: I'll be back soon.)
+2015-12-10 21:27:14	<--	rtnpro_ (~rtnpro@122.172.131.119) has quit (Ping timeout: 272 seconds)
+2015-12-10 21:31:25	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 250 seconds)
+2015-12-10 21:34:05	-->	rtnpro_ (~rtnpro@122.171.95.27) has joined #fedora-meeting
+2015-12-10 21:35:06	<--	rtnpro__ (~rtnpro@122.171.92.154) has quit (Ping timeout: 240 seconds)
+2015-12-10 21:42:55	-->	frafra (~frafra@fedora/frafra) has joined #fedora-meeting
+2015-12-10 21:44:46	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting
+2015-12-10 21:55:36	-->	jhogarth (~jhogarth@5ec2358a.skybroadband.com) has joined #fedora-meeting
+2015-12-10 21:55:56	-->	sesivany (~eischmann@ip-93-99-86-188.kmenet.cz) has joined #fedora-meeting
+2015-12-10 21:58:21	-->	lukebrooker (~lukebrook@1.132.97.50) has joined #fedora-meeting
+2015-12-10 22:00:55	stickster	#startmeeting Magazine editorial board
+2015-12-10 22:00:56	zodbot	Meeting started Thu Dec 10 22:00:55 2015 UTC.  The chair is stickster. Information about MeetBot at http://wiki.debian.org/MeetBot.
+2015-12-10 22:00:56	zodbot	Useful Commands: #action #agreed #halp #info #idea #link #topic.
+2015-12-10 22:00:56	--	zodbot has changed topic for #fedora-meeting from "Fedora Meeting channel | Meetings are often logged | See https://apps.fedoraproject.org/calendar/location/fedora-meeting%40irc.freenode.net/ for meeting schedule | For support please go to #fedora" to " (Meeting topic: Magazine editorial board)"
+2015-12-10 22:00:56	zodbot	The meeting name has been set to 'magazine_editorial_board'
+2015-12-10 22:00:59	stickster	#meetingname magazine
+2015-12-10 22:00:59	zodbot	The meeting name has been set to 'magazine'
+2015-12-10 22:01:02	stickster	#topic Roll call!
+2015-12-10 22:01:02	--	zodbot has changed topic for #fedora-meeting from " (Meeting topic: Magazine editorial board)" to "Roll call! (Meeting topic: Magazine editorial board)"
+2015-12-10 22:01:05	stickster	.hello pfrields
+2015-12-10 22:01:08	zodbot	stickster: pfrields 'Paul W. Frields' <stickster@gmail.com>
+2015-12-10 22:01:45	stickster	ryanlerch: jflory7: cydrobolt: decause: *: anyone else interested: hiya!
+2015-12-10 22:02:14	jflory7	.hello jflory7
+2015-12-10 22:02:15	zodbot	jflory7: jflory7 'Justin W. Flory' <me@justinwflory.com>
+2015-12-10 22:03:32	<--	toppledwagon (~anonymous@208.185.20.30) has quit (Quit: toppledwagon)
+2015-12-10 22:03:33	stickster	o/ Justing
+2015-12-10 22:03:36	stickster	oops Justin
+2015-12-10 22:03:53	jflory7	Hiya, afternoon / evening, all!
+2015-12-10 22:03:55	stickster	sorry, reflex typing :-) Hopefully ryanlerch will be around too?
+2015-12-10 22:04:24	jflory7	Hopefully so, maybe he's still getting his coffee :)
+2015-12-10 22:04:58	jflory7	I know jhogarth is waiting around too.
+2015-12-10 22:05:04	<--	jhogarth (~jhogarth@5ec2358a.skybroadband.com) has quit (Remote host closed the connection)
+2015-12-10 22:05:14	<--	FedoraUser (user@fedora/FedoraUser) has quit (Ping timeout: 272 seconds)
+2015-12-10 22:05:15	jflory7	Or maybe not. :P
+2015-12-10 22:05:41	stickster	Well, maybe we should plunge ahead. :-)
+2015-12-10 22:05:53	stickster	#topic weekly review
+2015-12-10 22:05:53	--	zodbot has changed topic for #fedora-meeting from "Roll call! (Meeting topic: Magazine editorial board)" to "weekly review (Meeting topic: Magazine editorial board)"
+2015-12-10 22:05:55	jflory7	Sounds good, we can get the past week overview done now.
+2015-12-10 22:06:12	-->	Kohane (~hermes@r179-28-69-254.dialup.mobile.ancel.net.uy) has joined #fedora-meeting
+2015-12-10 22:06:24	jflory7	Hi Kohane!
+2015-12-10 22:06:26	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 240 seconds)
+2015-12-10 22:06:31	-->	jhogarth (~jhogarth@5ec2358a.skybroadband.com) has joined #fedora-meeting
+2015-12-10 22:06:34	Kohane	Hi!
+2015-12-10 22:06:46	Kohane	Finally got here!
+2015-12-10 22:06:53	stickster	We had a good week so far, with everything going out as planned. I got an extra "tidbit" article out this afternoon re: kernel release cycle, courtesy of a great blog post written by jwb
+2015-12-10 22:07:07	jflory7	jwb++ That was a really informative read!
+2015-12-10 22:07:07	zodbot	jflory7: Karma for jwboyer changed to 2 (for the f23 release cycle):  https://badges.fedoraproject.org/tags/cookie/any
+2015-12-10 22:07:27	stickster	jwb++
+2015-12-10 22:07:27	zodbot	stickster: Karma for jwboyer changed to 3 (for the f23 release cycle):  https://badges.fedoraproject.org/tags/cookie/any
+2015-12-10 22:07:29	jflory7	Kohane: Glad you could make it! You can introduce yourself by typing: .hello <Your FAS username>
+2015-12-10 22:07:44	jhogarth	.hello jhogarth
+2015-12-10 22:07:46	zodbot	jhogarth: jhogarth 'James Hogarth' <james.hogarth@gmail.com>
+2015-12-10 22:07:54	-->	FedoraUser (user@fedora/FedoraUser) has joined #fedora-meeting
+2015-12-10 22:07:55	<--	derekh (derekh@nat/redhat/x-xxiwkbremwpjzfeq) has quit (Ping timeout: 240 seconds)
+2015-12-10 22:07:59	stickster	#chair jflory7 jhogarth Kohane
+2015-12-10 22:07:59	zodbot	Current chairs: Kohane jflory7 jhogarth stickster
+2015-12-10 22:08:05	stickster	#chair ryanlerch
+2015-12-10 22:08:05	zodbot	Current chairs: Kohane jflory7 jhogarth ryanlerch stickster
+2015-12-10 22:08:41	stickster	#info So far we have about 55K views in December. That's on day 10 -- so we need to ramp up a little if we're going to hit 200K for the month
+2015-12-10 22:08:49	 *	jflory7 nods
+2015-12-10 22:09:01	jflory7	I think we have some good ammo in the queue to help boost the views
+2015-12-10 22:09:06	stickster	#topic Week ahead
+2015-12-10 22:09:06	--	zodbot has changed topic for #fedora-meeting from "weekly review (Meeting topic: Magazine editorial board)" to "Week ahead (Meeting topic: Magazine editorial board)"
+2015-12-10 22:09:20	stickster	jflory7: I think we have Picard coming tomorrow, right? Anything blocking that?
+2015-12-10 22:09:23	jflory7	I have one proposed change to the schedule
+2015-12-10 22:09:26	stickster	hit me
+2015-12-10 22:09:28	jflory7	Ahh, yeah, that's it. :)
+2015-12-10 22:09:31	jflory7	So instead of Picard---
+2015-12-10 22:09:38	jflory7	I completely finished + fleshed out the Mumble article.
+2015-12-10 22:09:50	jflory7	It is 100% content ready, pending a featured image and maybe one more look-over.
+2015-12-10 22:10:09	jflory7	With my finals coming up, I want to spend more time writing the Picard article while it has my full focus.
+2015-12-10 22:10:19	jflory7	I did get a good chunk of it done, though.
+2015-12-10 22:10:21	<--	rtnpro_ (~rtnpro@122.171.95.27) has quit (Ping timeout: 250 seconds)
+2015-12-10 22:10:25	jflory7	Maybe 50% done right now or so.
+2015-12-10 22:11:03	stickster	jflory7: So would you say, Mumble tomorrow (pending image), then schedule Picard article to publish next week or the week after?
+2015-12-10 22:11:22	jflory7	stickster: If we could schedule Picard for same time next week, I think that's doable.
+2015-12-10 22:11:28	jflory7	Starting next Thursday, I'll be finished
+2015-12-10 22:11:37	jflory7	+1 to Mumble tomorrow
+2015-12-10 22:11:45	 *	stickster wonders if cprofitt is around
+2015-12-10 22:12:10	jflory7	I think I remember him saying in another channel he might be tight at time at work today
+2015-12-10 22:12:50	stickster	ah, np
+2015-12-10 22:13:07	stickster	#agreed Publish Mumble article tomorrow, and schedule Picard for next Friday
+2015-12-10 22:13:28	jflory7	I know cproffit had some more "How do you Fedora" articles ongoing
+2015-12-10 22:13:29	stickster	jflory7: We might want to consider bumping *something* from next week into the week after. That topic isn't up yet but we'll get there
+2015-12-10 22:13:31	<--	frafra (~frafra@fedora/frafra) has quit (Quit: Leaving)
+2015-12-10 22:13:46	 *	jflory7 nods
+2015-12-10 22:13:56	Kohane	Hello  <lailah>
+2015-12-10 22:14:10	<--	smooge (~smooge@linode01.smoogespace.com) has left #fedora-meeting ("Leaving")
+2015-12-10 22:14:17	stickster	#info Next week: Tue Dec 15 - nuntius (Ryan), Wed Dec 16 - systemd (stickster), Thu Dec 17 - HDYF (cprofitt), Fri Dec 18? - Picard (Justin)
+2015-12-10 22:14:19	Kohane	Is it right that way  @jflory7?
+2015-12-10 22:14:32	stickster	Kohane: try this:   .hello lailah
+2015-12-10 22:14:51	stickster	The period (.) at the start tells the bot to listen to your command.
+2015-12-10 22:15:05	Kohane	Hello lailah
+2015-12-10 22:15:06	jflory7	stickster: I think that schedule sounds good. I think all of those can be reasonably finished on time. Also, how many more are left in the systemd series? Is this the last one coming up?
+2015-12-10 22:15:26	stickster	jflory7: Only one or two more or charted IIRC
+2015-12-10 22:15:28	Kohane	.hello lailah
+2015-12-10 22:15:29	zodbot	Kohane: lailah 'Sylvia Sánchez' <LailahFSF@gmail.com>
+2015-12-10 22:15:30	stickster	but no authors for either
+2015-12-10 22:15:36	stickster	Kohane++
+2015-12-10 22:15:45	stickster	oops
+2015-12-10 22:15:45	jflory7	Kohane++ lailah++ There you go :)
+2015-12-10 22:15:46	zodbot	jflory7: Karma for lailah changed to 1 (for the f23 release cycle):  https://badges.fedoraproject.org/tags/cookie/any
+2015-12-10 22:15:48	stickster	lailah++
+2015-12-10 22:15:48	zodbot	stickster: Karma for lailah changed to 2 (for the f23 release cycle):  https://badges.fedoraproject.org/tags/cookie/any
+2015-12-10 22:15:58	jhogarth	I'm happy to volunteer on writing systemd articles if there's no authors yet
+2015-12-10 22:16:06	jflory7	stickster: Okay, I see the remote logging one left.
+2015-12-10 22:16:15	stickster	jhogarth: Did you write an article previously for us? (Not necessarily systemd)
+2015-12-10 22:16:25	stickster	jflory7: They might have just been ideas in my head :-D
+2015-12-10 22:16:32	jflory7	stickster: jhogarth did LetsEncrypt stuff :)
+2015-12-10 22:16:38	jhogarth	stickster, the letsencrypt one pending discussion today
+2015-12-10 22:16:46	stickster	Oh right. Sorry, it's been a lot of synaptic loss since last year.
+2015-12-10 22:17:02	jflory7	So, since we're looking at the systemd article now:
+2015-12-10 22:17:09	jflory7	#info systemd series, part 8 -- remote logging
+2015-12-10 22:17:10	jflory7	#link https://fedoramagazine.org/?p=10349
+2015-12-10 22:17:23	stickster	I'll have that drafted by the weekend
+2015-12-10 22:17:32	stickster	I set up some test VMs today so I can work on the article tomorrow
+2015-12-10 22:17:39	jflory7	Ah, so you do have that one, stickster?
+2015-12-10 22:17:44	stickster	yup yup
+2015-12-10 22:17:47	jflory7	I think that might be a wrap to the series, then
+2015-12-10 22:17:56	jflory7	I'm not seeing any more hiding out in the queue :)
+2015-12-10 22:18:34	stickster	yeah
+2015-12-10 22:18:42	stickster	we can do one at any time afterward, of course
+2015-12-10 22:18:56	stickster	jhogarth: if you have ideas, feel free to add into the Pitch pile
+2015-12-10 22:19:00	jflory7	#info stickster writing systemd part 8, tentatively the end of the series - new ideas welcome!
+2015-12-10 22:19:15	stickster	OK, it sounds like we have a plan for next week now
+2015-12-10 22:19:40	Kohane	I'll write some an article about the programmes I use as translator and designer.
+2015-12-10 22:19:49	Kohane	If you like.
+2015-12-10 22:20:03	jflory7	Yeah, I forgot to mention the LetsEncrypt article - that one is hotstuff and could definitely go out next week. Preferably, too.
+2015-12-10 22:20:13	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting
+2015-12-10 22:20:25	stickster	Kohane: I think that's a good idea. Can you start an article in the Wordpress instance, and save it in Pitch status?
+2015-12-10 22:20:29	jflory7	Kohane: If you wanted to write a few pitches up, that would be *awesome*!
+2015-12-10 22:20:43	stickster	Agreed, don't limit it to one if you don't want.
+2015-12-10 22:20:50	Kohane	Yeah! Sure!!
+2015-12-10 22:21:05	Kohane	I love writing
+2015-12-10 22:21:35	Kohane	I actually write tales when I'm not doing this kind of stuff.
+2015-12-10 22:21:38	jflory7	Awesome, Kohane, looking forward to seeing what you come up with. :)
+2015-12-10 22:21:49	stickster	OK, let's move to today's most important topic
+2015-12-10 22:21:50	cydrobolt	hey there!
+2015-12-10 22:21:52	cydrobolt	.hello cydrobolt
+2015-12-10 22:21:53	zodbot	cydrobolt: cydrobolt 'Chaoyi Zha' <summermontreal@gmail.com>
+2015-12-10 22:21:55	cydrobolt	hey jflory7 and stickster
+2015-12-10 22:21:55	stickster	#topic Holiday schedule
+2015-12-10 22:21:55	--	zodbot has changed topic for #fedora-meeting from "Week ahead (Meeting topic: Magazine editorial board)" to "Holiday schedule (Meeting topic: Magazine editorial board)"
+2015-12-10 22:21:59	stickster	o/
+2015-12-10 22:22:01	jflory7	Welcome cydrobolt!
+2015-12-10 22:22:03	stickster	#chair cydrobolt
+2015-12-10 22:22:03	zodbot	Current chairs: Kohane cydrobolt jflory7 jhogarth ryanlerch stickster
+2015-12-10 22:22:07	cydrobolt	hey all
+2015-12-10 22:22:12	jflory7	Yes, let's definitely hit this
+2015-12-10 22:22:19	stickster	So we need to figure out what's going on the two weeks *after* next week
+2015-12-10 22:22:37	jflory7	stickster: Do you think three articles a week is a good goal to aim for?
+2015-12-10 22:22:38	stickster	#info stickster will not be around for meetings either Dec-24 or Dec-31
+2015-12-10 22:22:44	Kohane	The rest of the month then...
+2015-12-10 22:22:46	stickster	jflory7: Yes, at a minimum
+2015-12-10 22:23:03	stickster	jflory7: If we had several HDYF lined up, that would be a great start
+2015-12-10 22:23:16	Kohane	HDYF?
+2015-12-10 22:23:20	stickster	jflory7: This is why I would move Picard to perhaps Tue Dec 22
+2015-12-10 22:23:40	stickster	just so we don't run out
+2015-12-10 22:23:41	jflory7	Kohane: "How do you Fedora".
+2015-12-10 22:23:43	jflory7	stickster: I see - yeah, I'm actually thinking the same
+2015-12-10 22:23:52	jflory7	So, I have a few ideas for the schedule--
+2015-12-10 22:23:53	Kohane	Ah!
+2015-12-10 22:23:55	Kohane	Thanks
+2015-12-10 22:24:07	stickster	#agreed Move Picard to Tue Dec 22 instead, so we have more queue built up
+2015-12-10 22:24:11	stickster	jflory7: go!
+2015-12-10 22:24:22	jflory7	Next week: Monday, LetsEncrypt in Fedora; Wednesday, systemd part 8; Friday, nuntius(?)
+2015-12-10 22:24:30	-->	derekh (derekh@nat/redhat/x-tgeqrtrcmzyplrqq) has joined #fedora-meeting
+2015-12-10 22:25:16	jflory7	Week of 12/20: Monday, Picard; Wednesday, Cinnamon spin (Kohane); Friday, Varnish(?) cc: puiterwijk
+2015-12-10 22:25:52	Kohane	Oh! So great! My article! Haha
+2015-12-10 22:26:05	jflory7	Week of 12/27: Monday, Shotwell's future (converted into alternatives)(?); Wednesday, cgroups / cockpit (ryanlerch)(?); Friday...?
+2015-12-10 22:26:26	 *	jflory7 notes those Fridays are Christmas Day and New Year's, respectively
+2015-12-10 22:26:34	jflory7	Maybe make Fridays Thursdays or something similar
+2015-12-10 22:26:50	Kohane	Yeah, I think it would be better
+2015-12-10 22:26:58	jflory7	Do these schedules sound like good rough proposals?
+2015-12-10 22:26:58	Kohane	Thursday instead of Friday
+2015-12-10 22:27:06	 *	jflory7 nods
+2015-12-10 22:27:13	Kohane	Yeah
+2015-12-10 22:27:20	Kohane	Sounds good.
+2015-12-10 22:27:21	stickster	Kohane: jflory7: One issue we need to address in that Cinnamon article is advice on codecs. We can't advise people to use the repos mentioned there.
+2015-12-10 22:27:37	stickster	q.v. contributory infringement
+2015-12-10 22:27:38	jflory7	stickster: I think the RPMFusion stuff was stripped out, or it should be okay to remove.
+2015-12-10 22:27:48	jflory7	I mentioned it to Kohane and she was going to save it for a Fedora Planet article. :)
+2015-12-10 22:27:49	stickster	cool cool
+2015-12-10 22:27:57	 *	stickster just looking at current preview
+2015-12-10 22:28:03	Kohane	I already did
+2015-12-10 22:28:14	Kohane	You can delete that part
+2015-12-10 22:28:24	 *	stickster will rely on jflory7 to take care of that
+2015-12-10 22:28:30	 *	jflory7 nods
+2015-12-10 22:28:39	jflory7	Kohane and I will definitely work on getting Cinnamon ready
+2015-12-10 22:29:00	puiterwijk	jflory7: yeah, I think week of 12/20 was what we agreed on last week
+2015-12-10 22:29:00	Kohane	Thanks! :)
+2015-12-10 22:29:03	<--	lukebrooker (~lukebrook@1.132.97.50) has quit (Read error: Connection reset by peer)
+2015-12-10 22:29:10	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 256 seconds)
+2015-12-10 22:29:19	 *	stickster would recommend we not worry about publishing anything either Fri Dec 25 or Fri Jan 1
+2015-12-10 22:30:00	jflory7	puiterwijk: Cool, awesome! So do you think you could have it ready for review by 12/20ish? That would give some time to review and edit - I can help getting it ready for that upcoming Thursday.
+2015-12-10 22:30:04	jflory7	stickster: Agreed
+2015-12-10 22:30:15	puiterwijk	jflory7: absolutely.
+2015-12-10 22:30:35	Kohane	Perfect
+2015-12-10 22:30:40	jflory7	puiterwijk: Perfect, awesome. :) When you get it finished, shoot it over to the mailing list for review.
+2015-12-10 22:30:52	puiterwijk	Will do
+2015-12-10 22:30:55	stickster	jflory7: So looking at https://lists.fedoraproject.org/pipermail/marketing/2015-December/018515.html ...
+2015-12-10 22:31:14	stickster	We also have a HDYF currently scheduled for Thu Dec 17, are we just going to pump those out whenever available?
+2015-12-10 22:32:02	jflory7	stickster: I made a mistake this week looking at the schedule. I mistook the publication date for systemd on Tuesday, so I pushed the HDYF article out early because I thought we missed a day. However, that was not the case. So this week's publication was a mishap.
+2015-12-10 22:32:31	jflory7	Silly error on my part
+2015-12-10 22:32:38	stickster	Ah, OK
+2015-12-10 22:32:41	stickster	no worries
+2015-12-10 22:32:58	stickster	I think Charles had a few extra coming soon... we can maybe line them up for the holiday weeks
+2015-12-10 22:33:13	jflory7	Yeah, I will also work with him on those too once I finish with the semester
+2015-12-10 22:33:51	Kohane	Yeah, one of those HDYF is about me :D
+2015-12-10 22:33:53	jflory7	I know he's been super active with them and he mentioned in channel a few days ago he had some more ready to go
+2015-12-10 22:34:14	cydrobolt	Kohane, ooh
+2015-12-10 22:34:23	Kohane	What?
+2015-12-10 22:34:27	jflory7	Kohane: Nice! cproffit has been on the ball with it
+2015-12-10 22:34:31	cydrobolt	HDYF :)
+2015-12-10 22:34:35	jflory7	cproffit++
+2015-12-10 22:34:46	<--	jhogarth (~jhogarth@5ec2358a.skybroadband.com) has quit (Remote host closed the connection)
+2015-12-10 22:35:07	Kohane	I still have some questions to answer.
+2015-12-10 22:35:10	stickster	#info Ignore earlier #info on schedule from "next week" topic
+2015-12-10 22:35:23	Kohane	But yeah, there's one about me
+2015-12-10 22:36:18	-->	jhogarth (~jhogarth@5ec2358a.skybroadband.com) has joined #fedora-meeting
+2015-12-10 22:36:22	stickster	So I'm cool with that schedule, fwiw... jflory7, is the LetsEncrypt ready to go?
+2015-12-10 22:36:28	jflory7	Awesome.
+2015-12-10 22:36:38	jflory7	stickster: And yes, I think jhogarth added everything he wanted to it. :)
+2015-12-10 22:36:46	Kohane	Then what is the real #info from next week if we have to ignore that one?
+2015-12-10 22:36:47	jflory7	I did a quick review last night but it seemed pretty solid in my opinion
+2015-12-10 22:36:56	jflory7	Kohane: I think we're about to clarify.
+2015-12-10 22:36:56	jhogarth	i'm happy with the present state of it :)
+2015-12-10 22:37:02	 *	jflory7 nods
+2015-12-10 22:37:08	-->	mclasen___ (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has joined #fedora-meeting
+2015-12-10 22:37:10	jflory7	Then I give a +1 to LetsEncrypt for next Monday
+2015-12-10 22:37:21	jflory7	Should give it a little more time to sync across the mirrors too, just in case
+2015-12-10 22:37:23	Kohane	Yeah, I like it too.
+2015-12-10 22:37:28	 *	jflory7 isn't sure how long that stuff takes anyways
+2015-12-10 22:37:57	puiterwijk	jflory7: after it's hit stable, I'd say a day or two max
+2015-12-10 22:38:09	jflory7	puiterwijk: Oh, lol, then it's probably done by now then
+2015-12-10 22:38:14	stickster	#info Revised schedule: Mon Dec 14 - LetsEncrypt; Wed Dec 16 - systemd; Fri Dec 18 - nuntius; Mon Dec 21 - Picard; Wed Dec 23 - Cinnamon; Thu Dec 24 - Varnish
+2015-12-10 22:38:18	jflory7	Hit stable Monday/Tuesday
+2015-12-10 22:38:21	puiterwijk	I can easily check for you. Ping me after the meeting
+2015-12-10 22:38:24	stickster	^^ does that look OK jflory7? puiterwijk? jhogarth? Kohane?
+2015-12-10 22:38:37	 *	jflory7 nods
+2015-12-10 22:38:38	jflory7	+1
+2015-12-10 22:38:42	stickster	coolio
+2015-12-10 22:38:42	puiterwijk	ack
+2015-12-10 22:38:45	Kohane	Perfect!
+2015-12-10 22:38:46	jhogarth	it got pushed to stable repos last night
+2015-12-10 22:38:48	<--	mclasen (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has quit (Ping timeout: 256 seconds)
+2015-12-10 22:38:51	stickster	Now we also need to schedule week of Dec 28
+2015-12-10 22:39:01	jflory7	puiterwijk: What's up?
+2015-12-10 22:39:03	Kohane	Yes...
+2015-12-10 22:39:12	jflory7	jhogarth: Oh, whoops, guess I mistook it. Should definitely be set over the weekend, then
+2015-12-10 22:39:14	puiterwijk	jflory7: "ack" means "Acknowledged", as in I agree
+2015-12-10 22:39:19	stickster	jflory7: Are you going to be around on keyboard/net that week?
+2015-12-10 22:39:26	jflory7	puiterwijk: Ohhh, okay, I mistook. :)
+2015-12-10 22:39:34	jflory7	stickster: Yes.
+2015-12-10 22:39:36	puiterwijk	Oh, and I might have a new post upcoming about Atomic/PRM-OSTree (update of my old blogpost). But I'll send a pitch to the list
+2015-12-10 22:39:52	jflory7	puiterwijk++ Awesome news!
+2015-12-10 22:39:53	stickster	puiterwijk: We're hurting for material for that week, so you might just want to start writing :-D
+2015-12-10 22:40:14	puiterwijk	stickster: hah. As said, I've got most of it already: http://patrick.uiterwijk.org/2014/01/21/rpm-ostree/
+2015-12-10 22:40:20	puiterwijk	Just need to update it to the new syntax etc
+2015-12-10 22:40:41	jhogarth	stickster, if you don't mind me pitching older blog articles I have some I can polish up and put on the pitch queue that migth be interesting - NetworkManager, Systemd and I'm about to publish a Polkit one for instance ;)
+2015-12-10 22:40:46	Kohane	Looks very nice...
+2015-12-10 22:40:48	stickster	jflory7: The reason I asked the question was, we probably need someone to do the hard part of making sure articles are ready to go that week. Ideally they are all "Scheduled" in the WP instance by next Friday Dec 18
+2015-12-10 22:41:11	jflory7	stickster: I can confidently take that responsibility
+2015-12-10 22:41:17	Kohane	Network Manager would be awesome, me think
+2015-12-10 22:41:17	stickster	And then scheduled to come out e.g. Mon Dec 28, Wed Dec 30, Thu Dec 31
+2015-12-10 22:41:30	 *	jflory7 nods
+2015-12-10 22:41:32	stickster	jflory7: Without knowing what they are it will be hard to do graphics in advance
+2015-12-10 22:41:50	jflory7	stickster: Right. That's my concern as well since I lack Inkscape-foo
+2015-12-10 22:41:55	stickster	HDYF kind of take care of their own
+2015-12-10 22:41:59	stickster	i.e. crop a photo, done
+2015-12-10 22:42:04	jflory7	Right.
+2015-12-10 22:42:06	-->	lukebrooker (lukebrooke@nat/redhat/x-kwivpkggusvvppaw) has joined #fedora-meeting
+2015-12-10 22:42:09	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting
+2015-12-10 22:42:20	jflory7	nuntius, Picard, Cinnamon, Varnish, would all definitely need images
+2015-12-10 22:42:41	jflory7	I think even in their current state, images could be made now
+2015-12-10 22:42:57	Kohane	Yeah, pictures of the installation process...
+2015-12-10 22:43:01	Kohane	I haven't
+2015-12-10 22:43:08	stickster	We really need ryanlerch for some of these... I'm not super good at coming up with ideas
+2015-12-10 22:43:44	stickster	I'm going to "volunteer" him to be in charge of getting them done by end of next week
+2015-12-10 22:43:52	 *	jflory7 nods
+2015-12-10 22:43:57	Kohane	stickster ideas for?
+2015-12-10 22:44:08	jflory7	Kohane: Designs for the featured images for the articles.
+2015-12-10 22:44:09	stickster	#action ryanlerch get featured images ready for all remaining posts for Dec 14 - Dec 31
+2015-12-10 22:44:34	stickster	jflory7: If we're smart, also keep this in mind: Hold one HDYF article (assuming we have a leftover) for Tue Jan 5, after we come back
+2015-12-10 22:44:35	puiterwijk	stickster: meeting, n.: An assembly of people coming together to decide what person or department not represented in the room must solve a problem.? :-)
+2015-12-10 22:44:38	Kohane	Ah, thanks
+2015-12-10 22:44:45	stickster	puiterwijk: CORRECT
+2015-12-10 22:44:47	jflory7	If you take a look through the Magazine, you'll see that all of the articles have images in a Magazine-ish sort of theme.
+2015-12-10 22:45:02	jflory7	stickster: Noted.
+2015-12-10 22:45:20	stickster	since everyone will be in "ugh, catch up" mode
+2015-12-10 22:45:51	stickster	#info We don't have a solid schedule for Dec 28-31 yet :-( but hope that puiterwijk + cprofitt will come up with things
+2015-12-10 22:46:13	Kohane	From now on until February, I'll get bored to death. Anything you may need I'll be happy to do it.
+2015-12-10 22:46:19	Kohane	If I can, of course
+2015-12-10 22:46:21	jflory7	So if images are taken care of, I can handle publication responsibilities for holiday week. However, "worst case scenario", would it be "extremely bad" for me to push an article with an image of my own choosing (assuming valid license) if a featured image is not ready?
+2015-12-10 22:46:29	jflory7	Assuming there is no featured image.
+2015-12-10 22:46:48	jflory7	Or would it be better to just not push and wait?
+2015-12-10 22:47:02	<--	smdeep (~smdeep@202.142.125.95) has quit (Ping timeout: 272 seconds)
+2015-12-10 22:47:07	stickster	jflory7: That will suffice!
+2015-12-10 22:47:15	stickster	better to get forgiveness than permission
+2015-12-10 22:47:20	 *	jflory7 nods
+2015-12-10 22:47:23	stickster	:-D
+2015-12-10 22:47:27	Kohane	Agree
+2015-12-10 22:47:34	jflory7	#action jflory7 handling publishing during the holiday weeks
+2015-12-10 22:47:39	 *	puiterwijk sees stickster is in full Python mode
+2015-12-10 22:47:41	stickster	I don't think puiterwijk would agree that holds for infrastructure. But this is publishing.
+2015-12-10 22:47:50	jflory7	Heheh. :)
+2015-12-10 22:48:04	stickster	"DEWEY DEFEATS TRUMAN"
+2015-12-10 22:48:17	puiterwijk	stickster: Why not? I just brought COPR down last night and then asked for people to forgive me! :)
+2015-12-10 22:48:26	puiterwijk	(though that was required unfortunately, but well)
+2015-12-10 22:48:52	Kohane	It's not that bad...
+2015-12-10 22:48:56	stickster	jflory7: Not sure there's much more to discuss today
+2015-12-10 22:49:02	stickster	It's awesome we got ahead last week -- that really helped
+2015-12-10 22:49:24	stickster	If we can try to make a practice of that starting in January when we return... gangbusters!
+2015-12-10 22:49:25	Kohane	Yep
+2015-12-10 22:49:36	stickster	#topic Open floor
+2015-12-10 22:49:36	--	zodbot has changed topic for #fedora-meeting from "Holiday schedule (Meeting topic: Magazine editorial board)" to "Open floor (Meeting topic: Magazine editorial board)"
+2015-12-10 22:49:50	jflory7	stickster: I think so, just one comment from me
+2015-12-10 22:50:08	jflory7	#info jflory7 will be unavailable from now until 12-17-2015
+2015-12-10 22:50:23	jflory7	I will not be able to do any of the regular editing / publishing work like normal until then.
+2015-12-10 22:50:30	jflory7	Finals time. :P
+2015-12-10 22:50:38	puiterwijk	jflory7: good luck with that
+2015-12-10 22:50:43	jflory7	puiterwijk: Thanks!!
+2015-12-10 22:50:54	Kohane	jflory7 do you need help?
+2015-12-10 22:50:57	stickster	jflory7: Understood. Between Ryan and myself, I think we can handle all editing until then
+2015-12-10 22:51:02	stickster	and smoothly handoff for holiday time :-)
+2015-12-10 22:51:04	Kohane	During that time I mean
+2015-12-10 22:51:21	Kohane	Excellent
+2015-12-10 22:51:22	-->	laubersm (~laubersm@nc-71-53-115-244.dhcp.embarqhsd.net) has joined #fedora-meeting
+2015-12-10 22:51:24	 *	jflory7 nods
+2015-12-10 22:51:27	jflory7	stickster: Sounds good to me.
+2015-12-10 22:51:42	stickster	The tricky thing about editing is the English wordsmithing required :-D
+2015-12-10 22:51:57	jflory7	Hahah, definitely.
+2015-12-10 22:52:02	Kohane	LOL
+2015-12-10 22:52:14	stickster	#info ryanlerch and stickster will handle editing duty until handoff 2015-Dec-18
+2015-12-10 22:53:11	jflory7	Outside of that, I can't think of anything else to cover for tonight.
+2015-12-10 22:54:09	Kohane	My memory is terrible, but
+2015-12-10 22:54:20	Kohane	I can't remember anything else either
+2015-12-10 22:54:36	-->	toppledwagon (~anonymous@208.185.20.30) has joined #fedora-meeting
+2015-12-10 22:55:01	jflory7	Then I think it's safe to say we're all wrapped up and ready to go.
+2015-12-10 22:55:15	Kohane	Yep
+2015-12-10 22:55:25	stickster	Okey dokey, I think so too
+2015-12-10 22:55:30	stickster	Thanks for coming everyone!
+2015-12-10 22:55:31	stickster	#endmeeting
+2015-12-10 22:55:32	jflory7	stickster++ Thanks!
+2015-12-10 22:55:32	--	zodbot has changed topic for #fedora-meeting from "Open floor (Meeting topic: Magazine editorial board)" to "Fedora Meeting channel | Meetings are often logged | See https://apps.fedoraproject.org/calendar/location/fedora-meeting%40irc.freenode.net/ for meeting schedule | For support please go to #fedora"
+2015-12-10 22:55:32	zodbot	Meeting ended Thu Dec 10 22:55:31 2015 UTC. Information about MeetBot at http://wiki.debian.org/MeetBot .
+2015-12-10 22:55:32	zodbot	Minutes: http://meetbot.fedoraproject.org/fedora-meeting/2015-12-10/magazine.2015-12-10-22.00.html
+2015-12-10 22:55:32	zodbot	Minutes (text): http://meetbot.fedoraproject.org/fedora-meeting/2015-12-10/magazine.2015-12-10-22.00.txt
+2015-12-10 22:55:32	zodbot	Log: http://meetbot.fedoraproject.org/fedora-meeting/2015-12-10/magazine.2015-12-10-22.00.log.html
+2015-12-10 22:56:05	Kohane	Bye!
+2015-12-10 22:56:31	<--	Kohane (~hermes@r179-28-69-254.dialup.mobile.ancel.net.uy) has quit (Quit: I'm gone!)
+2015-12-10 22:59:23	<--	toppledwagon (~anonymous@208.185.20.30) has quit (Client Quit)
+2015-12-10 23:01:42	<--	mclasen___ (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has quit (Quit: mclasen___)
+2015-12-10 23:02:09	-->	mclasen___ (~mclasen@pool-71-184-108-108.bstnma.fios.verizon.net) has joined #fedora-meeting
+2015-12-10 23:03:53	-->	toppledwagon (~anonymous@208.185.20.30) has joined #fedora-meeting
+2015-12-10 23:14:46	<--	delhage (~lasse@pdpc/supporter/active/fedora.delhage) has quit (Ping timeout: 240 seconds)
+2015-12-10 23:15:33	-->	delhage (~lasse@pdpc/supporter/active/fedora.delhage) has joined #fedora-meeting
+2015-12-10 23:21:16	-->	kk4ewt (~jbwillia@fedora/Southern-Gentleman) has joined #fedora-meeting
+2015-12-10 23:21:18	<--	fab (~fab@bellet.info) has quit (Ping timeout: 256 seconds)
+2015-12-10 23:25:06	<--	delhage (~lasse@pdpc/supporter/active/fedora.delhage) has quit (Ping timeout: 240 seconds)
+2015-12-10 23:25:36	<--	toppledwagon (~anonymous@208.185.20.30) has quit (Quit: toppledwagon)
+2015-12-10 23:25:41	-->	delhage (~lasse@pdpc/supporter/active/fedora.delhage) has joined #fedora-meeting

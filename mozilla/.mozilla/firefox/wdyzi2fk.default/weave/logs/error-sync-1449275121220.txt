@@ -1,0 +1,121 @@
+1449274802224	Sync.LogManager	DEBUG	Flushing file log
+1449274802224	Sync.LogManager	TRACE	Beginning stream copy to error-sync-1449274802224.txt: 1449274802224
+1449274802227	browserwindow.syncui	DEBUG	observed: weave:ui:sync:finish
+1449274802228	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449274802228	browserwindow.syncui	DEBUG	observed: weave:ui:sync:finish
+1449274802228	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449274802228	browserwindow.syncui	DEBUG	observed: weave:ui:sync:finish
+1449274802228	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449274802229	browserwindow.syncui	DEBUG	observed: weave:ui:sync:finish
+1449274802229	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449274802229	browserwindow.syncui	DEBUG	observed: weave:ui:sync:finish
+1449274802229	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449274802238	Sync.LogManager	TRACE	finished copy to: /home/iob/.mozilla/firefox/wdyzi2fk.default/weave/logs/error-sync-1449274802224.txt
+1449274802239	Sync.LogManager	TRACE	onCopyComplete: 1449274802239
+1449274802239	Sync.LogManager	TRACE	Scheduling cleanup.
+1449274802239	Sync.LogManager	DEBUG	Log cleanup threshold time: 1448410802239
+1449274802292	Sync.LogManager	DEBUG	Done deleting files.
+1449274802389	Sync.Tracker.Clients	DEBUG	Saving changed IDs to clients
+1449274802392	Sync.Tracker.AdblockPlus	DEBUG	Saving changed IDs to adblockplus
+1449274802396	Sync.Tracker.Passwords	DEBUG	Saving changed IDs to passwords
+1449274802860	Sync.Tracker.Bookmarks	DEBUG	Saving changed IDs to bookmarks
+1449274802862	Sync.Tracker.Addons	DEBUG	Saving changed IDs to addons
+1449274802863	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1449274802864	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1449275120213	Sync.Service	DEBUG	User-Agent: Firefox/42.0 FxSync/1.44.0.20151102093849.
+1449275120213	Sync.Service	INFO	Starting sync at 2015-12-05 00:25:20
+1449275120214	browserwindow.syncui	DEBUG	observed: weave:service:sync:start
+1449275120214	browserwindow.syncui	DEBUG	onActivityStart with numActive: 0
+1449275120214	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449275120214	browserwindow.syncui	DEBUG	observed: weave:service:sync:start
+1449275120214	browserwindow.syncui	DEBUG	onActivityStart with numActive: 0
+1449275120215	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449275120215	browserwindow.syncui	DEBUG	observed: weave:service:sync:start
+1449275120215	browserwindow.syncui	DEBUG	onActivityStart with numActive: -1
+1449275120215	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449275120216	browserwindow.syncui	DEBUG	observed: weave:service:sync:start
+1449275120216	browserwindow.syncui	DEBUG	onActivityStart with numActive: 0
+1449275120216	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449275120217	browserwindow.syncui	DEBUG	observed: weave:service:sync:start
+1449275120217	browserwindow.syncui	DEBUG	onActivityStart with numActive: 0
+1449275120217	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449275120217	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1449275120218	Sync.Status	INFO	Resetting Status.
+1449275120218	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1449275120219	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1449275120884	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-269-us-west-2.sync.services.mozilla.com/1.5/32163803/info/collections
+1449275120884	Sync.Resource	DEBUG	GET success 200 https://sync-269-us-west-2.sync.services.mozilla.com/1.5/32163803/info/collections
+1449275120886	Sync.Service	DEBUG	Fetching global metadata record
+1449275120887	Sync.Service	DEBUG	Weave Version: 1.44.0 Local Storage: 5 Remote Storage: 5
+1449275120887	Sync.Service	INFO	Sync key is up-to-date: no need to upgrade.
+1449275120887	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1449275120887	Sync.Service	INFO	Testing info/collections: {"passwords":1448961356.85,"addons":1448961629.42,"tabs":1449274801.49,"adblockplus":1448961626.86,"clients":1449177604.96,"crypto":1445351567.43,"forms":1449252284.21,"meta":1445351700.98,"bookmarks":1448961360.51,"prefs":1448961627.73,"history":1449274802}
+1449275120887	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1445351567.43
+1449275120887	Sync.Synchronizer	DEBUG	Refreshing client list.
+1449275120888	Sync.Engine.Clients	INFO	0 outgoing items pre-reconciliation
+1449275120889	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1449275120890	Sync.Synchronizer	INFO	Updating enabled engines: 3 clients.
+1449275120893	Sync.Engine.AdblockPlus	INFO	0 outgoing items pre-reconciliation
+1449275120894	Sync.Engine.AdblockPlus	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1449275120895	Sync.Engine.Prefs	INFO	0 outgoing items pre-reconciliation
+1449275120895	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1449275120896	Sync.Engine.Passwords	INFO	0 outgoing items pre-reconciliation
+1449275120897	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1449275120897	Sync.Engine.Tabs	INFO	1 outgoing items pre-reconciliation
+1449275120898	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1449275120913	Sync.Engine.Tabs	INFO	Uploading all of 1 records
+1449275120914	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1449275120915	Sync.Collection	DEBUG	POST Length: 12472
+1449275121191	Sync.Collection	DEBUG	mesg: POST success 200 https://sync-269-us-west-2.sync.services.mozilla.com/1.5/32163803/storage/tabs
+1449275121191	Sync.Collection	DEBUG	POST success 200 https://sync-269-us-west-2.sync.services.mozilla.com/1.5/32163803/storage/tabs
+1449275121193	Sync.Engine.Bookmarks	INFO	0 outgoing items pre-reconciliation
+1449275121195	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1449275121196	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1449275121196	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1449275121200	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1449275121200	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: donottrackplus@abine.com
+1449275121200	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {F5DDF39C-9293-4d5e-9AA8-E04E6DD5E9B4}
+1449275121200	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: jid1-NzIEzRc5sYX4Ww@jetpack
+1449275121200	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {EF522540-89F5-46b9-B6FE-1829E2B572C6}
+1449275121200	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: nimbusscreencaptureff@everhelper.me
+1449275121200	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {a6fd85ed-e919-4a43-a5af-8da18bda539f}
+1449275121200	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {7eb3f691-25b4-4a85-9038-9e57e2bcd537}
+1449275121200	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: tiletabs@DW-dev
+1449275121200	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}
+1449275121201	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: jid1-F9UJ2thwoAm5gQ@jetpack
+1449275121201	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: gmp-gmpopenh264
+1449275121201	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {35a24673-293b-024d-c2a1-4c44885ad94b}
+1449275121201	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {81483a79-4662-220f-c0b3-08db1c26b031}
+1449275121201	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {ee2aab01-6c08-0510-49ea-e140a5bb9c4a}
+1449275121201	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {d461bff3-f642-80f9-5196-92a6c19eae1c}
+1449275121201	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {3050f584-f0fb-1a0d-6e4f-c4c1d0f1ecec}
+1449275121206	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1449275121211	Sync.Engine.Addons	INFO	0 outgoing items pre-reconciliation
+1449275121212	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1449275121213	Sync.Engine.Forms	INFO	0 outgoing items pre-reconciliation
+1449275121213	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1449275121214	Sync.Engine.History	INFO	0 outgoing items pre-reconciliation
+1449275121215	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1449275121215	Sync.Status	DEBUG	Status.sync: success.sync => success.sync
+1449275121216	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1449275121216	Sync.Synchronizer	INFO	Sync completed at 2015-12-05 00:25:21 after 1.00 secs.
+1449275121216	Sync.Declined	DEBUG	Handling remote declined: []
+1449275121216	Sync.Declined	DEBUG	Handling local declined: []
+1449275121217	Sync.Declined	DEBUG	Declined changed? false
+1449275121217	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1449275121217	browserwindow.syncui	DEBUG	observed: weave:service:sync:finish
+1449275121217	browserwindow.syncui	DEBUG	onActivityStop with numActive: 1
+1449275121217	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449275121217	browserwindow.syncui	DEBUG	observed: weave:service:sync:finish
+1449275121217	browserwindow.syncui	DEBUG	onActivityStop with numActive: 1
+1449275121217	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449275121217	browserwindow.syncui	DEBUG	observed: weave:service:sync:finish
+1449275121217	browserwindow.syncui	DEBUG	onActivityStop with numActive: 0
+1449275121218	browserwindow.syncui	ERROR	mismatched onActivityStart/Stop calls: Error: active=-1 (chrome://browser/content/browser.js:10342:1) JS Stack trace: onActivityStop@browser.js:10342:1 < SUI_observe@browser.js:10533:9 < this.Observers.notify@observers.js:93:5 < Utils_notify/NotifyMaker/notify@util.js:142:9 < WrappedNotify@util.js:149:11 < WrappedLock@util.js:103:16 < _lockedSync@service.js:1294:12 < sync/<@service.js:1286:14 < WrappedCatch@util.js:77:16 < sync@service.js:1274:5
+1449275121218	browserwindow.syncui	DEBUG	observed: weave:service:sync:finish
+1449275121218	browserwindow.syncui	DEBUG	onActivityStop with numActive: 1
+1449275121218	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449275121219	browserwindow.syncui	DEBUG	observed: weave:service:sync:finish
+1449275121219	browserwindow.syncui	DEBUG	onActivityStop with numActive: 1
+1449275121219	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449275121219	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms.

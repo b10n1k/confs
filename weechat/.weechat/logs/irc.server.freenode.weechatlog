@@ -1,0 +1,1461 @@
+2015-11-28 13:09:49	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-11-28 13:09:49	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-11-28 13:09:49	--	gnutls: receiving 2 certificates
+2015-11-28 13:09:49	--	 - certificate[1] info:
+2015-11-28 13:09:49	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-11-28 13:09:49	--	 - certificate[2] info:
+2015-11-28 13:09:49	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-11-28 13:09:49	--	gnutls: peer's certificate is trusted
+2015-11-28 13:09:49	--	irc: connected to chat.freenode.net/6697 (82.96.64.4)
+2015-11-28 13:09:49	--	kornbluth.freenode.net: *** Looking up your hostname...
+2015-11-28 13:09:49	--	kornbluth.freenode.net: *** Checking Ident
+2015-11-28 13:09:49	--	kornbluth.freenode.net: *** Couldn't look up your hostname
+2015-11-28 13:09:58	--	kornbluth.freenode.net: *** No Ident response
+2015-11-28 13:09:58	--	Welcome to the freenode Internet Relay Chat Network iob
+2015-11-28 13:09:58	--	MSG(nickserv): identify *********
+2015-11-28 13:09:58	--	Your host is kornbluth.freenode.net[82.96.64.4/6697], running version ircd-seven-1.1.3
+2015-11-28 13:09:58	--	This server was created Sun Mar 15 2015 at 19:32:05 CET
+2015-11-28 13:09:58	--	kornbluth.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-11-28 13:09:58	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-11-28 13:09:58	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-11-28 13:09:58	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-11-28 13:09:58	--	There are 149 users and 78464 invisible on 24 servers
+2015-11-28 13:09:58	--	21 :IRC Operators online
+2015-11-28 13:09:58	--	48 :unknown connection(s)
+2015-11-28 13:09:58	--	54812 :channels formed
+2015-11-28 13:09:58	--	I have 2962 clients and 1 servers
+2015-11-28 13:09:58	--	2962 15000 :Current local users 2962, max 15000
+2015-11-28 13:09:58	--	78613 82912 :Current global users 78613, max 82912
+2015-11-28 13:09:58	--	Highest connection count: 15001 (15000 clients) (35939 connections received)
+2015-11-28 13:09:58	--	- kornbluth.freenode.net Message of the Day -
+2015-11-28 13:09:58	--	- Welcome to kornbluth.freenode.net in Frankfurt, DE, EU.
+2015-11-28 13:09:58	--	- Thanks to Probe Networks (www.probe-networks.de) for
+2015-11-28 13:09:58	--	- sponsoring this server!
+2015-11-28 13:09:58	--	-
+2015-11-28 13:09:58	--	- KORNBLUTH, CYRIL M. [1923-1958].  Born in New York City and
+2015-11-28 13:09:58	--	- an active member of the Futurians, Cyril Kornbluth sold his
+2015-11-28 13:09:58	--	- first story professionally at age 15.  By the 1940's his
+2015-11-28 13:09:58	--	- stories appeared widely under several pennames, including
+2015-11-28 13:09:58	--	- S.D. Gottesman and Cecil Corman.  He left his university
+2015-11-28 13:09:58	--	- studies in Chicago to serve in the Army in Europe during
+2015-11-28 13:09:58	--	- WWII, then returned to school and work in Chicago until he
+2015-11-28 13:09:58	--	- began writing full-time in 1951.  The author of The Marching
+2015-11-28 13:09:58	--	- Morons and the novels The Space Merchants (with Frederik
+2015-11-28 13:09:58	--	- Pohl) and The Syndic, he's best known for his biting social
+2015-11-28 13:09:58	--	- satire and his collaborations with Pohl and with Judith
+2015-11-28 13:09:58	--	- Merril.
+2015-11-28 13:09:58	--	- Welcome to freenode - supporting the free and open source
+2015-11-28 13:09:58	--	- software communities since 1998.
+2015-11-28 13:09:58	--	-
+2015-11-28 13:09:58	--	- By connecting to freenode you indicate that you have read and
+2015-11-28 13:09:58	--	- accept our policies as set out on http://www.freenode.net
+2015-11-28 13:09:58	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-11-28 13:09:58	--	- any network-related questions or queries, where a number of
+2015-11-28 13:09:58	--	- volunteer staff and helpful users will be happy to assist you.
+2015-11-28 13:09:58	--	-
+2015-11-28 13:09:58	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-11-28 13:09:58	--	- together with like-minded FOSS enthusiasts for talks and
+2015-11-28 13:09:58	--	- real-life collaboration.
+2015-11-28 13:09:58	--	-
+2015-11-28 13:09:58	--	- We would like to thank Private Internet Access
+2015-11-28 13:09:58	--	- (https://www.privateinternetaccess.com/) and the other
+2015-11-28 13:09:58	--	- organisations that help keep freenode and our other projects
+2015-11-28 13:09:58	--	- running for their sustained support.
+2015-11-28 13:09:58	--	-
+2015-11-28 13:09:58	--	- In particular we would like to thank the sponsor
+2015-11-28 13:09:58	--	- of this server, details of which can be found above.
+2015-11-28 13:09:58	--	-
+2015-11-28 13:09:58	--	End of /MOTD command.
+2015-11-28 13:09:58	--	User mode [+Zi] by iob
+2015-11-28 13:09:58	--	NickServ (NickServ@services.): iob is not a registered nickname.
+2015-11-28 13:10:04	--	#python: #python-unregistered :Forwarding to another channel
+2015-11-28 13:10:04	--	#fedora: #fedora-unregistered :Forwarding to another channel
+2015-11-28 13:10:04	--	#linux: ##linux :Forwarding to another channel
+2015-11-28 13:10:04	--	NickServ (NickServ@services.): iob is not a registered nickname.
+2015-11-28 13:15:09	--	irc: disconnected from server
+2015-11-28 13:15:09	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-11-28 13:15:09	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-11-28 13:15:09	--	gnutls: receiving 2 certificates
+2015-11-28 13:15:09	--	 - certificate[1] info:
+2015-11-28 13:15:09	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-11-28 13:15:09	--	 - certificate[2] info:
+2015-11-28 13:15:09	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-11-28 13:15:09	--	gnutls: peer's certificate is trusted
+2015-11-28 13:15:09	--	irc: connected to chat.freenode.net/6697 (82.96.64.4)
+2015-11-28 13:15:09	--	kornbluth.freenode.net: *** Looking up your hostname...
+2015-11-28 13:15:09	--	kornbluth.freenode.net: *** Checking Ident
+2015-11-28 13:15:09	--	kornbluth.freenode.net: *** Couldn't look up your hostname
+2015-11-28 13:15:18	--	kornbluth.freenode.net: *** No Ident response
+2015-11-28 13:15:18	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-11-28 13:15:18	--	MSG(nickserv): identify *********
+2015-11-28 13:15:18	--	Your host is kornbluth.freenode.net[82.96.64.4/6697], running version ircd-seven-1.1.3
+2015-11-28 13:15:18	--	This server was created Sun Mar 15 2015 at 19:32:05 CET
+2015-11-28 13:15:18	--	kornbluth.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-11-28 13:15:18	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-11-28 13:15:18	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-11-28 13:15:18	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-11-28 13:15:18	--	There are 149 users and 78494 invisible on 24 servers
+2015-11-28 13:15:18	--	21 :IRC Operators online
+2015-11-28 13:15:18	--	38 :unknown connection(s)
+2015-11-28 13:15:18	--	54819 :channels formed
+2015-11-28 13:15:18	--	I have 2975 clients and 1 servers
+2015-11-28 13:15:18	--	2975 15000 :Current local users 2975, max 15000
+2015-11-28 13:15:18	--	78643 82912 :Current global users 78643, max 82912
+2015-11-28 13:15:18	--	Highest connection count: 15001 (15000 clients) (36074 connections received)
+2015-11-28 13:15:18	--	- kornbluth.freenode.net Message of the Day -
+2015-11-28 13:15:18	--	- Welcome to kornbluth.freenode.net in Frankfurt, DE, EU.
+2015-11-28 13:15:18	--	- Thanks to Probe Networks (www.probe-networks.de) for
+2015-11-28 13:15:18	--	- sponsoring this server!
+2015-11-28 13:15:18	--	-
+2015-11-28 13:15:18	--	- KORNBLUTH, CYRIL M. [1923-1958].  Born in New York City and
+2015-11-28 13:15:18	--	- an active member of the Futurians, Cyril Kornbluth sold his
+2015-11-28 13:15:18	--	- first story professionally at age 15.  By the 1940's his
+2015-11-28 13:15:18	--	- stories appeared widely under several pennames, including
+2015-11-28 13:15:18	--	- S.D. Gottesman and Cecil Corman.  He left his university
+2015-11-28 13:15:18	--	- studies in Chicago to serve in the Army in Europe during
+2015-11-28 13:15:18	--	- WWII, then returned to school and work in Chicago until he
+2015-11-28 13:15:18	--	- began writing full-time in 1951.  The author of The Marching
+2015-11-28 13:15:18	--	- Morons and the novels The Space Merchants (with Frederik
+2015-11-28 13:15:18	--	- Pohl) and The Syndic, he's best known for his biting social
+2015-11-28 13:15:18	--	- satire and his collaborations with Pohl and with Judith
+2015-11-28 13:15:18	--	- Merril.
+2015-11-28 13:15:18	--	- Welcome to freenode - supporting the free and open source
+2015-11-28 13:15:18	--	- software communities since 1998.
+2015-11-28 13:15:18	--	-
+2015-11-28 13:15:18	--	- By connecting to freenode you indicate that you have read and
+2015-11-28 13:15:18	--	- accept our policies as set out on http://www.freenode.net
+2015-11-28 13:15:18	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-11-28 13:15:18	--	- any network-related questions or queries, where a number of
+2015-11-28 13:15:18	--	- volunteer staff and helpful users will be happy to assist you.
+2015-11-28 13:15:18	--	-
+2015-11-28 13:15:18	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-11-28 13:15:18	--	- together with like-minded FOSS enthusiasts for talks and
+2015-11-28 13:15:18	--	- real-life collaboration.
+2015-11-28 13:15:18	--	-
+2015-11-28 13:15:18	--	- We would like to thank Private Internet Access
+2015-11-28 13:15:18	--	- (https://www.privateinternetaccess.com/) and the other
+2015-11-28 13:15:18	--	- organisations that help keep freenode and our other projects
+2015-11-28 13:15:18	--	- running for their sustained support.
+2015-11-28 13:15:18	--	-
+2015-11-28 13:15:18	--	- In particular we would like to thank the sponsor
+2015-11-28 13:15:18	--	- of this server, details of which can be found above.
+2015-11-28 13:15:18	--	-
+2015-11-28 13:15:18	--	End of /MOTD command.
+2015-11-28 13:15:18	--	User mode [+Zi] by b10n1k
+2015-11-28 13:15:18	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-11-28 13:15:18	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-11-28 13:15:18	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-11-28 13:15:24	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-11-28 13:15:57	--	irc: disconnected from server
+2015-11-28 13:15:59	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-11-28 13:16:00	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-11-28 13:16:00	--	gnutls: receiving 2 certificates
+2015-11-28 13:16:00	--	 - certificate[1] info:
+2015-11-28 13:16:00	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-11-28 13:16:00	--	 - certificate[2] info:
+2015-11-28 13:16:00	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-11-28 13:16:00	--	gnutls: peer's certificate is trusted
+2015-11-28 13:16:00	--	irc: connected to chat.freenode.net/6697 (94.125.182.252)
+2015-11-28 13:16:00	--	adams.freenode.net: *** Looking up your hostname...
+2015-11-28 13:16:00	--	adams.freenode.net: *** Checking Ident
+2015-11-28 13:16:00	--	adams.freenode.net: *** Couldn't look up your hostname
+2015-11-28 13:16:08	--	adams.freenode.net: *** No Ident response
+2015-11-28 13:16:08	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-11-28 13:16:08	--	MSG(nickserv): identify *********
+2015-11-28 13:16:08	--	Your host is adams.freenode.net[94.125.182.252/6697], running version ircd-seven-1.1.3
+2015-11-28 13:16:08	--	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2015-11-28 13:16:08	--	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-11-28 13:16:08	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-11-28 13:16:08	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-11-28 13:16:08	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-11-28 13:16:08	--	There are 149 users and 78508 invisible on 24 servers
+2015-11-28 13:16:08	--	21 :IRC Operators online
+2015-11-28 13:16:08	--	44 :unknown connection(s)
+2015-11-28 13:16:08	--	54802 :channels formed
+2015-11-28 13:16:08	--	I have 10293 clients and 1 servers
+2015-11-28 13:16:08	--	10293 12000 :Current local users 10293, max 12000
+2015-11-28 13:16:08	--	78657 98867 :Current global users 78657, max 98867
+2015-11-28 13:16:08	--	Highest connection count: 12001 (12000 clients) (1598848 connections received)
+2015-11-28 13:16:08	--	- adams.freenode.net Message of the Day -
+2015-11-28 13:16:08	--	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2015-11-28 13:16:08	--	- (http://www.atw.hu) for sponsoring this server!
+2015-11-28 13:16:08	--	-
+2015-11-28 13:16:08	--	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2015-11-28 13:16:08	--	- to the Galaxy and many other witty and humourous books,
+2015-11-28 13:16:08	--	- portrayed in his uniquely British irony. He is sorely missed
+2015-11-28 13:16:08	--	- by many millions of devoted fans. "So long and thanks for all
+2015-11-28 13:16:08	--	- the books!"
+2015-11-28 13:16:08	--	-
+2015-11-28 13:16:08	--	- Welcome to freenode - supporting the free and open source
+2015-11-28 13:16:08	--	- software communities since 1998.
+2015-11-28 13:16:08	--	-
+2015-11-28 13:16:08	--	- By connecting to freenode you indicate that you have read and
+2015-11-28 13:16:08	--	- accept our policies as set out on http://www.freenode.net
+2015-11-28 13:16:08	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-11-28 13:16:08	--	- any network-related questions or queries, where a number of
+2015-11-28 13:16:08	--	- volunteer staff and helpful users will be happy to assist you.
+2015-11-28 13:16:08	--	-
+2015-11-28 13:16:08	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-11-28 13:16:08	--	- together with like-minded FOSS enthusiasts for talks and
+2015-11-28 13:16:08	--	- real-life collaboration.
+2015-11-28 13:16:08	--	-
+2015-11-28 13:16:08	--	- We would like to thank Private Internet Access
+2015-11-28 13:16:08	--	- (https://www.privateinternetaccess.com/) and the other
+2015-11-28 13:16:08	--	- organisations that help keep freenode and our other projects
+2015-11-28 13:16:08	--	- running for their sustained support.
+2015-11-28 13:16:08	--	-
+2015-11-28 13:16:08	--	- In particular we would like to thank the sponsor
+2015-11-28 13:16:08	--	- of this server, details of which can be found above.
+2015-11-28 13:16:08	--	-
+2015-11-28 13:16:08	--	End of /MOTD command.
+2015-11-28 13:16:08	--	User mode [+Zi] by b10n1k
+2015-11-28 13:16:08	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-11-28 13:16:08	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-11-28 13:16:08	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-11-28 13:16:15	--	#linux: ##linux :Forwarding to another channel
+2015-11-28 13:16:15	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-11-28 13:31:22	--	irc: disconnected from server
+2015-11-28 13:34:28	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-11-28 13:34:28	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-11-28 13:34:28	--	gnutls: receiving 2 certificates
+2015-11-28 13:34:28	--	 - certificate[1] info:
+2015-11-28 13:34:28	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-11-28 13:34:28	--	 - certificate[2] info:
+2015-11-28 13:34:28	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-11-28 13:34:28	--	gnutls: peer's certificate is trusted
+2015-11-28 13:34:28	--	irc: connected to chat.freenode.net/6697 (82.96.64.4)
+2015-11-28 13:34:28	--	kornbluth.freenode.net: *** Looking up your hostname...
+2015-11-28 13:34:28	--	kornbluth.freenode.net: *** Checking Ident
+2015-11-28 13:34:28	--	kornbluth.freenode.net: *** Couldn't look up your hostname
+2015-11-28 13:34:38	--	kornbluth.freenode.net: *** No Ident response
+2015-11-28 13:34:38	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-11-28 13:34:38	--	MSG(nickserv): identify *********
+2015-11-28 13:34:38	--	Your host is kornbluth.freenode.net[82.96.64.4/6697], running version ircd-seven-1.1.3
+2015-11-28 13:34:38	--	This server was created Sun Mar 15 2015 at 19:32:05 CET
+2015-11-28 13:34:38	--	kornbluth.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-11-28 13:34:38	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-11-28 13:34:38	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-11-28 13:34:38	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-11-28 13:34:38	--	There are 148 users and 78709 invisible on 24 servers
+2015-11-28 13:34:38	--	21 :IRC Operators online
+2015-11-28 13:34:38	--	29 :unknown connection(s)
+2015-11-28 13:34:38	--	54793 :channels formed
+2015-11-28 13:34:38	--	I have 3054 clients and 1 servers
+2015-11-28 13:34:38	--	3054 15000 :Current local users 3054, max 15000
+2015-11-28 13:34:38	--	78857 82912 :Current global users 78857, max 82912
+2015-11-28 13:34:38	--	Highest connection count: 15001 (15000 clients) (36605 connections received)
+2015-11-28 13:34:38	--	- kornbluth.freenode.net Message of the Day -
+2015-11-28 13:34:38	--	- Welcome to kornbluth.freenode.net in Frankfurt, DE, EU.
+2015-11-28 13:34:38	--	- Thanks to Probe Networks (www.probe-networks.de) for
+2015-11-28 13:34:38	--	- sponsoring this server!
+2015-11-28 13:34:38	--	-
+2015-11-28 13:34:38	--	- KORNBLUTH, CYRIL M. [1923-1958].  Born in New York City and
+2015-11-28 13:34:38	--	- an active member of the Futurians, Cyril Kornbluth sold his
+2015-11-28 13:34:38	--	- first story professionally at age 15.  By the 1940's his
+2015-11-28 13:34:38	--	- stories appeared widely under several pennames, including
+2015-11-28 13:34:38	--	- S.D. Gottesman and Cecil Corman.  He left his university
+2015-11-28 13:34:38	--	- studies in Chicago to serve in the Army in Europe during
+2015-11-28 13:34:38	--	- WWII, then returned to school and work in Chicago until he
+2015-11-28 13:34:38	--	- began writing full-time in 1951.  The author of The Marching
+2015-11-28 13:34:38	--	- Morons and the novels The Space Merchants (with Frederik
+2015-11-28 13:34:38	--	- Pohl) and The Syndic, he's best known for his biting social
+2015-11-28 13:34:38	--	- satire and his collaborations with Pohl and with Judith
+2015-11-28 13:34:38	--	- Merril.
+2015-11-28 13:34:38	--	- Welcome to freenode - supporting the free and open source
+2015-11-28 13:34:38	--	- software communities since 1998.
+2015-11-28 13:34:38	--	-
+2015-11-28 13:34:38	--	- By connecting to freenode you indicate that you have read and
+2015-11-28 13:34:38	--	- accept our policies as set out on http://www.freenode.net
+2015-11-28 13:34:38	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-11-28 13:34:38	--	- any network-related questions or queries, where a number of
+2015-11-28 13:34:38	--	- volunteer staff and helpful users will be happy to assist you.
+2015-11-28 13:34:38	--	-
+2015-11-28 13:34:38	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-11-28 13:34:38	--	- together with like-minded FOSS enthusiasts for talks and
+2015-11-28 13:34:38	--	- real-life collaboration.
+2015-11-28 13:34:38	--	-
+2015-11-28 13:34:38	--	- We would like to thank Private Internet Access
+2015-11-28 13:34:38	--	- (https://www.privateinternetaccess.com/) and the other
+2015-11-28 13:34:38	--	- organisations that help keep freenode and our other projects
+2015-11-28 13:34:38	--	- running for their sustained support.
+2015-11-28 13:34:38	--	-
+2015-11-28 13:34:38	--	- In particular we would like to thank the sponsor
+2015-11-28 13:34:38	--	- of this server, details of which can be found above.
+2015-11-28 13:34:38	--	-
+2015-11-28 13:34:38	--	End of /MOTD command.
+2015-11-28 13:34:38	--	User mode [+Zi] by b10n1k
+2015-11-28 13:34:38	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-11-28 13:34:38	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-11-28 13:34:38	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-11-28 13:34:44	--	#linux: ##linux :Forwarding to another channel
+2015-11-28 13:34:44	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-11-28 13:46:02	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-11-28 13:46:02	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-11-28 13:46:02	--	gnutls: receiving 2 certificates
+2015-11-28 13:46:02	--	 - certificate[1] info:
+2015-11-28 13:46:02	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-11-28 13:46:02	--	 - certificate[2] info:
+2015-11-28 13:46:02	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-11-28 13:46:02	--	gnutls: peer's certificate is trusted
+2015-11-28 13:46:02	--	irc: connected to chat.freenode.net/6697 (94.125.182.252)
+2015-11-28 13:46:03	--	adams.freenode.net: *** Looking up your hostname...
+2015-11-28 13:46:03	--	adams.freenode.net: *** Checking Ident
+2015-11-28 13:46:03	--	adams.freenode.net: *** Couldn't look up your hostname
+2015-11-28 13:46:08	--	adams.freenode.net: *** No Ident response
+2015-11-28 13:46:08	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-11-28 13:46:08	--	MSG(nickserv): identify *********
+2015-11-28 13:46:08	--	Your host is adams.freenode.net[94.125.182.252/6697], running version ircd-seven-1.1.3
+2015-11-28 13:46:08	--	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2015-11-28 13:46:08	--	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-11-28 13:46:08	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-11-28 13:46:08	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-11-28 13:46:08	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-11-28 13:46:08	--	There are 147 users and 78837 invisible on 24 servers
+2015-11-28 13:46:08	--	21 :IRC Operators online
+2015-11-28 13:46:08	--	39 :unknown connection(s)
+2015-11-28 13:46:08	--	54792 :channels formed
+2015-11-28 13:46:08	--	I have 10384 clients and 1 servers
+2015-11-28 13:46:08	--	10384 12000 :Current local users 10384, max 12000
+2015-11-28 13:46:08	--	78984 98867 :Current global users 78984, max 98867
+2015-11-28 13:46:08	--	Highest connection count: 12001 (12000 clients) (1599805 connections received)
+2015-11-28 13:46:08	--	- adams.freenode.net Message of the Day -
+2015-11-28 13:46:08	--	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2015-11-28 13:46:08	--	- (http://www.atw.hu) for sponsoring this server!
+2015-11-28 13:46:08	--	-
+2015-11-28 13:46:08	--	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2015-11-28 13:46:08	--	- to the Galaxy and many other witty and humourous books,
+2015-11-28 13:46:08	--	- portrayed in his uniquely British irony. He is sorely missed
+2015-11-28 13:46:08	--	- by many millions of devoted fans. "So long and thanks for all
+2015-11-28 13:46:08	--	- the books!"
+2015-11-28 13:46:08	--	-
+2015-11-28 13:46:08	--	- Welcome to freenode - supporting the free and open source
+2015-11-28 13:46:08	--	- software communities since 1998.
+2015-11-28 13:46:08	--	-
+2015-11-28 13:46:08	--	- By connecting to freenode you indicate that you have read and
+2015-11-28 13:46:08	--	- accept our policies as set out on http://www.freenode.net
+2015-11-28 13:46:08	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-11-28 13:46:08	--	- any network-related questions or queries, where a number of
+2015-11-28 13:46:08	--	- volunteer staff and helpful users will be happy to assist you.
+2015-11-28 13:46:08	--	-
+2015-11-28 13:46:08	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-11-28 13:46:08	--	- together with like-minded FOSS enthusiasts for talks and
+2015-11-28 13:46:08	--	- real-life collaboration.
+2015-11-28 13:46:08	--	-
+2015-11-28 13:46:08	--	- We would like to thank Private Internet Access
+2015-11-28 13:46:08	--	- (https://www.privateinternetaccess.com/) and the other
+2015-11-28 13:46:08	--	- organisations that help keep freenode and our other projects
+2015-11-28 13:46:08	--	- running for their sustained support.
+2015-11-28 13:46:08	--	-
+2015-11-28 13:46:08	--	- In particular we would like to thank the sponsor
+2015-11-28 13:46:08	--	- of this server, details of which can be found above.
+2015-11-28 13:46:08	--	-
+2015-11-28 13:46:08	--	End of /MOTD command.
+2015-11-28 13:46:08	--	User mode [+Zi] by b10n1k
+2015-11-28 13:46:08	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-11-28 13:46:08	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-11-28 13:46:08	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-11-28 13:46:15	--	#linux: ##linux :Forwarding to another channel
+2015-11-28 13:46:15	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-11-28 13:47:06	--	irc: disconnected from server
+2015-11-28 13:47:28	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-11-28 13:47:28	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-11-28 13:47:28	--	gnutls: receiving 2 certificates
+2015-11-28 13:47:28	--	 - certificate[1] info:
+2015-11-28 13:47:28	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-11-28 13:47:28	--	 - certificate[2] info:
+2015-11-28 13:47:28	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-11-28 13:47:28	--	gnutls: peer's certificate is trusted
+2015-11-28 13:47:28	--	irc: connected to chat.freenode.net/6697 (82.96.64.4)
+2015-11-28 13:47:28	--	kornbluth.freenode.net: *** Looking up your hostname...
+2015-11-28 13:47:28	--	kornbluth.freenode.net: *** Checking Ident
+2015-11-28 13:47:28	--	kornbluth.freenode.net: *** Couldn't look up your hostname
+2015-11-28 13:47:38	--	kornbluth.freenode.net: *** No Ident response
+2015-11-28 13:47:38	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-11-28 13:47:38	--	MSG(nickserv): identify *********
+2015-11-28 13:47:38	--	Your host is kornbluth.freenode.net[82.96.64.4/6697], running version ircd-seven-1.1.3
+2015-11-28 13:47:38	--	This server was created Sun Mar 15 2015 at 19:32:05 CET
+2015-11-28 13:47:38	--	kornbluth.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-11-28 13:47:38	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-11-28 13:47:38	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-11-28 13:47:38	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-11-28 13:47:38	--	There are 147 users and 78887 invisible on 24 servers
+2015-11-28 13:47:38	--	21 :IRC Operators online
+2015-11-28 13:47:38	--	40 :unknown connection(s)
+2015-11-28 13:47:38	--	54807 :channels formed
+2015-11-28 13:47:38	--	I have 3121 clients and 1 servers
+2015-11-28 13:47:38	--	3121 15000 :Current local users 3121, max 15000
+2015-11-28 13:47:38	--	79034 82912 :Current global users 79034, max 82912
+2015-11-28 13:47:38	--	Highest connection count: 15001 (15000 clients) (36973 connections received)
+2015-11-28 13:47:38	--	- kornbluth.freenode.net Message of the Day -
+2015-11-28 13:47:38	--	- Welcome to kornbluth.freenode.net in Frankfurt, DE, EU.
+2015-11-28 13:47:38	--	- Thanks to Probe Networks (www.probe-networks.de) for
+2015-11-28 13:47:38	--	- sponsoring this server!
+2015-11-28 13:47:38	--	-
+2015-11-28 13:47:38	--	- KORNBLUTH, CYRIL M. [1923-1958].  Born in New York City and
+2015-11-28 13:47:38	--	- an active member of the Futurians, Cyril Kornbluth sold his
+2015-11-28 13:47:38	--	- first story professionally at age 15.  By the 1940's his
+2015-11-28 13:47:38	--	- stories appeared widely under several pennames, including
+2015-11-28 13:47:38	--	- S.D. Gottesman and Cecil Corman.  He left his university
+2015-11-28 13:47:38	--	- studies in Chicago to serve in the Army in Europe during
+2015-11-28 13:47:38	--	- WWII, then returned to school and work in Chicago until he
+2015-11-28 13:47:38	--	- began writing full-time in 1951.  The author of The Marching
+2015-11-28 13:47:38	--	- Morons and the novels The Space Merchants (with Frederik
+2015-11-28 13:47:38	--	- Pohl) and The Syndic, he's best known for his biting social
+2015-11-28 13:47:38	--	- satire and his collaborations with Pohl and with Judith
+2015-11-28 13:47:38	--	- Merril.
+2015-11-28 13:47:38	--	- Welcome to freenode - supporting the free and open source
+2015-11-28 13:47:38	--	- software communities since 1998.
+2015-11-28 13:47:38	--	-
+2015-11-28 13:47:38	--	- By connecting to freenode you indicate that you have read and
+2015-11-28 13:47:38	--	- accept our policies as set out on http://www.freenode.net
+2015-11-28 13:47:38	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-11-28 13:47:38	--	- any network-related questions or queries, where a number of
+2015-11-28 13:47:38	--	- volunteer staff and helpful users will be happy to assist you.
+2015-11-28 13:47:38	--	-
+2015-11-28 13:47:38	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-11-28 13:47:38	--	- together with like-minded FOSS enthusiasts for talks and
+2015-11-28 13:47:38	--	- real-life collaboration.
+2015-11-28 13:47:38	--	-
+2015-11-28 13:47:38	--	- We would like to thank Private Internet Access
+2015-11-28 13:47:38	--	- (https://www.privateinternetaccess.com/) and the other
+2015-11-28 13:47:38	--	- organisations that help keep freenode and our other projects
+2015-11-28 13:47:38	--	- running for their sustained support.
+2015-11-28 13:47:38	--	-
+2015-11-28 13:47:38	--	- In particular we would like to thank the sponsor
+2015-11-28 13:47:38	--	- of this server, details of which can be found above.
+2015-11-28 13:47:38	--	-
+2015-11-28 13:47:38	--	End of /MOTD command.
+2015-11-28 13:47:38	--	User mode [+Zi] by b10n1k
+2015-11-28 13:47:38	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-11-28 13:47:38	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-11-28 13:47:38	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-11-28 13:47:44	--	#linux: ##linux :Forwarding to another channel
+2015-11-28 13:47:44	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-11-28 13:49:47	--	irc: disconnected from server
+2015-11-28 13:49:52	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-11-28 13:49:52	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-11-28 13:49:52	--	gnutls: receiving 2 certificates
+2015-11-28 13:49:52	--	 - certificate[1] info:
+2015-11-28 13:49:52	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-11-28 13:49:52	--	 - certificate[2] info:
+2015-11-28 13:49:52	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-11-28 13:49:52	--	gnutls: peer's certificate is trusted
+2015-11-28 13:49:52	--	irc: connected to chat.freenode.net/6697 (82.96.64.4)
+2015-11-28 13:49:52	--	kornbluth.freenode.net: *** Looking up your hostname...
+2015-11-28 13:49:52	--	kornbluth.freenode.net: *** Checking Ident
+2015-11-28 13:49:52	--	kornbluth.freenode.net: *** Couldn't look up your hostname
+2015-11-28 13:49:58	--	kornbluth.freenode.net: *** No Ident response
+2015-11-28 13:49:58	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-11-28 13:49:58	--	MSG(nickserv): identify *********
+2015-11-28 13:49:58	--	Your host is kornbluth.freenode.net[82.96.64.4/6697], running version ircd-seven-1.1.3
+2015-11-28 13:49:58	--	This server was created Sun Mar 15 2015 at 19:32:05 CET
+2015-11-28 13:49:58	--	kornbluth.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-11-28 13:49:58	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-11-28 13:49:58	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-11-28 13:49:58	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-11-28 13:49:58	--	There are 148 users and 78913 invisible on 24 servers
+2015-11-28 13:49:58	--	21 :IRC Operators online
+2015-11-28 13:49:58	--	55 :unknown connection(s)
+2015-11-28 13:49:58	--	54831 :channels formed
+2015-11-28 13:49:58	--	I have 3126 clients and 1 servers
+2015-11-28 13:49:58	--	3126 15000 :Current local users 3126, max 15000
+2015-11-28 13:49:58	--	79061 82912 :Current global users 79061, max 82912
+2015-11-28 13:49:58	--	Highest connection count: 15001 (15000 clients) (37040 connections received)
+2015-11-28 13:49:58	--	- kornbluth.freenode.net Message of the Day -
+2015-11-28 13:49:58	--	- Welcome to kornbluth.freenode.net in Frankfurt, DE, EU.
+2015-11-28 13:49:58	--	- Thanks to Probe Networks (www.probe-networks.de) for
+2015-11-28 13:49:58	--	- sponsoring this server!
+2015-11-28 13:49:58	--	-
+2015-11-28 13:49:58	--	- KORNBLUTH, CYRIL M. [1923-1958].  Born in New York City and
+2015-11-28 13:49:58	--	- an active member of the Futurians, Cyril Kornbluth sold his
+2015-11-28 13:49:58	--	- first story professionally at age 15.  By the 1940's his
+2015-11-28 13:49:58	--	- stories appeared widely under several pennames, including
+2015-11-28 13:49:58	--	- S.D. Gottesman and Cecil Corman.  He left his university
+2015-11-28 13:49:58	--	- studies in Chicago to serve in the Army in Europe during
+2015-11-28 13:49:58	--	- WWII, then returned to school and work in Chicago until he
+2015-11-28 13:49:58	--	- began writing full-time in 1951.  The author of The Marching
+2015-11-28 13:49:58	--	- Morons and the novels The Space Merchants (with Frederik
+2015-11-28 13:49:58	--	- Pohl) and The Syndic, he's best known for his biting social
+2015-11-28 13:49:58	--	- satire and his collaborations with Pohl and with Judith
+2015-11-28 13:49:58	--	- Merril.
+2015-11-28 13:49:58	--	- Welcome to freenode - supporting the free and open source
+2015-11-28 13:49:58	--	- software communities since 1998.
+2015-11-28 13:49:58	--	-
+2015-11-28 13:49:58	--	- By connecting to freenode you indicate that you have read and
+2015-11-28 13:49:58	--	- accept our policies as set out on http://www.freenode.net
+2015-11-28 13:49:58	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-11-28 13:49:58	--	- any network-related questions or queries, where a number of
+2015-11-28 13:49:58	--	- volunteer staff and helpful users will be happy to assist you.
+2015-11-28 13:49:58	--	-
+2015-11-28 13:49:58	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-11-28 13:49:58	--	- together with like-minded FOSS enthusiasts for talks and
+2015-11-28 13:49:58	--	- real-life collaboration.
+2015-11-28 13:49:58	--	-
+2015-11-28 13:49:58	--	- We would like to thank Private Internet Access
+2015-11-28 13:49:58	--	- (https://www.privateinternetaccess.com/) and the other
+2015-11-28 13:49:58	--	- organisations that help keep freenode and our other projects
+2015-11-28 13:49:58	--	- running for their sustained support.
+2015-11-28 13:49:58	--	-
+2015-11-28 13:49:58	--	- In particular we would like to thank the sponsor
+2015-11-28 13:49:58	--	- of this server, details of which can be found above.
+2015-11-28 13:49:58	--	-
+2015-11-28 13:49:58	--	End of /MOTD command.
+2015-11-28 13:49:58	--	User mode [+Zi] by b10n1k
+2015-11-28 13:49:58	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-11-28 13:49:58	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-11-28 13:49:58	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-11-28 13:50:04	--	#linux: ##linux :Forwarding to another channel
+2015-11-28 13:50:04	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-11-28 13:52:44	--	irc: disconnected from server
+2015-11-28 13:52:56	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-11-28 13:52:57	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-11-28 13:52:57	--	gnutls: receiving 2 certificates
+2015-11-28 13:52:57	--	 - certificate[1] info:
+2015-11-28 13:52:57	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-11-28 13:52:57	--	 - certificate[2] info:
+2015-11-28 13:52:57	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-11-28 13:52:57	--	gnutls: peer's certificate is trusted
+2015-11-28 13:52:57	--	irc: connected to chat.freenode.net/6697 (82.96.64.4)
+2015-11-28 13:52:57	--	kornbluth.freenode.net: *** Looking up your hostname...
+2015-11-28 13:52:57	--	kornbluth.freenode.net: *** Checking Ident
+2015-11-28 13:52:57	--	kornbluth.freenode.net: *** Couldn't look up your hostname
+2015-11-28 13:53:03	--	kornbluth.freenode.net: *** No Ident response
+2015-11-28 13:53:03	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-11-28 13:53:03	--	MSG(nickserv): identify *********
+2015-11-28 13:53:03	--	Your host is kornbluth.freenode.net[82.96.64.4/6697], running version ircd-seven-1.1.3
+2015-11-28 13:53:03	--	This server was created Sun Mar 15 2015 at 19:32:05 CET
+2015-11-28 13:53:03	--	kornbluth.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-11-28 13:53:03	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-11-28 13:53:03	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-11-28 13:53:03	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-11-28 13:53:03	--	There are 148 users and 78948 invisible on 24 servers
+2015-11-28 13:53:03	--	21 :IRC Operators online
+2015-11-28 13:53:03	--	47 :unknown connection(s)
+2015-11-28 13:53:03	--	54825 :channels formed
+2015-11-28 13:53:03	--	I have 3137 clients and 1 servers
+2015-11-28 13:53:03	--	3137 15000 :Current local users 3137, max 15000
+2015-11-28 13:53:03	--	79096 82912 :Current global users 79096, max 82912
+2015-11-28 13:53:03	--	Highest connection count: 15001 (15000 clients) (37126 connections received)
+2015-11-28 13:53:03	--	- kornbluth.freenode.net Message of the Day -
+2015-11-28 13:53:03	--	- Welcome to kornbluth.freenode.net in Frankfurt, DE, EU.
+2015-11-28 13:53:03	--	- Thanks to Probe Networks (www.probe-networks.de) for
+2015-11-28 13:53:03	--	- sponsoring this server!
+2015-11-28 13:53:03	--	-
+2015-11-28 13:53:03	--	- KORNBLUTH, CYRIL M. [1923-1958].  Born in New York City and
+2015-11-28 13:53:03	--	- an active member of the Futurians, Cyril Kornbluth sold his
+2015-11-28 13:53:03	--	- first story professionally at age 15.  By the 1940's his
+2015-11-28 13:53:03	--	- stories appeared widely under several pennames, including
+2015-11-28 13:53:03	--	- S.D. Gottesman and Cecil Corman.  He left his university
+2015-11-28 13:53:03	--	- studies in Chicago to serve in the Army in Europe during
+2015-11-28 13:53:03	--	- WWII, then returned to school and work in Chicago until he
+2015-11-28 13:53:03	--	- began writing full-time in 1951.  The author of The Marching
+2015-11-28 13:53:03	--	- Morons and the novels The Space Merchants (with Frederik
+2015-11-28 13:53:03	--	- Pohl) and The Syndic, he's best known for his biting social
+2015-11-28 13:53:03	--	- satire and his collaborations with Pohl and with Judith
+2015-11-28 13:53:03	--	- Merril.
+2015-11-28 13:53:03	--	- Welcome to freenode - supporting the free and open source
+2015-11-28 13:53:03	--	- software communities since 1998.
+2015-11-28 13:53:03	--	-
+2015-11-28 13:53:03	--	- By connecting to freenode you indicate that you have read and
+2015-11-28 13:53:03	--	- accept our policies as set out on http://www.freenode.net
+2015-11-28 13:53:03	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-11-28 13:53:03	--	- any network-related questions or queries, where a number of
+2015-11-28 13:53:03	--	- volunteer staff and helpful users will be happy to assist you.
+2015-11-28 13:53:03	--	-
+2015-11-28 13:53:03	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-11-28 13:53:03	--	- together with like-minded FOSS enthusiasts for talks and
+2015-11-28 13:53:03	--	- real-life collaboration.
+2015-11-28 13:53:03	--	-
+2015-11-28 13:53:03	--	- We would like to thank Private Internet Access
+2015-11-28 13:53:03	--	- (https://www.privateinternetaccess.com/) and the other
+2015-11-28 13:53:03	--	- organisations that help keep freenode and our other projects
+2015-11-28 13:53:03	--	- running for their sustained support.
+2015-11-28 13:53:03	--	-
+2015-11-28 13:53:03	--	- In particular we would like to thank the sponsor
+2015-11-28 13:53:03	--	- of this server, details of which can be found above.
+2015-11-28 13:53:03	--	-
+2015-11-28 13:53:03	--	End of /MOTD command.
+2015-11-28 13:53:03	--	User mode [+Zi] by b10n1k
+2015-11-28 13:53:03	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-11-28 13:53:03	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-11-28 13:53:03	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-11-28 13:53:09	--	#linux: ##linux :Forwarding to another channel
+2015-11-28 13:53:09	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-11-28 13:55:03	--	irc: disconnected from server
+2015-11-28 13:55:13	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-11-28 13:55:13	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-11-28 13:55:13	--	gnutls: receiving 2 certificates
+2015-11-28 13:55:13	--	 - certificate[1] info:
+2015-11-28 13:55:13	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-11-28 13:55:13	--	 - certificate[2] info:
+2015-11-28 13:55:13	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-11-28 13:55:13	--	gnutls: peer's certificate is trusted
+2015-11-28 13:55:13	--	irc: connected to chat.freenode.net/6697 (94.125.182.252)
+2015-11-28 13:55:13	--	adams.freenode.net: *** Looking up your hostname...
+2015-11-28 13:55:13	--	adams.freenode.net: *** Checking Ident
+2015-11-28 13:55:13	--	adams.freenode.net: *** Couldn't look up your hostname
+2015-11-28 13:55:23	--	adams.freenode.net: *** No Ident response
+2015-11-28 13:55:23	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-11-28 13:55:23	--	MSG(nickserv): identify *********
+2015-11-28 13:55:23	--	Your host is adams.freenode.net[94.125.182.252/6697], running version ircd-seven-1.1.3
+2015-11-28 13:55:23	--	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2015-11-28 13:55:23	--	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-11-28 13:55:23	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-11-28 13:55:23	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-11-28 13:55:23	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-11-28 13:55:23	--	There are 148 users and 78953 invisible on 24 servers
+2015-11-28 13:55:23	--	21 :IRC Operators online
+2015-11-28 13:55:23	--	40 :unknown connection(s)
+2015-11-28 13:55:23	--	54832 :channels formed
+2015-11-28 13:55:23	--	I have 10425 clients and 1 servers
+2015-11-28 13:55:23	--	10425 12000 :Current local users 10425, max 12000
+2015-11-28 13:55:23	--	79101 98867 :Current global users 79101, max 98867
+2015-11-28 13:55:23	--	Highest connection count: 12001 (12000 clients) (1600107 connections received)
+2015-11-28 13:55:23	--	- adams.freenode.net Message of the Day -
+2015-11-28 13:55:23	--	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2015-11-28 13:55:23	--	- (http://www.atw.hu) for sponsoring this server!
+2015-11-28 13:55:23	--	-
+2015-11-28 13:55:23	--	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2015-11-28 13:55:23	--	- to the Galaxy and many other witty and humourous books,
+2015-11-28 13:55:23	--	- portrayed in his uniquely British irony. He is sorely missed
+2015-11-28 13:55:23	--	- by many millions of devoted fans. "So long and thanks for all
+2015-11-28 13:55:23	--	- the books!"
+2015-11-28 13:55:23	--	-
+2015-11-28 13:55:23	--	- Welcome to freenode - supporting the free and open source
+2015-11-28 13:55:23	--	- software communities since 1998.
+2015-11-28 13:55:23	--	-
+2015-11-28 13:55:23	--	- By connecting to freenode you indicate that you have read and
+2015-11-28 13:55:23	--	- accept our policies as set out on http://www.freenode.net
+2015-11-28 13:55:23	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-11-28 13:55:23	--	- any network-related questions or queries, where a number of
+2015-11-28 13:55:23	--	- volunteer staff and helpful users will be happy to assist you.
+2015-11-28 13:55:23	--	-
+2015-11-28 13:55:23	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-11-28 13:55:23	--	- together with like-minded FOSS enthusiasts for talks and
+2015-11-28 13:55:23	--	- real-life collaboration.
+2015-11-28 13:55:23	--	-
+2015-11-28 13:55:23	--	- We would like to thank Private Internet Access
+2015-11-28 13:55:23	--	- (https://www.privateinternetaccess.com/) and the other
+2015-11-28 13:55:23	--	- organisations that help keep freenode and our other projects
+2015-11-28 13:55:23	--	- running for their sustained support.
+2015-11-28 13:55:23	--	-
+2015-11-28 13:55:23	--	- In particular we would like to thank the sponsor
+2015-11-28 13:55:23	--	- of this server, details of which can be found above.
+2015-11-28 13:55:23	--	-
+2015-11-28 13:55:23	--	End of /MOTD command.
+2015-11-28 13:55:23	--	User mode [+Zi] by b10n1k
+2015-11-28 13:55:23	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-11-28 13:55:23	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-11-28 13:55:23	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-11-28 13:55:30	--	#linux: ##linux :Forwarding to another channel
+2015-11-28 13:55:30	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-11-30 20:27:45	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2015-11-30 20:27:45	--	irc: disconnecting from server...
+2015-11-30 20:27:45	--	irc: disconnected from server
+2015-11-30 20:27:45	--	irc: reconnecting to server in 10 seconds
+2015-11-30 20:27:55	--	irc: reconnecting to server...
+2015-11-30 20:27:55	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-11-30 20:27:56	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-11-30 20:27:56	--	gnutls: receiving 2 certificates
+2015-11-30 20:27:56	--	 - certificate[1] info:
+2015-11-30 20:27:56	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-11-30 20:27:56	--	 - certificate[2] info:
+2015-11-30 20:27:56	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-11-30 20:27:56	--	gnutls: peer's certificate is trusted
+2015-11-30 20:27:56	--	irc: connected to chat.freenode.net/6697 (2001:6b0:e:2a18:5054:ff:fe01:8119)
+2015-11-30 20:27:56	--	leguin.freenode.net: *** Looking up your hostname...
+2015-11-30 20:27:56	--	leguin.freenode.net: *** Checking Ident
+2015-11-30 20:27:56	--	leguin.freenode.net: *** Couldn't look up your hostname
+2015-11-30 20:28:05	--	leguin.freenode.net: *** No Ident response
+2015-11-30 20:28:05	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-11-30 20:28:05	--	MSG(nickserv): identify *********
+2015-11-30 20:28:05	--	Your host is leguin.freenode.net[2001:6b0:e:2a18:5054:ff:fe01:8119/6697], running version ircd-seven-1.1.3
+2015-11-30 20:28:05	--	This server was created Sun Mar 15 2015 at 18:31:34 UTC
+2015-11-30 20:28:05	--	leguin.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-11-30 20:28:05	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-11-30 20:28:05	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-11-30 20:28:05	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-11-30 20:28:05	--	There are 143 users and 85144 invisible on 22 servers
+2015-11-30 20:28:05	--	21 :IRC Operators online
+2015-11-30 20:28:05	--	21 :unknown connection(s)
+2015-11-30 20:28:05	--	55453 :channels formed
+2015-11-30 20:28:05	--	I have 7127 clients and 1 servers
+2015-11-30 20:28:05	--	7127 7129 :Current local users 7127, max 7129
+2015-11-30 20:28:05	--	85287 85356 :Current global users 85287, max 85356
+2015-11-30 20:28:05	--	Highest connection count: 7130 (7129 clients) (17721 connections received)
+2015-11-30 20:28:05	--	- leguin.freenode.net Message of the Day -
+2015-11-30 20:28:05	--	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+2015-11-30 20:28:05	--	- the Academic Computer Club at Umeå University for sponsoring
+2015-11-30 20:28:05	--	- this server!
+2015-11-30 20:28:05	--	-
+2015-11-30 20:28:05	--	- LE GUIN, URSULA K. (1929-) Born in Berkeley, California,
+2015-11-30 20:28:05	--	- Ursula Le Guin is an american author primarily known for
+2015-11-30 20:28:05	--	- her Science Fiction and Fantasy. She has been awarded the
+2015-11-30 20:28:05	--	- Hugo and Nebula awards, and is best known for her Earthsea
+2015-11-30 20:28:05	--	- and Hainish series.
+2015-11-30 20:28:05	--	-
+2015-11-30 20:28:05	--	- Welcome to freenode - supporting the free and open source
+2015-11-30 20:28:05	--	- software communities since 1998.
+2015-11-30 20:28:05	--	-
+2015-11-30 20:28:05	--	- By connecting to freenode you indicate that you have read and
+2015-11-30 20:28:05	--	- accept our policies as set out on http://www.freenode.net
+2015-11-30 20:28:05	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-11-30 20:28:05	--	- any network-related questions or queries, where a number of
+2015-11-30 20:28:05	--	- volunteer staff and helpful users will be happy to assist you.
+2015-11-30 20:28:05	--	-
+2015-11-30 20:28:05	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-11-30 20:28:05	--	- together with like-minded FOSS enthusiasts for talks and
+2015-11-30 20:28:05	--	- real-life collaboration.
+2015-11-30 20:28:05	--	-
+2015-11-30 20:28:05	--	- We would like to thank Private Internet Access
+2015-11-30 20:28:05	--	- (https://www.privateinternetaccess.com/) and the other
+2015-11-30 20:28:05	--	- organisations that help keep freenode and our other projects
+2015-11-30 20:28:05	--	- running for their sustained support.
+2015-11-30 20:28:05	--	-
+2015-11-30 20:28:05	--	- In particular we would like to thank the sponsor
+2015-11-30 20:28:05	--	- of this server, details of which can be found above.
+2015-11-30 20:28:05	--	-
+2015-11-30 20:28:05	--	End of /MOTD command.
+2015-11-30 20:28:05	--	User mode [+Zi] by b10n1k
+2015-11-30 20:28:05	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-11-30 20:28:05	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-11-30 20:28:05	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-11-30 20:28:11	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-12-01 02:04:42	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2015-12-01 02:04:42	--	irc: disconnecting from server...
+2015-12-01 02:04:42	--	irc: disconnected from server
+2015-12-01 02:04:42	--	irc: reconnecting to server in 10 seconds
+2015-12-01 02:04:52	--	irc: reconnecting to server...
+2015-12-01 02:04:52	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 02:04:52	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 02:04:52	=!=	irc: error: No address associated with hostname
+2015-12-01 02:04:52	--	irc: reconnecting to server in 20 seconds
+2015-12-01 02:05:12	--	irc: reconnecting to server...
+2015-12-01 02:05:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 02:05:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 02:05:12	=!=	irc: error: No address associated with hostname
+2015-12-01 02:05:12	--	irc: reconnecting to server in 40 seconds
+2015-12-01 02:05:52	--	irc: reconnecting to server...
+2015-12-01 02:05:52	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 02:05:52	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 02:05:52	=!=	irc: error: No address associated with hostname
+2015-12-01 02:05:52	--	irc: reconnecting to server in 1 minute, 20 seconds
+2015-12-01 02:07:12	--	irc: reconnecting to server...
+2015-12-01 02:07:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 02:07:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 02:07:12	=!=	irc: error: No address associated with hostname
+2015-12-01 02:07:12	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2015-12-01 02:09:52	--	irc: reconnecting to server...
+2015-12-01 02:09:52	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 02:09:52	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 02:09:52	=!=	irc: error: No address associated with hostname
+2015-12-01 02:09:52	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2015-12-01 02:15:12	--	irc: reconnecting to server...
+2015-12-01 02:15:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 02:15:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 02:15:12	=!=	irc: error: No address associated with hostname
+2015-12-01 02:15:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 02:25:12	--	irc: reconnecting to server...
+2015-12-01 02:25:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 02:25:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 02:25:12	=!=	irc: error: No address associated with hostname
+2015-12-01 02:25:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 02:35:12	--	irc: reconnecting to server...
+2015-12-01 02:35:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 02:35:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 02:35:12	=!=	irc: error: No address associated with hostname
+2015-12-01 02:35:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 02:45:12	--	irc: reconnecting to server...
+2015-12-01 02:45:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 02:45:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 02:45:12	=!=	irc: error: No address associated with hostname
+2015-12-01 02:45:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 02:55:12	--	irc: reconnecting to server...
+2015-12-01 02:55:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 02:55:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 02:55:12	=!=	irc: error: No address associated with hostname
+2015-12-01 02:55:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 03:05:12	--	irc: reconnecting to server...
+2015-12-01 03:05:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 03:05:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 03:05:12	=!=	irc: error: No address associated with hostname
+2015-12-01 03:05:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 03:15:12	--	irc: reconnecting to server...
+2015-12-01 03:15:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 03:15:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 03:15:12	=!=	irc: error: No address associated with hostname
+2015-12-01 03:15:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 03:25:12	--	irc: reconnecting to server...
+2015-12-01 03:25:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 03:25:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 03:25:12	=!=	irc: error: No address associated with hostname
+2015-12-01 03:25:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 03:35:12	--	irc: reconnecting to server...
+2015-12-01 03:35:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 03:35:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 03:35:12	=!=	irc: error: No address associated with hostname
+2015-12-01 03:35:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 03:45:12	--	irc: reconnecting to server...
+2015-12-01 03:45:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 03:45:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 03:45:12	=!=	irc: error: No address associated with hostname
+2015-12-01 03:45:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 03:55:12	--	irc: reconnecting to server...
+2015-12-01 03:55:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 03:55:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 03:55:12	=!=	irc: error: No address associated with hostname
+2015-12-01 03:55:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 04:05:12	--	irc: reconnecting to server...
+2015-12-01 04:05:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 04:05:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 04:05:12	=!=	irc: error: No address associated with hostname
+2015-12-01 04:05:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 04:15:12	--	irc: reconnecting to server...
+2015-12-01 04:15:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 04:15:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 04:15:12	=!=	irc: error: No address associated with hostname
+2015-12-01 04:15:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 04:25:12	--	irc: reconnecting to server...
+2015-12-01 04:25:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 04:25:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 04:25:12	=!=	irc: error: No address associated with hostname
+2015-12-01 04:25:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 04:35:12	--	irc: reconnecting to server...
+2015-12-01 04:35:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 04:35:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 04:35:12	=!=	irc: error: No address associated with hostname
+2015-12-01 04:35:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 04:45:12	--	irc: reconnecting to server...
+2015-12-01 04:45:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 04:45:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 04:45:12	=!=	irc: error: No address associated with hostname
+2015-12-01 04:45:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 04:55:12	--	irc: reconnecting to server...
+2015-12-01 04:55:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 04:55:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 04:55:12	=!=	irc: error: No address associated with hostname
+2015-12-01 04:55:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 05:05:12	--	irc: reconnecting to server...
+2015-12-01 05:05:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 05:05:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 05:05:12	=!=	irc: error: No address associated with hostname
+2015-12-01 05:05:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 05:15:12	--	irc: reconnecting to server...
+2015-12-01 05:15:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 05:15:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 05:15:12	=!=	irc: error: No address associated with hostname
+2015-12-01 05:15:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 05:25:12	--	irc: reconnecting to server...
+2015-12-01 05:25:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 05:25:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 05:25:12	=!=	irc: error: No address associated with hostname
+2015-12-01 05:25:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 05:35:12	--	irc: reconnecting to server...
+2015-12-01 05:35:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 05:35:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 05:35:12	=!=	irc: error: No address associated with hostname
+2015-12-01 05:35:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 05:45:12	--	irc: reconnecting to server...
+2015-12-01 05:45:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 05:45:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 05:45:12	=!=	irc: error: No address associated with hostname
+2015-12-01 05:45:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 05:55:12	--	irc: reconnecting to server...
+2015-12-01 05:55:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 05:55:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 05:55:12	=!=	irc: error: No address associated with hostname
+2015-12-01 05:55:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 06:05:12	--	irc: reconnecting to server...
+2015-12-01 06:05:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 06:05:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 06:05:12	=!=	irc: error: No address associated with hostname
+2015-12-01 06:05:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 06:15:12	--	irc: reconnecting to server...
+2015-12-01 06:15:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 06:15:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 06:15:12	=!=	irc: error: No address associated with hostname
+2015-12-01 06:15:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 06:25:12	--	irc: reconnecting to server...
+2015-12-01 06:25:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 06:25:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 06:25:12	=!=	irc: error: No address associated with hostname
+2015-12-01 06:25:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 06:35:12	--	irc: reconnecting to server...
+2015-12-01 06:35:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 06:35:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 06:35:12	=!=	irc: error: No address associated with hostname
+2015-12-01 06:35:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 06:45:12	--	irc: reconnecting to server...
+2015-12-01 06:45:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 06:45:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 06:45:12	=!=	irc: error: No address associated with hostname
+2015-12-01 06:45:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 06:55:12	--	irc: reconnecting to server...
+2015-12-01 06:55:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 06:55:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 06:55:12	=!=	irc: error: No address associated with hostname
+2015-12-01 06:55:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 07:05:12	--	irc: reconnecting to server...
+2015-12-01 07:05:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 07:05:12	=!=	irc: address "chat.freenode.net" not found
+2015-12-01 07:05:12	=!=	irc: error: No address associated with hostname
+2015-12-01 07:05:12	--	irc: reconnecting to server in 10 minutes
+2015-12-01 07:15:12	--	irc: reconnecting to server...
+2015-12-01 07:15:12	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-01 07:15:13	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-12-01 07:15:13	--	gnutls: receiving 2 certificates
+2015-12-01 07:15:13	--	 - certificate[1] info:
+2015-12-01 07:15:13	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-12-01 07:15:13	--	 - certificate[2] info:
+2015-12-01 07:15:13	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-12-01 07:15:13	--	gnutls: peer's certificate is trusted
+2015-12-01 07:15:13	--	irc: connected to chat.freenode.net/6697 (2001:948:7:7::140)
+2015-12-01 07:15:13	--	wolfe.freenode.net: *** Looking up your hostname...
+2015-12-01 07:15:13	--	wolfe.freenode.net: *** Checking Ident
+2015-12-01 07:15:13	--	wolfe.freenode.net: *** Couldn't look up your hostname
+2015-12-01 07:15:19	--	wolfe.freenode.net: *** No Ident response
+2015-12-01 07:15:19	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-12-01 07:15:19	--	MSG(nickserv): identify *********
+2015-12-01 07:15:19	--	Your host is wolfe.freenode.net[2001:948:7:7::140/6697], running version ircd-seven-1.1.3
+2015-12-01 07:15:19	--	This server was created Tue Nov 10 2015 at 15:57:43 UTC
+2015-12-01 07:15:19	--	wolfe.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-01 07:15:19	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-01 07:15:19	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-01 07:15:19	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-01 07:15:19	--	There are 135 users and 78462 invisible on 23 servers
+2015-12-01 07:15:19	--	21 :IRC Operators online
+2015-12-01 07:15:19	--	27 :unknown connection(s)
+2015-12-01 07:15:19	--	54889 :channels formed
+2015-12-01 07:15:19	--	I have 9192 clients and 1 servers
+2015-12-01 07:15:19	--	9192 13339 :Current local users 9192, max 13339
+2015-12-01 07:15:19	--	78597 85356 :Current global users 78597, max 85356
+2015-12-01 07:15:19	--	Highest connection count: 13340 (13339 clients) (77649 connections received)
+2015-12-01 07:15:19	--	- wolfe.freenode.net Message of the Day -
+2015-12-01 07:15:19	--	- Welcome to wolfe.freenode.net in Stockholm, SE.
+2015-12-01 07:15:19	--	- Thanks to http://nordu.net/ for sponsoring
+2015-12-01 07:15:19	--	- this server!
+2015-12-01 07:15:19	--	-
+2015-12-01 07:15:19	--	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+2015-12-01 07:15:19	--	- novels. His best-known work is the multi-volume novel The
+2015-12-01 07:15:19	--	- Book of the New Sun. He has won multiple awards including
+2015-12-01 07:15:19	--	- the Nebula Award, the World Fantasy Award, The Campell
+2015-12-01 07:15:19	--	- Memorial Award and the Locus Award. He was awarded the World
+2015-12-01 07:15:19	--	- Fantasy Award for lifetime achievement in 1996.
+2015-12-01 07:15:19	--	-
+2015-12-01 07:15:19	--	- Welcome to freenode - supporting the free and open source
+2015-12-01 07:15:19	--	- software communities since 1998.
+2015-12-01 07:15:19	--	-
+2015-12-01 07:15:19	--	- By connecting to freenode you indicate that you have read and
+2015-12-01 07:15:19	--	- accept our policies as set out on http://www.freenode.net
+2015-12-01 07:15:19	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-01 07:15:19	--	- any network-related questions or queries, where a number of
+2015-12-01 07:15:19	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-01 07:15:19	--	-
+2015-12-01 07:15:19	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-01 07:15:19	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-01 07:15:19	--	- real-life collaboration.
+2015-12-01 07:15:19	--	-
+2015-12-01 07:15:19	--	- We would like to thank Private Internet Access
+2015-12-01 07:15:19	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-01 07:15:19	--	- organisations that help keep freenode and our other projects
+2015-12-01 07:15:19	--	- running for their sustained support.
+2015-12-01 07:15:19	--	-
+2015-12-01 07:15:19	--	- In particular we would like to thank the sponsor
+2015-12-01 07:15:19	--	- of this server, details of which can be found above.
+2015-12-01 07:15:19	--	-
+2015-12-01 07:15:19	--	End of /MOTD command.
+2015-12-01 07:15:19	--	User mode [+Zi] by b10n1k
+2015-12-01 07:15:19	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-12-01 07:15:19	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-12-01 07:15:19	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-12-01 07:15:26	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-12-02 21:42:25	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-02 21:42:26	=!=	irc: address "chat.freenode.net" not found
+2015-12-02 21:42:26	=!=	irc: error: No address associated with hostname
+2015-12-02 21:42:26	--	irc: reconnecting to server in 10 seconds
+2015-12-02 21:42:36	--	irc: reconnecting to server...
+2015-12-02 21:42:36	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-02 21:42:36	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-12-02 21:42:36	--	gnutls: receiving 2 certificates
+2015-12-02 21:42:36	--	 - certificate[1] info:
+2015-12-02 21:42:36	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-12-02 21:42:36	--	 - certificate[2] info:
+2015-12-02 21:42:36	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-12-02 21:42:36	--	gnutls: peer's certificate is trusted
+2015-12-02 21:42:36	--	irc: connected to chat.freenode.net/6697 (2001:6b0:e:2a18:5054:ff:fe01:8119)
+2015-12-02 21:42:36	--	leguin.freenode.net: *** Looking up your hostname...
+2015-12-02 21:42:36	--	leguin.freenode.net: *** Checking Ident
+2015-12-02 21:42:36	--	leguin.freenode.net: *** Couldn't look up your hostname
+2015-12-02 21:42:44	--	leguin.freenode.net: *** No Ident response
+2015-12-02 21:42:44	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-12-02 21:42:44	--	MSG(nickserv): identify *********
+2015-12-02 21:42:44	--	Your host is leguin.freenode.net[2001:6b0:e:2a18:5054:ff:fe01:8119/6697], running version ircd-seven-1.1.3
+2015-12-02 21:42:44	--	This server was created Sun Mar 15 2015 at 18:31:34 UTC
+2015-12-02 21:42:44	--	leguin.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-02 21:42:44	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-02 21:42:44	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-02 21:42:44	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-02 21:42:44	--	There are 150 users and 88435 invisible on 23 servers
+2015-12-02 21:42:44	--	19 :IRC Operators online
+2015-12-02 21:42:44	--	31 :unknown connection(s)
+2015-12-02 21:42:44	--	47394 :channels formed
+2015-12-02 21:42:44	--	I have 8957 clients and 1 servers
+2015-12-02 21:42:44	--	8957 12000 :Current local users 8957, max 12000
+2015-12-02 21:42:44	--	88585 90393 :Current global users 88585, max 90393
+2015-12-02 21:42:44	--	Highest connection count: 12001 (12000 clients) (137441 connections received)
+2015-12-02 21:42:44	--	- leguin.freenode.net Message of the Day -
+2015-12-02 21:42:44	--	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+2015-12-02 21:42:44	--	- the Academic Computer Club at Umeå University for sponsoring
+2015-12-02 21:42:44	--	- this server!
+2015-12-02 21:42:44	--	-
+2015-12-02 21:42:44	--	- LE GUIN, URSULA K. (1929-) Born in Berkeley, California,
+2015-12-02 21:42:44	--	- Ursula Le Guin is an american author primarily known for
+2015-12-02 21:42:44	--	- her Science Fiction and Fantasy. She has been awarded the
+2015-12-02 21:42:44	--	- Hugo and Nebula awards, and is best known for her Earthsea
+2015-12-02 21:42:44	--	- and Hainish series.
+2015-12-02 21:42:44	--	-
+2015-12-2015-12-02 22:01:05	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-02 22:01:06	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-12-02 22:01:06	--	gnutls: receiving 2 certificates
+2015-12-02 22:01:06	--	 - certificate[1] info:
+2015-12-02 22:01:06	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-12-02 22:01:06	--	 - certificate[2] info:
+2015-12-02 22:01:06	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-12-02 22:01:06	--	gnutls: peer's certificate is trusted
+2015-12-02 22:01:06	--	irc: connected to chat.freenode.net/6697 (2001:6b0:e:2a18:5054:ff:fe01:8119)
+2015-12-02 22:01:06	--	leguin.freenode.net: *** Looking up your hostname...
+2015-12-02 22:01:06	--	leguin.freenode.net: *** Checking Ident
+2015-12-02 22:01:06	--	leguin.freenode.net: *** Couldn't look up your hostname
+2015-12-02 22:01:14	--	leguin.freenode.net: *** No Ident response
+2015-12-02 22:01:14	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-12-02 22:01:14	--	MSG(nickserv): identify *********
+2015-12-02 22:01:14	--	Your host is leguin.freenode.net[2001:6b0:e:2a18:5054:ff:fe01:8119/6697], running version ircd-seven-1.1.3
+2015-12-02 22:01:14	--	This server was created Sun Mar 15 2015 at 18:31:34 UTC
+2015-12-02 22:01:14	--	leguin.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-02 22:01:14	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-02 22:01:14	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-02 22:01:14	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-02 22:01:14	--	There are 150 users and 88042 invisible on 23 servers
+2015-12-02 22:01:14	--	19 :IRC Operators online
+2015-12-02 22:01:14	--	30 :unknown connection(s)
+2015-12-02 22:01:14	--	47404 :channels formed
+2015-12-02 22:01:14	--	I have 9086 clients and 1 servers
+2015-12-02 22:01:14	--	9086 12000 :Current local users 9086, max 12000
+2015-12-02 22:01:14	--	88192 90393 :Current global users 88192, max 90393
+2015-12-02 22:01:14	--	Highest connection count: 12001 (12000 clients) (138110 connections received)
+2015-12-02 22:01:14	--	- leguin.freenode.net Message of the Day -
+2015-12-02 22:01:14	--	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+2015-12-02 22:01:14	--	- the Academic Computer Club at Umeå University for sponsoring
+2015-12-02 22:01:14	--	- this server!
+2015-12-02 22:01:14	--	-
+2015-12-02 22:01:14	--	- LE GUIN, URSULA K. (1929-) Born in Berkeley, California,
+2015-12-02 22:01:14	--	- Ursula Le Guin is an american author primarily known for
+2015-12-02 22:01:14	--	- her Science Fiction and Fantasy. She has been awarded the
+2015-12-02 22:01:14	--	- Hugo and Nebula awards, and is best known for her Earthsea
+2015-12-02 22:01:14	--	- and Hainish series.
+2015-12-02 22:01:14	--	-
+2015-12-02 22:01:14	--	- Welcome to freenode - supporting the free and open source
+2015-12-02 22:01:14	--	- software communities since 1998.
+2015-12-02 22:01:14	--	-
+2015-12-02 22:01:14	--	- By connecting to freenode you indicate that you have read and
+2015-12-02 22:01:14	--	- accept our policies as set out on http://www.freenode.net
+2015-12-02 22:01:14	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-02 22:01:14	--	- any network-related questions or queries, where a number of
+2015-12-02 22:01:14	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-02 22:01:14	--	-
+2015-12-02 22:01:14	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-02 22:01:14	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-02 22:01:14	--	- real-life collaboration.
+2015-12-02 22:01:14	--	-
+2015-12-02 22:01:14	--	- We would like to thank Private Internet Access
+2015-12-02 22:01:14	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-02 22:01:14	--	- organisations that help keep freenode and our other projects
+2015-12-02 22:01:14	--	- running for their sustained support.
+2015-12-02 22:01:14	--	-
+2015-12-02 22:01:14	--	- In particular we would like to thank the sponsor
+2015-12-02 22:01:14	--	- of this server, details of which can be found above.
+2015-12-02 22:01:14	--	-
+2015-12-02 22:01:14	--	End of /MOTD command.
+2015-12-02 22:01:14	--	User mode [+Zi] by b10n1k
+2015-12-02 22:01:15	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-12-02 22:01:15	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-12-02 22:01:15	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-12-02 22:01:20	--	#linux: ##linux :Forwarding to another channel
+2015-12-02 22:01:21	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-12-06 17:47:13	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2015-12-06 17:47:13	--	irc: disconnecting from server...
+2015-12-06 17:47:13	--	irc: disconnected from server
+2015-12-06 17:47:13	--	irc: reconnecting to server in 10 seconds
+2015-12-06 17:47:23	--	irc: reconnecting to server...
+2015-12-06 17:47:23	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-06 17:47:54	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-12-06 17:47:54	--	gnutls: receiving 2 certificates
+2015-12-06 17:47:54	--	 - certificate[1] info:
+2015-12-06 17:47:54	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-12-06 17:47:54	--	 - certificate[2] info:
+2015-12-06 17:47:54	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-12-06 17:47:54	--	gnutls: peer's certificate is trusted
+2015-12-06 17:47:54	--	irc: connected to chat.freenode.net/6697 (2a00:1a28:1100:11::42)
+2015-12-06 17:47:54	--	sinisalo.freenode.net: *** Looking up your hostname...
+2015-12-06 17:47:54	--	sinisalo.freenode.net: *** Checking Ident
+2015-12-06 17:47:55	--	sinisalo.freenode.net: *** Couldn't look up your hostname
+2015-12-06 17:48:00	--	sinisalo.freenode.net: *** No Ident response
+2015-12-06 17:48:00	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-12-06 17:48:00	--	MSG(nickserv): identify *********
+2015-12-06 17:48:00	--	Your host is sinisalo.freenode.net[2a00:1a28:1100:11::42/6697], running version ircd-seven-1.1.3
+2015-12-06 17:48:00	--	This server was created Sun Aug 2 2015 at 19:12:22 UTC
+2015-12-06 17:48:00	--	sinisalo.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-06 17:48:00	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-06 17:48:00	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-06 17:48:00	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-06 17:48:00	--	There are 153 users and 83538 invisible on 24 servers
+2015-12-06 17:48:00	--	20 :IRC Operators online
+2015-12-06 17:48:00	--	4 :unknown connection(s)
+2015-12-06 17:48:00	--	48977 :channels formed
+2015-12-06 17:48:00	--	I have 5572 clients and 1 servers
+2015-12-06 17:48:00	--	5572 12001 :Current local users 5572, max 12001
+2015-12-06 17:48:00	--	83691 98854 :Current global users 83691, max 98854
+2015-12-06 17:48:00	--	Highest connection count: 12002 (12001 clients) (1688542 connections received)
+2015-12-06 17:48:00	--	- sinisalo.freenode.net Message of the Day -
+2015-12-06 17:48:00	--	- Welcome to sinisalo.freenode.net in Stockholm, SE.
+2015-12-06 17:48:00	--	- Thanks to http://www.portlane.com/ for sponsoring
+2015-12-06 17:48:00	--	- this server!
+2015-12-06 17:48:00	--	-
+2015-12-06 17:48:00	--	-
+2015-12-06 17:48:00	--	- SINISALO, (ANNA) JOHANNA (1958-), a Finnish science fiction
+2015-12-06 17:48:00	--	- and fantasy novelist and a script writer. Her novel 'Not
+2015-12-06 17:48:00	--	- Before Sundown' (orig. 'Ennen päivänlaskua ei voi'
+2015-12-06 17:48:00	--	- published in Finnish in 2000, when it also won the biggest
+2015-12-06 17:48:00	--	- literature award of Finland) was awarded The James Tiptree
+2015-12-06 17:48:00	--	- Jr. award in 2004.  She was nominated for a Nebula award in
+2015-12-06 17:48:00	--	- 2009 for her short story Baby Doll.  Their most recent work
+2015-12-06 17:48:00	--	- includes screenwriting for the film 'Iron Sky'.
+2015-12-06 17:48:00	--	-
+2015-12-06 17:48:00	--	- Welcome to freenode - supporting the free and open source
+2015-12-06 17:48:00	--	- software communities since 1998.
+2015-12-06 17:48:00	--	-
+2015-12-06 17:48:00	--	- By connecting to freenode you indicate that you have read and
+2015-12-06 17:48:00	--	- accept our policies as set out on http://www.freenode.net
+2015-12-06 17:48:00	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-06 17:48:00	--	- any network-related questions or queries, where a number of
+2015-12-06 17:48:00	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-06 17:48:00	--	-
+2015-12-06 17:48:00	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-06 17:48:00	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-06 17:48:00	--	- real-life collaboration.
+2015-12-06 17:48:00	--	-
+2015-12-06 17:48:00	--	- We would like to thank Private Internet Access
+2015-12-06 17:48:00	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-06 17:48:00	--	- organisations that help keep freenode and our other projects
+2015-12-06 17:48:00	--	- running for their sustained support.
+2015-12-06 17:48:00	--	-
+2015-12-06 17:48:00	--	- In particular we would like to thank the sponsor
+2015-12-06 17:48:00	--	- of this server, details of which can be found above.
+2015-12-06 17:48:00	--	-
+2015-12-06 17:48:00	--	End of /MOTD command.
+2015-12-06 17:48:00	--	User mode [+Zi] by b10n1k
+2015-12-06 17:48:01	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-12-06 17:48:01	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-12-06 17:48:01	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-12-06 17:48:07	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-12-06 19:00:34	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2015-12-06 19:00:34	--	irc: disconnecting from server...
+2015-12-06 19:00:34	--	irc: disconnected from server
+2015-12-06 19:00:34	--	irc: reconnecting to server in 10 seconds
+2015-12-06 19:00:44	--	irc: reconnecting to server...
+2015-12-06 19:00:44	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-06 19:01:44	=!=	irc: timeout
+2015-12-06 19:01:44	--	irc: reconnecting to server in 20 seconds
+2015-12-06 19:02:04	--	irc: reconnecting to server...
+2015-12-06 19:02:04	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-06 19:02:06	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-12-06 19:02:06	--	gnutls: receiving 2 certificates
+2015-12-06 19:02:06	--	 - certificate[1] info:
+2015-12-06 19:02:06	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-12-06 19:02:06	--	 - certificate[2] info:
+2015-12-06 19:02:06	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-12-06 19:02:06	--	gnutls: peer's certificate is trusted
+2015-12-06 19:02:07	--	irc: connected to chat.freenode.net/6697 (193.10.255.100)
+2015-12-06 19:02:07	--	wolfe.freenode.net: *** Looking up your hostname...
+2015-12-06 19:02:07	--	wolfe.freenode.net: *** Checking Ident
+2015-12-06 19:02:16	--	wolfe.freenode.net: *** No Ident response
+2015-12-06 19:02:34	--	wolfe.freenode.net: *** Couldn't look up your hostname
+2015-12-06 19:02:34	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-12-06 19:02:34	--	MSG(nickserv): identify *********
+2015-12-06 19:02:34	--	Your host is wolfe.freenode.net[193.10.255.100/6697], running version ircd-seven-1.1.3
+2015-12-06 19:02:34	--	This server was created Tue Nov 10 2015 at 15:57:43 UTC
+2015-12-06 19:02:34	--	wolfe.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-06 19:02:34	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-06 19:02:34	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-06 19:02:34	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-06 19:02:34	--	There are 155 users and 84167 invisible on 24 servers
+2015-12-06 19:02:34	--	22 :IRC Operators online
+2015-12-06 19:02:34	--	48 :unknown connection(s)
+2015-12-06 19:02:34	--	49105 :channels formed
+2015-12-06 19:02:34	--	I have 18982 clients and 1 servers
+2015-12-06 19:02:34	--	18982 19900 :Current local users 18982, max 19900
+2015-12-06 19:02:34	--	84322 90906 :Current global users 84322, max 90906
+2015-12-06 19:02:34	--	Highest connection count: 19901 (19900 clients) (365713 connections received)
+2015-12-06 19:02:34	--	- wolfe.freenode.net Message of the Day -
+2015-12-06 19:02:34	--	- Welcome to wolfe.freenode.net in Stockholm, SE.
+2015-12-06 19:02:34	--	- Thanks to http://nordu.net/ for sponsoring
+2015-12-06 19:02:34	--	- this server!
+2015-12-06 19:02:34	--	-
+2015-12-06 19:02:34	--	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+2015-12-06 19:02:34	--	- novels. His best-known work is the multi-volume novel The
+2015-12-06 19:02:34	--	- Book of the New Sun. He has won multiple awards including
+2015-12-06 19:02:34	--	- the Nebula Award, the World Fantasy Award, The Campell
+2015-12-06 19:02:34	--	- Memorial Award and the Locus Award. He was awarded the World
+2015-12-06 19:02:34	--	- Fantasy Award for lifetime achievement in 1996.
+2015-12-06 19:02:34	--	-
+2015-12-06 19:02:34	--	- Welcome to freenode - supporting the free and open source
+2015-12-06 19:02:34	--	- software communities since 1998.
+2015-12-06 19:02:34	--	-
+2015-12-06 19:02:34	--	- By connecting to freenode you indicate that you have read and
+2015-12-06 19:02:34	--	- accept our policies as set out on http://www.freenode.net
+2015-12-06 19:02:34	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-06 19:02:34	--	- any network-related questions or queries, where a number of
+2015-12-06 19:02:34	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-06 19:02:34	--	-
+2015-12-06 19:02:34	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-06 19:02:34	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-06 19:02:34	--	- real-life collaboration.
+2015-12-06 19:02:34	--	-
+2015-12-06 19:02:34	--	- We would like to thank Private Internet Access
+2015-12-06 19:02:34	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-06 19:02:34	--	- organisations that help keep freenode and our other projects
+2015-12-06 19:02:34	--	- running for their sustained support.
+2015-12-06 19:02:34	--	-
+2015-12-06 19:02:35	--	- In particular we would like to thank the sponsor
+2015-12-06 19:02:35	--	- of this server, details of which can be found above.
+2015-12-06 19:02:35	--	-
+2015-12-06 19:02:35	--	End of /MOTD command.
+2015-12-06 19:02:35	--	User mode [+Zi] by b10n1k
+2015-12-06 19:02:36	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-12-06 19:02:36	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-12-06 19:02:36	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-12-06 19:02:41	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-12-06 21:42:10	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2015-12-06 21:42:10	--	irc: disconnecting from server...
+2015-12-06 21:42:10	--	irc: disconnected from server
+2015-12-06 21:42:10	--	irc: reconnecting to server in 10 seconds
+2015-12-06 21:42:20	--	irc: reconnecting to server...
+2015-12-06 21:42:20	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-06 21:43:20	=!=	irc: timeout
+2015-12-06 21:43:20	--	irc: reconnecting to server in 20 seconds
+2015-12-06 21:43:40	--	irc: reconnecting to server...
+2015-12-06 21:43:40	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-06 21:44:40	=!=	irc: timeout
+2015-12-06 21:44:40	--	irc: reconnecting to server in 40 seconds
+2015-12-06 21:45:20	--	irc: reconnecting to server...
+2015-12-06 21:45:20	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-06 21:45:35	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-12-06 21:45:35	--	gnutls: receiving 2 certificates
+2015-12-06 21:45:35	--	 - certificate[1] info:
+2015-12-06 21:45:35	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-12-06 21:45:35	--	 - certificate[2] info:
+2015-12-06 21:45:35	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-12-06 21:45:35	--	gnutls: peer's certificate is trusted
+2015-12-06 21:45:35	--	irc: connected to chat.freenode.net/6697 (2a00:1a28:1100:11::42)
+2015-12-06 21:45:35	--	sinisalo.freenode.net: *** Looking up your hostname...
+2015-12-06 21:45:35	--	sinisalo.freenode.net: *** Checking Ident
+2015-12-06 21:45:35	--	sinisalo.freenode.net: *** Couldn't look up your hostname
+2015-12-06 21:45:45	--	sinisalo.freenode.net: *** No Ident response
+2015-12-06 21:45:45	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-12-06 21:45:45	--	MSG(nickserv): identify *********
+2015-12-06 21:45:45	--	Your host is sinisalo.freenode.net[2a00:1a28:1100:11::42/6697], running version ircd-seven-1.1.3
+2015-12-06 21:45:45	--	This server was created Sun Aug 2 2015 at 19:12:22 UTC
+2015-12-06 21:45:45	--	sinisalo.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-06 21:45:45	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-06 21:45:45	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-06 21:45:45	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-06 21:45:45	--	There are 153 users and 83762 invisible on 24 servers
+2015-12-06 21:45:45	--	22 :IRC Operators online
+2015-12-06 21:45:45	--	5 :unknown connection(s)
+2015-12-06 21:45:45	--	49150 :channels formed
+2015-12-06 21:45:45	--	I have 5534 clients and 1 servers
+2015-12-06 21:45:45	--	5534 12001 :Current local users 5534, max 12001
+2015-12-06 21:45:45	--	83915 98854 :Current global users 83915, max 98854
+2015-12-06 21:45:45	--	Highest connection count: 12002 (12001 clients) (1689848 connections received)
+2015-12-06 21:45:45	--	- sinisalo.freenode.net Message of the Day -
+2015-12-06 21:45:45	--	- Welcome to sinisalo.freenode.net in Stockholm, SE.
+2015-12-06 21:45:45	--	- Thanks to http://www.portlane.com/ for sponsoring
+2015-12-06 21:45:45	--	- this server!
+2015-12-06 21:45:45	--	-
+2015-12-06 21:45:45	--	-
+2015-12-06 21:45:45	--	- SINISALO, (ANNA) JOHANNA (1958-), a Finnish science fiction
+2015-12-06 21:45:45	--	- and fantasy novelist and a script writer. Her novel 'Not
+2015-12-06 21:45:45	--	- Before Sundown' (orig. 'Ennen päivänlaskua ei voi'
+2015-12-06 21:45:45	--	- published in Finnish in 2000, when it also won the biggest
+2015-12-06 21:45:45	--	- literature award of Finland) was awarded The James Tiptree
+2015-12-06 21:45:45	--	- Jr. award in 2004.  She was nominated for a Nebula award in
+2015-12-06 21:45:45	--	- 2009 for her short story Baby Doll.  Their most recent work
+2015-12-06 21:45:45	--	- includes screenwriting for the film 'Iron Sky'.
+2015-12-06 21:45:45	--	-
+2015-12-06 21:45:45	--	- Welcome to freenode - supporting the free and open source
+2015-12-06 21:45:45	--	- software communities since 1998.
+2015-12-06 21:45:45	--	-
+2015-12-06 21:45:45	--	- By connecting to freenode you indicate that you have read and
+2015-12-06 21:45:45	--	- accept our policies as set out on http://www.freenode.net
+2015-12-06 21:45:45	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-06 21:45:45	--	- any network-related questions or queries, where a number of
+2015-12-06 21:45:45	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-06 21:45:45	--	-
+2015-12-06 21:45:45	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-06 21:45:45	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-06 21:45:45	--	- real-life collaboration.
+2015-12-06 21:45:45	--	-
+2015-12-06 21:45:45	--	- We would like to thank Private Internet Access
+2015-12-06 21:45:45	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-06 21:45:45	--	- organisations that help keep freenode and our other projects
+2015-12-06 21:45:45	--	- running for their sustained support.
+2015-12-06 21:45:45	--	-
+2015-12-06 21:45:45	--	- In particular we would like to thank the sponsor
+2015-12-06 21:45:45	--	- of this server, details of which can be found above.
+2015-12-06 21:45:45	--	-
+2015-12-06 21:45:45	--	End of /MOTD command.
+2015-12-06 21:45:45	--	User mode [+Zi] by b10n1k
+2015-12-06 21:45:46	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-12-06 21:45:46	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-12-06 21:45:46	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-12-06 21:45:52	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-12-09 00:25:07	--	irc: disconnected from server
+2015-12-09 00:50:32	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-09 00:50:32	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-12-09 00:50:32	--	gnutls: receiving 2 certificates
+2015-12-09 00:50:32	--	 - certificate[1] info:
+2015-12-09 00:50:32	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-12-09 00:50:32	--	 - certificate[2] info:
+2015-12-09 00:50:32	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-12-09 00:50:32	--	gnutls: peer's certificate is trusted
+2015-12-09 00:50:32	--	irc: connected to chat.freenode.net/6697 (2a01:270:0:666f::1)
+2015-12-09 00:50:32	--	adams.freenode.net: *** Looking up your hostname...
+2015-12-09 00:50:32	--	adams.freenode.net: *** Checking Ident
+2015-12-09 00:50:32	--	adams.freenode.net: *** Couldn't look up your hostname
+2015-12-09 00:50:41	--	adams.freenode.net: *** No Ident response
+2015-12-09 00:50:41	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-12-09 00:50:41	--	MSG(nickserv): identify *********
+2015-12-09 00:50:41	--	Your host is adams.freenode.net[2a01:270:0:666f::1/6697], running version ircd-seven-1.1.3
+2015-12-09 00:50:41	--	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2015-12-09 00:50:41	--	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-09 00:50:41	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-09 00:50:41	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-09 00:50:41	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-09 00:50:41	--	There are 147 users and 84100 invisible on 24 servers
+2015-12-09 00:50:41	--	25 :IRC Operators online
+2015-12-09 00:50:41	--	27 :unknown connection(s)
+2015-12-09 00:50:41	--	49798 :channels formed
+2015-12-09 00:50:41	--	I have 7026 clients and 1 servers
+2015-12-09 00:50:41	--	7026 12001 :Current local users 7026, max 12001
+2015-12-09 00:50:41	--	84247 98867 :Current global users 84247, max 98867
+2015-12-09 00:50:41	--	Highest connection count: 12002 (12001 clients) (1696084 connections received)
+2015-12-09 00:50:41	--	- adams.freenode.net Message of the Day -
+2015-12-09 00:50:41	--	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2015-12-09 00:50:41	--	- (http://www.atw.hu) for sponsoring this server!
+2015-12-09 00:50:41	--	-
+2015-12-09 00:50:41	--	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2015-12-09 00:50:41	--	- to the Galaxy and many other witty and humourous books,
+2015-12-09 00:50:41	--	- portrayed in his uniquely British irony. He is sorely missed
+2015-12-09 00:50:41	--	- by many millions of devoted fans. "So long and thanks for all
+2015-12-09 00:50:41	--	- the books!"
+2015-12-09 00:50:41	--	-
+2015-12-09 00:50:41	--	- Welcome to freenode - supporting the free and open source
+2015-12-09 00:50:41	--	- software communities since 1998.
+2015-12-09 00:50:41	--	-
+2015-12-09 00:50:41	--	- By connecting to freenode you indicate that you have read and
+2015-12-09 00:50:41	--	- accept our policies as set out on http://www.freenode.net
+2015-12-09 00:50:41	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-09 00:50:41	--	- any network-related questions or queries, where a number of
+2015-12-09 00:50:41	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-09 00:50:41	--	-
+2015-12-09 00:50:41	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-09 00:50:41	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-09 00:50:41	--	- real-life collaboration.
+2015-12-09 00:50:41	--	-
+2015-12-09 00:50:41	--	- We would like to thank Private Internet Access
+2015-12-09 00:50:41	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-09 00:50:41	--	- organisations that help keep freenode and our other projects
+2015-12-09 00:50:41	--	- running for their sustained support.
+2015-12-09 00:50:41	--	-
+2015-12-09 00:50:41	--	- In particular we would like to thank the sponsor
+2015-12-09 00:50:41	--	- of this server, details of which can be found above.
+2015-12-09 00:50:41	--	-
+2015-12-09 00:50:41	--	End of /MOTD command.
+2015-12-09 00:50:41	--	User mode [+Zi] by b10n1k
+2015-12-09 00:50:41	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-12-09 00:50:41	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-12-09 00:50:41	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-12-09 00:50:48	--	#linux: ##linux :Forwarding to another channel
+2015-12-09 00:50:48	--	NickServ (NickServ@services.): You are already logged in as b10n1k.
+2015-12-09 22:40:22	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2015-12-09 22:40:22	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2015-12-09 22:40:22	--	gnutls: receiving 2 certificates
+2015-12-09 22:40:22	--	 - certificate[1] info:
+2015-12-09 22:40:22	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2015-01-03 00:00:00 UTC', expires `2016-01-15 23:59:59 UTC', SHA-1 fingerprint `1beef688a9641fdfd511282b668be200320a317b'
+2015-12-09 22:40:22	--	 - certificate[2] info:
+2015-12-09 22:40:22	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2015-12-09 22:40:22	--	gnutls: peer's certificate is trusted
+2015-12-09 22:40:23	--	irc: connected to chat.freenode.net/6697 (2a00:1a28:1100:11::42)
+2015-12-09 22:40:23	--	sinisalo.freenode.net: *** Looking up your hostname...
+2015-12-09 22:40:23	--	sinisalo.freenode.net: *** Checking Ident
+2015-12-09 22:40:23	--	sinisalo.freenode.net: *** Couldn't look up your hostname
+2015-12-09 22:40:32	--	sinisalo.freenode.net: *** No Ident response
+2015-12-09 22:40:32	--	Welcome to the freenode Internet Relay Chat Network b10n1k
+2015-12-09 22:40:32	--	MSG(nickserv): identify *********
+2015-12-09 22:40:32	--	Your host is sinisalo.freenode.net[2a00:1a28:1100:11::42/6697], running version ircd-seven-1.1.3
+2015-12-09 22:40:32	--	This server was created Sun Aug 2 2015 at 19:12:22 UTC
+2015-12-09 22:40:32	--	sinisalo.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-09 22:40:32	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-09 22:40:32	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-09 22:40:32	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-09 22:40:32	--	There are 150 users and 87402 invisible on 24 servers
+2015-12-09 22:40:32	--	25 :IRC Operators online
+2015-12-09 22:40:32	--	2 :unknown connection(s)
+2015-12-09 22:40:32	--	50222 :channels formed
+2015-12-09 22:40:32	--	I have 5186 clients and 1 servers
+2015-12-09 22:40:32	--	5186 12001 :Current local users 5186, max 12001
+2015-12-09 22:40:32	--	87552 98854 :Current global users 87552, max 98854
+2015-12-09 22:40:32	--	Highest connection count: 12002 (12001 clients) (1702655 connections received)
+2015-12-09 22:40:32	--	- sinisalo.freenode.net Message of the Day -
+2015-12-09 22:40:32	--	- Welcome to sinisalo.freenode.net in Stockholm, SE.
+2015-12-09 22:40:32	--	- Thanks to http://www.portlane.com/ for sponsoring
+2015-12-09 22:40:32	--	- this server!
+2015-12-09 22:40:32	--	-
+2015-12-09 22:40:32	--	-
+2015-12-09 22:40:32	--	- SINISALO, (ANNA) JOHANNA (1958-), a Finnish science fiction
+2015-12-09 22:40:32	--	- and fantasy novelist and a script writer. Her novel 'Not
+2015-12-09 22:40:32	--	- Before Sundown' (orig. 'Ennen päivänlaskua ei voi'
+2015-12-09 22:40:32	--	- published in Finnish in 2000, when it also won the biggest
+2015-12-09 22:40:32	--	- literature award of Finland) was awarded The James Tiptree
+2015-12-09 22:40:32	--	- Jr. award in 2004.  She was nominated for a Nebula award in
+2015-12-09 22:40:32	--	- 2009 for her short story Baby Doll.  Their most recent work
+2015-12-09 22:40:32	--	- includes screenwriting for the film 'Iron Sky'.
+2015-12-09 22:40:32	--	-
+2015-12-09 22:40:32	--	- Welcome to freenode - supporting the free and open source
+2015-12-09 22:40:32	--	- software communities since 1998.
+2015-12-09 22:40:32	--	-
+2015-12-09 22:40:32	--	- By connecting to freenode you indicate that you have read and
+2015-12-09 22:40:32	--	- accept our policies as set out on http://www.freenode.net
+2015-12-09 22:40:32	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-09 22:40:32	--	- any network-related questions or queries, where a number of
+2015-12-09 22:40:32	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-09 22:40:32	--	-
+2015-12-09 22:40:32	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-09 22:40:32	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-09 22:40:32	--	- real-life collaboration.
+2015-12-09 22:40:32	--	-
+2015-12-09 22:40:32	--	- We would like to thank Private Internet Access
+2015-12-09 22:40:32	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-09 22:40:32	--	- organisations that help keep freenode and our other projects
+2015-12-09 22:40:32	--	- running for their sustained support.
+2015-12-09 22:40:32	--	-
+2015-12-09 22:40:32	--	- In particular we would like to thank the sponsor
+2015-12-09 22:40:32	--	- of this server, details of which can be found above.
+2015-12-09 22:40:32	--	-
+2015-12-09 22:40:32	--	End of /MOTD command.
+2015-12-09 22:40:32	--	User mode [+Zi] by b10n1k
+2015-12-09 22:40:32	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-12-09 22:40:32	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-12-09 22:40:32	--	NickServ (NickServ@services.): You are now identified for b10n1k.
+2015-12-09 22:40:38	--	#linux: ##linux :Forwarding to another channel
+2015-12-09 22:40:39	--	NickServ (NickServ@services.): You are already logged in as b10n1k.

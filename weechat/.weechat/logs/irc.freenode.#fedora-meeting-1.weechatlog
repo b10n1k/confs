@@ -1,0 +1,379 @@
+2015-12-09 22:49:45	-->	b10n1k (~b10n1k@2a02:8084:a180:3480:a288:69ff:fe72:1ef1) has joined #fedora-meeting-1
+2015-12-09 22:49:45	--	Topic for #fedora-meeting-1 is "Fedora Meeting channel 1 | Meetings are often logged | See https://apps.fedoraproject.org/calendar/location/fedora-meeting-1%40irc.freenode.net/ for meeting schedule | For support please go to #fedora"
+2015-12-09 22:49:45	--	Topic set by zodbot (supybot@fedora/bot/zodbot) on Wed, 09 Dec 2015 18:01:41
+2015-12-09 22:49:46	--	Channel #fedora-meeting-1: 87 nicks (2 ops, 0 voices, 85 normals)
+2015-12-09 22:49:48	--	Channel created on Tue, 27 Jan 2009 05:29:17
+2015-12-09 22:50:48	<--	faffolter (~fab@84-72-41-72.dclient.hispeed.ch) has quit (Ping timeout: 256 seconds)
+2015-12-09 22:51:07	<--	satellit_e (~satellit@2601:602:200:ce50:4a5d:60ff:fe71:fac8) has quit (Quit: Leaving)
+2015-12-09 22:52:06	-->	smdeep (~smdeep@dynamic-185.103.142.202.sitibroadband.in) has joined #fedora-meeting-1
+2015-12-09 22:52:46	-->	satellit_e (~satellit@2601:602:200:ce50:4a5d:60ff:fe71:fac8) has joined #fedora-meeting-1
+2015-12-09 22:54:48	<--	satellit_e (~satellit@2601:602:200:ce50:4a5d:60ff:fe71:fac8) has quit (Client Quit)
+2015-12-09 22:56:12	-->	satellit_e (~satellit@2601:602:200:ce50:4a5d:60ff:fe71:fac8) has joined #fedora-meeting-1
+2015-12-09 23:07:34	<--	lbazan (~LoKoMurdo@fedora/LoKoMurdoK) has quit (Remote host closed the connection)
+2015-12-09 23:14:18	<--	Renault (~Renault@AMarseille-656-1-625-30.w92-153.abo.wanadoo.fr) has quit (Quit: Renault)
+2015-12-09 23:16:57	-->	steev (sid1383@gentoo/developer/steev) has joined #fedora-meeting-1
+2015-12-09 23:20:47	-->	michel_slm (sid16025@gateway/web/irccloud.com/x-eukhksngrbwzsmbn) has joined #fedora-meeting-1
+2015-12-09 23:41:56	<--	mailga (~mailga@fedora/mailga) has quit (Ping timeout: 272 seconds)
+2015-12-09 23:56:40	-->	mailga (~mailga@fedora/mailga) has joined #fedora-meeting-1
+2015-12-09 23:58:00	-->	rtnpro__ (~rtnpro@122.171.88.129) has joined #fedora-meeting-1
+2015-12-10 00:00:01	<--	rtnpro_ (~rtnpro@122.172.130.128) has quit (Ping timeout: 250 seconds)
+2015-12-10 01:33:09	<--	gholms (irc@fedora/gholms) has left #fedora-meeting-1
+2015-12-10 01:54:47	<--	fkautz (sid27532@pdpc/supporter/student/qv) has quit (Ping timeout: 264 seconds)
+2015-12-10 01:55:43	-->	fkautz (sid27532@pdpc/supporter/student/qv) has joined #fedora-meeting-1
+2015-12-10 01:58:23	<--	satellit (~satellit@2601:602:200:ce50:c23f:d5ff:fe6a:eb77) has quit (Ping timeout: 264 seconds)
+2015-12-10 02:07:41	-->	satellit (~satellit@2601:602:200:ce50:c23f:d5ff:fe6a:eb77) has joined #fedora-meeting-1
+2015-12-10 02:08:46	-->	sayan (~sayanchow@fedora/sayan) has joined #fedora-meeting-1
+2015-12-10 02:24:41	-->	tyll_ (~till@fedora/tyll) has joined #fedora-meeting-1
+2015-12-10 02:24:43	-->	rtnpro_ (~rtnpro@122.171.108.238) has joined #fedora-meeting-1
+2015-12-10 02:27:21	<--	tyll (~till@fedora/tyll) has quit (Ping timeout: 250 seconds)
+2015-12-10 02:28:13	<--	rtnpro__ (~rtnpro@122.171.88.129) has quit (Ping timeout: 250 seconds)
+2015-12-10 02:29:00	<--	imcleod (~imcleod@c-24-12-72-163.hsd1.il.comcast.net) has quit (Remote host closed the connection)
+2015-12-10 02:29:00	<--	rtnpro_ (~rtnpro@122.171.108.238) has quit (Read error: Connection reset by peer)
+2015-12-10 02:29:28	-->	rtnpro_ (~rtnpro@122.172.59.220) has joined #fedora-meeting-1
+2015-12-10 02:38:38	<--	smdeep (~smdeep@dynamic-185.103.142.202.sitibroadband.in) has quit (Ping timeout: 272 seconds)
+2015-12-10 02:39:54	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 272 seconds)
+2015-12-10 02:50:44	-->	smdeep (~smdeep@dynamic-185.103.142.202.sitibroadband.in) has joined #fedora-meeting-1
+2015-12-10 03:19:53	-->	sayan (~sayanchow@fedora/sayan) has joined #fedora-meeting-1
+2015-12-10 03:59:08	<--	tibbs|w (~tibbs@fedora/tibbs) has quit
+2015-12-10 04:08:27	-->	rtnpro__ (~rtnpro@122.167.23.109) has joined #fedora-meeting-1
+2015-12-10 04:11:26	<--	rtnpro_ (~rtnpro@122.172.59.220) has quit (Ping timeout: 240 seconds)
+2015-12-10 05:03:54	-->	praiskup (praiskup@nat/redhat/x-dulahduilibqibbu) has joined #fedora-meeting-1
+2015-12-10 05:28:22	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 272 seconds)
+2015-12-10 05:46:18	-->	rtnpro_ (~rtnpro@122.172.93.216) has joined #fedora-meeting-1
+2015-12-10 05:49:34	<--	rtnpro__ (~rtnpro@122.167.23.109) has quit (Ping timeout: 256 seconds)
+2015-12-10 05:58:34	<--	rtnpro_ (~rtnpro@122.172.93.216) has quit (Read error: Connection reset by peer)
+2015-12-10 05:59:07	-->	rtnpro_ (~rtnpro@122.172.160.18) has joined #fedora-meeting-1
+2015-12-10 05:59:13	-->	mzee1000 (~Zeeshan@106.51.243.97) has joined #fedora-meeting-1
+2015-12-10 05:59:47	<--	mzee1000 (~Zeeshan@106.51.243.97) has quit (Client Quit)
+2015-12-10 06:00:03	-->	mzee1000 (~Zeeshan@106.51.243.97) has joined #fedora-meeting-1
+2015-12-10 06:02:35	<--	KageSenshi (kagesenshi@fedora/KageSenshi) has quit (Ping timeout: 264 seconds)
+2015-12-10 06:10:56	<--	mzee1000 (~Zeeshan@106.51.243.97) has quit (Quit: Going offline, see ya! (www.adiirc.com))
+2015-12-10 06:11:11	-->	mzee1000 (~Zeeshan@106.51.243.97) has joined #fedora-meeting-1
+2015-12-10 06:19:32	-->	faffolter (~fab@84-72-41-72.dclient.hispeed.ch) has joined #fedora-meeting-1
+2015-12-10 06:24:00	-->	sayan (~sayanchow@fedora/sayan) has joined #fedora-meeting-1
+2015-12-10 06:24:08	<--	faffolter (~fab@84-72-41-72.dclient.hispeed.ch) has quit (Ping timeout: 256 seconds)
+2015-12-10 06:31:24	-->	faffolter (~fab@84-72-41-72.dclient.hispeed.ch) has joined #fedora-meeting-1
+2015-12-10 06:32:33	<--	rtnpro_ (~rtnpro@122.172.160.18) has quit (Remote host closed the connection)
+2015-12-10 06:37:20	-->	lbrabec (lbrabec@nat/redhat/x-zuncystdwepgernb) has joined #fedora-meeting-1
+2015-12-10 07:01:29	-->	KageSenshi (kagesenshi@fedora/KageSenshi) has joined #fedora-meeting-1
+2015-12-10 07:01:53	<--	mkrizek (~mkrizek@ip-94-112-143-68.net.upcbroadband.cz) has quit (Quit: leaving)
+2015-12-10 07:07:34	<--	nchauvet_ (jsntp7i4tr@92.103.166.6) has quit (Remote host closed the connection)
+2015-12-10 07:23:59	-->	mkrizek (mkrizek@nat/redhat/x-ghpsteudwezppzdr) has joined #fedora-meeting-1
+2015-12-10 07:28:55	-->	nchauvet (5994qovqe6@92.103.166.6) has joined #fedora-meeting-1
+2015-12-10 07:45:18	-->	rtnpro (~rtnpro@122.172.160.18) has joined #fedora-meeting-1
+2015-12-10 07:53:18	-->	dharmit (~dshah@unaffiliated/shahdharmit) has joined #fedora-meeting-1
+2015-12-10 08:08:06	<--	KageSenshi (kagesenshi@fedora/KageSenshi) has quit (Ping timeout: 240 seconds)
+2015-12-10 08:28:04	-->	Renault (~Renault@AMarseille-656-1-671-49.w90-8.abo.wanadoo.fr) has joined #fedora-meeting-1
+2015-12-10 08:51:34	-->	kushal (~kdas@fedora/kushal) has joined #fedora-meeting-1
+2015-12-10 08:53:10	<--	smdeep (~smdeep@dynamic-185.103.142.202.sitibroadband.in) has quit (Ping timeout: 256 seconds)
+2015-12-10 08:53:29	<--	kushal (~kdas@fedora/kushal) has quit (Read error: Connection reset by peer)
+2015-12-10 08:53:49	-->	kushal (~kdas@fedora/kushal) has joined #fedora-meeting-1
+2015-12-10 08:58:45	-->	Gibba (gwhite@nat/ibm/x-ipbhxhxacrzxpret) has joined #fedora-meeting-1
+2015-12-10 09:16:22	<--	nchauvet (5994qovqe6@92.103.166.6) has quit (Ping timeout: 272 seconds)
+2015-12-10 09:20:11	-->	nchauvet (3m1mpdwy3a@92.103.166.6) has joined #fedora-meeting-1
+2015-12-10 09:32:01	<--	mzee1000 (~Zeeshan@106.51.243.97) has quit (Ping timeout: 250 seconds)
+2015-12-10 09:36:58	<--	rtnpro (~rtnpro@122.172.160.18) has quit (Read error: Connection reset by peer)
+2015-12-10 09:37:36	-->	rtnpro (~rtnpro@122.172.30.54) has joined #fedora-meeting-1
+2015-12-10 09:38:55	-->	smdeep (~smdeep@dynamic-178.116.142.202.sitibroadband.in) has joined #fedora-meeting-1
+2015-12-10 09:43:34	-->	rtnpro_ (~rtnpro@122.171.120.134) has joined #fedora-meeting-1
+2015-12-10 09:46:46	<--	rtnpro (~rtnpro@122.172.30.54) has quit (Ping timeout: 272 seconds)
+2015-12-10 09:47:24	-->	rtnpro__ (~rtnpro@122.167.16.215) has joined #fedora-meeting-1
+2015-12-10 09:49:18	<--	smdeep (~smdeep@dynamic-178.116.142.202.sitibroadband.in) has quit (Ping timeout: 272 seconds)
+2015-12-10 09:50:58	<--	rtnpro_ (~rtnpro@122.171.120.134) has quit (Ping timeout: 256 seconds)
+2015-12-10 09:58:26	-->	mzee1000 (~Zeeshan@122.166.176.189) has joined #fedora-meeting-1
+2015-12-10 10:00:06	<--	michel_slm (sid16025@gateway/web/irccloud.com/x-eukhksngrbwzsmbn) has quit (Ping timeout: 240 seconds)
+2015-12-10 10:02:55	-->	michel_slm (sid16025@gateway/web/irccloud.com/x-kvlawkqhtbpvkqyg) has joined #fedora-meeting-1
+2015-12-10 10:06:06	<--	Gibba (gwhite@nat/ibm/x-ipbhxhxacrzxpret) has quit (Ping timeout: 240 seconds)
+2015-12-10 10:21:00	-->	Gibba (gwhite@nat/ibm/x-bjyceteeshxznmbe) has joined #fedora-meeting-1
+2015-12-10 10:22:08	<--	mailga (~mailga@fedora/mailga) has quit (Ping timeout: 256 seconds)
+2015-12-10 10:26:32	-->	bexelbie_ (~bexelbie@fedora/bexelbie) has joined #fedora-meeting-1
+2015-12-10 10:32:35	-->	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has joined #fedora-meeting-1
+2015-12-10 10:33:29	-->	KageSenshi (kagesenshi@fedora/KageSenshi) has joined #fedora-meeting-1
+2015-12-10 10:36:47	-->	Zeeshan_ (~Zeeshan@106.51.243.97) has joined #fedora-meeting-1
+2015-12-10 10:39:46	<--	mzee1000 (~Zeeshan@122.166.176.189) has quit (Ping timeout: 240 seconds)
+2015-12-10 10:39:52	--	Zeeshan_ is now known as mzee1000
+2015-12-10 11:01:05	<--	jahsark1 (~kr4sh@li1251-186.members.linode.com) has quit (Quit: leaving)
+2015-12-10 11:04:25	-->	jkurik (jkurik@nat/redhat/x-bbdwmvqybwtvccar) has joined #fedora-meeting-1
+2015-12-10 11:14:46	<--	Gibba (gwhite@nat/ibm/x-bjyceteeshxznmbe) has quit (Ping timeout: 240 seconds)
+2015-12-10 11:27:35	-->	Gibba (gwhite@nat/ibm/x-xjvpxtwrwoeuekad) has joined #fedora-meeting-1
+2015-12-10 11:28:18	<--	praiskup (praiskup@nat/redhat/x-dulahduilibqibbu) has quit (Quit: Leaving)
+2015-12-10 11:28:42	-->	praiskup (praiskup@nat/redhat/x-frsyjlsojfysulzn) has joined #fedora-meeting-1
+2015-12-10 11:39:26	<--	Gibba (gwhite@nat/ibm/x-xjvpxtwrwoeuekad) has quit (Ping timeout: 240 seconds)
+2015-12-10 11:45:14	<--	orc_emac_ (~orc_fedo@lsb/orc-orc) has quit (Ping timeout: 246 seconds)
+2015-12-10 11:47:30	-->	jreznik_ (jreznik@nat/redhat/x-muymgqsybaflzxva) has joined #fedora-meeting-1
+2015-12-10 11:53:43	<--	dharmit (~dshah@unaffiliated/shahdharmit) has quit (Quit: Quit)
+2015-12-10 11:54:44	-->	dharmit (~dshah@unaffiliated/shahdharmit) has joined #fedora-meeting-1
+2015-12-10 12:40:57	-->	dharmit_ (~dshah@103.197.37.175) has joined #fedora-meeting-1
+2015-12-10 12:42:06	<--	dharmit (~dshah@unaffiliated/shahdharmit) has quit (Ping timeout: 256 seconds)
+2015-12-10 12:55:48	--	dharmit_ is now known as dharmit
+2015-12-10 12:55:51	<--	dharmit (~dshah@103.197.37.175) has quit (Changing host)
+2015-12-10 12:55:51	-->	dharmit (~dshah@unaffiliated/shahdharmit) has joined #fedora-meeting-1
+2015-12-10 12:57:21	<--	praveenkumar (praveenkum@nat/redhat/x-enpgdsypkjaagdri) has quit (Ping timeout: 250 seconds)
+2015-12-10 12:59:47	-->	praveenkumar (praveenkum@nat/redhat/x-bxlbitdoaestvufk) has joined #fedora-meeting-1
+2015-12-10 13:03:07	<--	sudhir (sudhir@nat/redhat/x-wwgylszpxbuycanl) has quit (Quit: Coyote finally caught me)
+2015-12-10 13:09:56	--	bexelbie_ is now known as bexelbie
+2015-12-10 13:14:45	<--	d0nn1e (~d0nn1e@cpe-75-183-8-113.triad.res.rr.com) has quit (Ping timeout: 250 seconds)
+2015-12-10 13:17:15	-->	d0nn1e (~d0nn1e@cpe-75-183-8-113.triad.res.rr.com) has joined #fedora-meeting-1
+2015-12-10 13:22:06	<--	faffolter (~fab@84-72-41-72.dclient.hispeed.ch) has quit (Ping timeout: 240 seconds)
+2015-12-10 13:25:00	-->	rtnpro_ (~rtnpro@122.172.216.40) has joined #fedora-meeting-1
+2015-12-10 13:26:21	<--	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has quit (Remote host closed the connection)
+2015-12-10 13:28:00	<--	rtnpro__ (~rtnpro@122.167.16.215) has quit (Ping timeout: 256 seconds)
+2015-12-10 13:32:32	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 256 seconds)
+2015-12-10 13:35:00	-->	Gibba (~gwhite@grahamandbeth.plus.com) has joined #fedora-meeting-1
+2015-12-10 13:41:50	-->	rtnpro__ (~rtnpro@122.171.100.147) has joined #fedora-meeting-1
+2015-12-10 13:42:13	--	rtnpro__ is now known as rtnpro
+2015-12-10 13:44:26	<--	rtnpro_ (~rtnpro@122.172.216.40) has quit (Ping timeout: 256 seconds)
+2015-12-10 13:45:36	-->	rtnpro_ (~rtnpro@122.171.107.18) has joined #fedora-meeting-1
+2015-12-10 13:48:33	<--	rtnpro (~rtnpro@122.171.100.147) has quit (Ping timeout: 250 seconds)
+2015-12-10 13:49:24	<--	mzee1000 (~Zeeshan@106.51.243.97) has quit (Quit: Going offline, see ya! (www.adiirc.com))
+2015-12-10 13:57:45	-->	faffolter (~fab@147.87.46.73) has joined #fedora-meeting-1
+2015-12-10 14:04:32	-->	rtnpro__ (~rtnpro@122.172.110.47) has joined #fedora-meeting-1
+2015-12-10 14:06:32	<--	rtnpro_ (~rtnpro@122.171.107.18) has quit (Ping timeout: 256 seconds)
+2015-12-10 14:08:41	-->	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has joined #fedora-meeting-1
+2015-12-10 14:10:49	-->	jamielinux (~jamielinu@fedora/jamielinux) has joined #fedora-meeting-1
+2015-12-10 14:11:21	<--	jamielinux (~jamielinu@fedora/jamielinux) has quit (Client Quit)
+2015-12-10 14:14:22	-->	jamielinux (~jamielinu@fedora/jamielinux) has joined #fedora-meeting-1
+2015-12-10 14:26:33	<--	jamielinux (~jamielinu@fedora/jamielinux) has quit (Quit: quit)
+2015-12-10 14:31:24	-->	jkurik_mtg (jkurik@nat/redhat/x-jtbmbjxywugqomtt) has joined #fedora-meeting-1
+2015-12-10 14:32:53	<--	jkurik (jkurik@nat/redhat/x-bbdwmvqybwtvccar) has quit (Ping timeout: 246 seconds)
+2015-12-10 14:46:58	-->	lbazan (~LoKoMurdo@fedora/LoKoMurdoK) has joined #fedora-meeting-1
+2015-12-10 14:50:15	<--	kushal (~kdas@fedora/kushal) has quit (Quit: Leaving)
+2015-12-10 14:50:23	-->	jamielinux (~jamielinu@fedora/jamielinux) has joined #fedora-meeting-1
+2015-12-10 14:50:47	<--	praiskup (praiskup@nat/redhat/x-frsyjlsojfysulzn) has quit (Quit: Leaving)
+2015-12-10 15:04:18	<--	roshi (~roshi@fedora/roshi) has left #fedora-meeting-1
+2015-12-10 15:04:54	<--	lbrabec (lbrabec@nat/redhat/x-zuncystdwepgernb) has quit (Ping timeout: 256 seconds)
+2015-12-10 15:08:00	-->	mailga (~mailga@93-38-254-175.ip73.fastwebnet.it) has joined #fedora-meeting-1
+2015-12-10 15:08:00	<--	mailga (~mailga@93-38-254-175.ip73.fastwebnet.it) has quit (Changing host)
+2015-12-10 15:08:00	-->	mailga (~mailga@fedora/mailga) has joined #fedora-meeting-1
+2015-12-10 15:10:08	<--	dharmit (~dshah@unaffiliated/shahdharmit) has quit (Quit: Quit)
+2015-12-10 15:19:52	-->	orc_emac_ (~orc_fedo@igloo.owlriver.net) has joined #fedora-meeting-1
+2015-12-10 15:19:52	<--	orc_emac_ (~orc_fedo@igloo.owlriver.net) has quit (Changing host)
+2015-12-10 15:19:52	-->	orc_emac_ (~orc_fedo@lsb/orc-orc) has joined #fedora-meeting-1
+2015-12-10 15:21:24	-->	jkurik1 (jkurik@nat/redhat/x-qfizbtpkfhvkwqvk) has joined #fedora-meeting-1
+2015-12-10 15:21:24	--	jkurik1 is now known as jkurik
+2015-12-10 15:25:23	<--	jkurik_mtg (jkurik@nat/redhat/x-jtbmbjxywugqomtt) has quit (Ping timeout: 246 seconds)
+2015-12-10 15:53:17	--	rtnpro__ is now known as rtnpro
+2015-12-10 15:56:50	-->	geppetto (~james@ns4.and.org) has joined #fedora-meeting-1
+2015-12-10 16:00:33	-->	fale (~fale@2a03:b0c0:1:d0::bc:e001) has joined #fedora-meeting-1
+2015-12-10 16:00:57	-->	fedpop (~givemefiv@cpe-70-121-55-36.tx.res.rr.com) has joined #fedora-meeting-1
+2015-12-10 16:18:49	<--	cydrobolt (~cydrobolt@fedora/cydrobolt) has quit (Ping timeout: 272 seconds)
+2015-12-10 16:19:11	-->	cydrobolt (~cydrobolt@spinel.cydrobolt.com) has joined #fedora-meeting-1
+2015-12-10 16:19:11	<--	cydrobolt (~cydrobolt@spinel.cydrobolt.com) has quit (Changing host)
+2015-12-10 16:19:11	-->	cydrobolt (~cydrobolt@fedora/cydrobolt) has joined #fedora-meeting-1
+2015-12-10 16:20:26	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 240 seconds)
+2015-12-10 16:29:16	<--	mkrizek (mkrizek@nat/redhat/x-ghpsteudwezppzdr) has quit (Quit: leaving)
+2015-12-10 16:34:11	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting-1
+2015-12-10 16:41:22	-->	orionp (~orion@inferno.cora.nwra.com) has joined #fedora-meeting-1
+2015-12-10 16:51:09	-->	tomspur (~tomspur@fedora/tomspur) has joined #fedora-meeting-1
+2015-12-10 16:51:25	<--	rtnpro (~rtnpro@122.172.110.47) has quit (Ping timeout: 250 seconds)
+2015-12-10 16:52:03	<--	jkurik (jkurik@nat/redhat/x-qfizbtpkfhvkwqvk) has quit (Quit: Terminated!)
+2015-12-10 16:53:52	-->	rtnpro (~rtnpro@122.171.123.95) has joined #fedora-meeting-1
+2015-12-10 16:53:53	-->	mkolman (mkolman@nat/redhat/x-uulekffaqdxwapwn) has joined #fedora-meeting-1
+2015-12-10 17:00:44	geppetto	#startmeeting fpc
+2015-12-10 17:00:44	@zodbot	Meeting started Thu Dec 10 17:00:44 2015 UTC.  The chair is geppetto. Information about MeetBot at http://wiki.debian.org/MeetBot.
+2015-12-10 17:00:44	@zodbot	Useful Commands: #action #agreed #halp #info #idea #link #topic.
+2015-12-10 17:00:44	--	zodbot has changed topic for #fedora-meeting-1 from "Fedora Meeting channel 1 | Meetings are often logged | See https://apps.fedoraproject.org/calendar/location/fedora-meeting-1%40irc.freenode.net/ for meeting schedule | For support please go to #fedora" to " (Meeting topic: fpc)"
+2015-12-10 17:00:44	@zodbot	The meeting name has been set to 'fpc'
+2015-12-10 17:00:44	geppetto	#meetingname fpc
+2015-12-10 17:00:44	@zodbot	The meeting name has been set to 'fpc'
+2015-12-10 17:00:44	geppetto	#topic Roll Call
+2015-12-10 17:00:44	--	zodbot has changed topic for #fedora-meeting-1 from " (Meeting topic: fpc)" to "Roll Call (Meeting topic: fpc)"
+2015-12-10 17:02:04	geppetto	geppetto limburgher mbooth orionp racor Rathann SmootherFr0gZ tibbs|w: FPC ping
+2015-12-10 17:02:10	orionp	hello
+2015-12-10 17:02:12	mbooth	Hi
+2015-12-10 17:02:14	geppetto	#chair orionp
+2015-12-10 17:02:14	@zodbot	Current chairs: geppetto orionp
+2015-12-10 17:02:16	geppetto	#chair mbooth
+2015-12-10 17:02:16	@zodbot	Current chairs: geppetto mbooth orionp
+2015-12-10 17:03:31	geppetto	tibbs: You around?
+2015-12-10 17:04:14	geppetto	Ok, might be a short meeting this week
+2015-12-10 17:04:36	-->	racor (~rc040203@HSI-KBW-37-209-16-46.hsi15.kabel-badenwuerttemberg.de) has joined #fedora-meeting-1
+2015-12-10 17:04:43	geppetto	#chair racor
+2015-12-10 17:04:43	@zodbot	Current chairs: geppetto mbooth orionp racor
+2015-12-10 17:04:52	geppetto	Hey racor
+2015-12-10 17:05:24	racor	hi
+2015-12-10 17:06:36	geppetto	I'm going to give it another few minutes and then skip this week.
+2015-12-10 17:06:56	geppetto	AFAIK nothing important is on the agenda
+2015-12-10 17:07:08	geppetto	Anyone else have anything we really need to talk about?
+2015-12-10 17:07:13	<--	jreznik_ (jreznik@nat/redhat/x-muymgqsybaflzxva) has quit (Quit: Konversation terminated!)
+2015-12-10 17:07:33	orionp	not from me
+2015-12-10 17:07:40	-->	Rathann (~rathann@fedora/rathann) has joined #fedora-meeting-1
+2015-12-10 17:07:42	Rathann	hi
+2015-12-10 17:07:43	Rathann	sorry
+2015-12-10 17:07:51	geppetto	And then there were 5 :)
+2015-12-10 17:07:54	geppetto	#chair Rathann
+2015-12-10 17:07:54	@zodbot	Current chairs: Rathann geppetto mbooth orionp racor
+2015-12-10 17:08:02	geppetto	#topic Schedule
+2015-12-10 17:08:02	--	zodbot has changed topic for #fedora-meeting-1 from "Roll Call (Meeting topic: fpc)" to "Schedule (Meeting topic: fpc)"
+2015-12-10 17:08:07	geppetto	https://lists.fedoraproject.org/archives/list/packaging%40lists.fedoraproject.org/message/YFHSMMFJCA7TP6JDTXJF4T3U3CDSYGZH/
+2015-12-10 17:08:29	-->	jreznik (jreznik@nat/redhat/x-zgjylgqpbxsmygls) has joined #fedora-meeting-1
+2015-12-10 17:09:10	geppetto	#topic #582 Delegate legibility vs cross-distro maintainability trade-off to package maintainers
+2015-12-10 17:09:11	--	zodbot has changed topic for #fedora-meeting-1 from "Schedule (Meeting topic: fpc)" to "#582 Delegate legibility vs cross-distro maintainability trade-off to package maintainers (Meeting topic: fpc)"
+2015-12-10 17:09:15	geppetto	.fpc 582
+2015-12-10 17:09:17	@zodbot	geppetto: #582 (Delegate legibility vs cross-distro maintainability trade-off to package maintainers) – fpc - https://fedorahosted.org/fpc/ticket/582
+2015-12-10 17:09:19	geppetto	https://fedorahosted.org/fpc/ticket/582
+2015-12-10 17:09:56	geppetto	Ok, this is kind of long … so you can read it all … or skip to the indented section of comment 6
+2015-12-10 17:10:29	geppetto	Which appears to be what people want us to vote on now
+2015-12-10 17:12:11	geppetto	I would change "are not permitted in the main Fedora repositories" with "are not permitted for use in specfiles in the main Fedora repositories"
+2015-12-10 17:12:47	geppetto	Which clarifies that you can do something like scl-utils, which installs macros for use … but you just can't use them in official pkgdb packages
+2015-12-10 17:12:58	-->	mkrizek (~mkrizek@ip-94-112-143-68.net.upcbroadband.cz) has joined #fedora-meeting-1
+2015-12-10 17:12:58	geppetto	So +1 with that change, from me
+2015-12-10 17:17:20	orionp	I'm +1 too.  The () seems redundant though
+2015-12-10 17:18:42	geppetto	yeh, it's common sense … but maybe nick assume it's not common ;)
+2015-12-10 17:19:44	-->	tibbs|w (~tibbs@fedora/tibbs) has joined #fedora-meeting-1
+2015-12-10 17:19:50	geppetto	#chair tibbs
+2015-12-10 17:19:51	@zodbot	Current chairs: Rathann geppetto mbooth orionp racor tibbs
+2015-12-10 17:19:54	geppetto	Hey
+2015-12-10 17:20:19	tibbs|w	Sorry, not a good morning.
+2015-12-10 17:20:38	racor	I am ambivalent. Not being a native English speaker, geppetto's wording to me doesn't change anything. Also, as long as COPRs don't have an formal role in Fedora, I don't see much reason to mention them.
+2015-12-10 17:22:05	geppetto	racor: They are a way to easily make packages available to Fedora users
+2015-12-10 17:22:30	mbooth	I think it's fair to mention COPRs -- It avoids us being questioned about what to do when a packager wants to do something non-standard and also
+2015-12-10 17:22:36	geppetto	I think the idea was more to say "No, but you can do this which is more suited to what you want" Rahter than just "No"
+2015-12-10 17:22:48	-->	jonmasters (~jcm@edison.jonmasters.org) has joined #fedora-meeting-1
+2015-12-10 17:22:48	mbooth	makes COPR more discoverable
+2015-12-10 17:23:21	mbooth	I'm +1 on the change, I think
+2015-12-10 17:23:29	racor	geppetto: to me, they are private sandbox for inoffical uses. Not of any importance to us  at all.
+2015-12-10 17:23:32	-->	rtnpro_ (~rtnpro@122.171.116.108) has joined #fedora-meeting-1
+2015-12-10 17:24:32	geppetto	Ok, we're at +4 now … vote racor, Rathann ?
+2015-12-10 17:24:46	racor	0
+2015-12-10 17:24:54	Rathann	racor: they make it easier to maintain private repos, for example for packages pending review
+2015-12-10 17:25:51	racor	Rathann: May-be, I don't know. I've never used them nor do I see a pressing need to use them.
+2015-12-10 17:26:00	<--	Gibba (~gwhite@grahamandbeth.plus.com) has quit (Ping timeout: 256 seconds)
+2015-12-10 17:26:34	<--	rtnpro (~rtnpro@122.171.123.95) has quit (Ping timeout: 256 seconds)
+2015-12-10 17:26:59	orionp	I find them extremely useful
+2015-12-10 17:27:17	Rathann	so this is about comment 6, is it?
+2015-12-10 17:27:37	racor	Rathann: About the indented section of comment 6
+2015-12-10 17:28:19	mbooth	I even use COPR to build SCLs :-o
+2015-12-10 17:28:28	geppetto	mbooth: :)
+2015-12-10 17:28:29	Rathann	bleh, SCLs
+2015-12-10 17:28:56	<--	rtnpro_ (~rtnpro@122.171.116.108) has quit (Ping timeout: 256 seconds)
+2015-12-10 17:29:02	Rathann	I'm 0 on this
+2015-12-10 17:30:08	-->	rtnpro_ (~rtnpro@122.172.131.119) has joined #fedora-meeting-1
+2015-12-10 17:30:17	tibbs|w	Well, crap, I've been dumb and typing in the query geppetto used to send me the backlog instead of typing in this channel.
+2015-12-10 17:30:23	tibbs|w	I'l; +1 this.
+2015-12-10 17:30:43	geppetto	Ok, so that's +1:4, 0:2
+2015-12-10 17:31:06	Rathann	weren't we at +4 just a few minutes ago?
+2015-12-10 17:31:19	Rathann	[18:24:32] <geppetto> Ok, we're at +4 now … vote racor, Rathann ?
+2015-12-10 17:31:23	geppetto	Rathann: I was already counting tibbs
+2015-12-10 17:31:36	Rathann	ah
+2015-12-10 17:31:42	tibbs|w	Yeah, sorry, I just didn't look at the channel tab.  Wondered why only geppetto and I were talking.
+2015-12-10 17:31:51	racor	geppetto: I already voted 0.
+2015-12-10 17:31:55	orionp	So, can we get to 5 if we drop mentioning COPR?
+2015-12-10 17:32:09	racor	orionp: yes
+2015-12-10 17:32:18	geppetto	Or any other wording change you'd like Rathann or racor ?
+2015-12-10 17:32:23	geppetto	Ok, I'm still +1 without the COPR reference.
+2015-12-10 17:32:32	tibbs|w	+1 if we drop COPR.
+2015-12-10 17:32:37	Rathann	COPR reference doesn't matter for me
+2015-12-10 17:32:43	racor	geppetto: I'd vote +1 with COPR dropped
+2015-12-10 17:32:49	 *	geppetto nods
+2015-12-10 17:33:19	geppetto	mbooth: I assume you are still +1 without the COPR reference?
+2015-12-10 17:33:35	orionp	I'm +1 too
+2015-12-10 17:33:56	mbooth	geppetto: Sure still +1, but it's disappointing we can't point users to where they need to go :-(
+2015-12-10 17:34:27	tibbs|w	I am not entirely sure we need to do that.
+2015-12-10 17:34:36	geppetto	#info Dropping COPR reference, add some text to make it obvious you can still install macros just not use them from specfiles.
+2015-12-10 17:34:37	tibbs|w	They could go to obs, for example, if they wanted.
+2015-12-10 17:35:08	geppetto	#action paragraph be added to the spec legibility section of the guidelines (+1:5, 0:1, -1:0)
+2015-12-10 17:35:33	geppetto	#topic #580 [Clarification] Policy on auto-generated code
+2015-12-10 17:35:33	--	zodbot has changed topic for #fedora-meeting-1 from "#582 Delegate legibility vs cross-distro maintainability trade-off to package maintainers (Meeting topic: fpc)" to "#580 [Clarification] Policy on auto-generated code (Meeting topic: fpc)"
+2015-12-10 17:35:37	geppetto	.fpc 580
+2015-12-10 17:35:38	@zodbot	geppetto: #580 ([Clarification] Policy on auto-generated code) – fpc - https://fedorahosted.org/fpc/ticket/580
+2015-12-10 17:35:41	geppetto	https://fedorahosted.org/fpc/ticket/580
+2015-12-10 17:35:52	geppetto	tibbs: You got a new draft?
+2015-12-10 17:36:02	<--	Renault (~Renault@AMarseille-656-1-671-49.w90-8.abo.wanadoo.fr) has quit (Quit: Renault)
+2015-12-10 17:36:13	tibbs|w	No, I'm behind.  Sorry.
+2015-12-10 17:36:17	geppetto	No problem
+2015-12-10 17:36:28	geppetto	#topic #567 Packaging Python 3 applications and modules for EPEL 7+
+2015-12-10 17:36:29	--	zodbot has changed topic for #fedora-meeting-1 from "#580 [Clarification] Policy on auto-generated code (Meeting topic: fpc)" to "#567 Packaging Python 3 applications and modules for EPEL 7+ (Meeting topic: fpc)"
+2015-12-10 17:36:30	tibbs|w	Did chat with fesco about the issue, though.  Going to be a fun one for them to slog through.
+2015-12-10 17:36:33	geppetto	.fpc 567
+2015-12-10 17:36:35	@zodbot	geppetto: #567 (Packaging Python 3 applications and modules for EPEL 7+) – fpc - https://fedorahosted.org/fpc/ticket/567
+2015-12-10 17:36:38	geppetto	https://fedorahosted.org/fpc/ticket/567
+2015-12-10 17:36:42	tibbs|w	Pretty much the same thing here.
+2015-12-10 17:36:49	geppetto	Ok, I'd seen some updates
+2015-12-10 17:36:58	geppetto	wasn't sure if we had anything to talk about
+2015-12-10 17:37:02	tibbs|w	As far as I know, the ifdef-spaghetti method works.
+2015-12-10 17:37:13	 *	geppetto nods
+2015-12-10 17:37:20	tibbs|w	There was a mention of an extra macro containing the python major version or something.
+2015-12-10 17:37:27	tibbs|w	I don't know if that went in or not.
+2015-12-10 17:37:48	orionp	I think %python3_pkgversion may be missing from fedora - not sure why at this point
+2015-12-10 17:38:18	orionp	It seems the python maintainers have dropped out of this....
+2015-12-10 17:38:35	tibbs|w	Yes, that was the macro.
+2015-12-10 17:38:55	tibbs|w	I thought you were going to just add it to redhat-rpm-config.
+2015-12-10 17:39:10	tibbs|w	Really, pushing it through python isn't the best way.
+2015-12-10 17:39:31	tibbs|w	I also recall that we were going to get a package added to the buildroot; do you remember what that package was?
+2015-12-10 17:39:38	orionp	well, it's tied to the version of python3, so it seems to belong to that...
+2015-12-10 17:39:52	geppetto	tibbs: I thought that was some extra macro package
+2015-12-10 17:40:15	tibbs|w	The problem with the macros being in the python package is that we have to rev the python package to change the macros.
+2015-12-10 17:40:46	tibbs|w	And that's often more difficult than anyone really wants it to be.  At one point things were held up becaue the python package didn't even build.
+2015-12-10 17:40:53	orionp	Well, for that particular macro, that when you'd need to change it, but yeah, then you have a mess of them
+2015-12-10 17:41:41	<--	jreznik (jreznik@nat/redhat/x-zgjylgqpbxsmygls) has quit (Ping timeout: 250 seconds)
+2015-12-10 17:41:51	tibbs|w	And, yeah, this would add some kind of procedural dependency, but python doesn't really get upgraded all that often.  I think it could be handled.  Maybe even with a direct version dependency somewhere so we know that things have to be bumped.
+2015-12-10 17:42:03	tibbs|w	But maybe after this stuff is stable it could move into the main python package.
+2015-12-10 17:42:35	tibbs|w	Anyway, that has been swapped out of my brain for long enough that I've forgotten the details.  I wish I had more time.
+2015-12-10 17:45:20	<--	tomspur (~tomspur@fedora/tomspur) has quit (Quit: Leaving)
+2015-12-10 17:46:00	 *	geppetto nods … I think that's universal :(
+2015-12-10 17:46:08	geppetto	#topic Open Floor
+2015-12-10 17:46:08	--	zodbot has changed topic for #fedora-meeting-1 from "#567 Packaging Python 3 applications and modules for EPEL 7+ (Meeting topic: fpc)" to "Open Floor (Meeting topic: fpc)"
+2015-12-10 17:46:21	geppetto	Ok, anything else anybody wants to talk about?
+2015-12-10 17:46:30	tibbs|w	Nothing from me.  I think I have enough going on.
+2015-12-10 17:47:25	mbooth	Nope, I need to go anyway
+2015-12-10 17:48:04	geppetto	#endmeeting
+2015-12-10 17:48:04	--	zodbot has changed topic for #fedora-meeting-1 from "Open Floor (Meeting topic: fpc)" to "Fedora Meeting channel 1 | Meetings are often logged | See https://apps.fedoraproject.org/calendar/location/fedora-meeting-1%40irc.freenode.net/ for meeting schedule | For support please go to #fedora"
+2015-12-10 17:48:04	@zodbot	Meeting ended Thu Dec 10 17:48:04 2015 UTC. Information about MeetBot at http://wiki.debian.org/MeetBot .
+2015-12-10 17:48:04	@zodbot	Minutes: http://meetbot.fedoraproject.org/fedora-meeting-1/2015-12-10/fpc.2015-12-10-17.00.html
+2015-12-10 17:48:04	@zodbot	Minutes (text): http://meetbot.fedoraproject.org/fedora-meeting-1/2015-12-10/fpc.2015-12-10-17.00.txt
+2015-12-10 17:48:04	@zodbot	Log: http://meetbot.fedoraproject.org/fedora-meeting-1/2015-12-10/fpc.2015-12-10-17.00.log.html
+2015-12-10 17:48:09	geppetto	Ok, see you all next week
+2015-12-10 17:48:13	tibbs|w	Sorry again for being late.
+2015-12-10 17:48:28	-->	tomprince (~tomprince@socrates.hocat.ca) has joined #fedora-meeting-1
+2015-12-10 17:48:48	<--	orionp (~orion@inferno.cora.nwra.com) has left #fedora-meeting-1 ("Konversation terminated!")
+2015-12-10 17:49:00	<--	tomprince (~tomprince@socrates.hocat.ca) has left #fedora-meeting-1 ("WeeChat 1.3")
+2015-12-10 17:50:29	<--	Rathann (~rathann@fedora/rathann) has left #fedora-meeting-1 ("Leaving")
+2015-12-10 17:50:52	<--	racor (~rc040203@HSI-KBW-37-209-16-46.hsi15.kabel-badenwuerttemberg.de) has quit (Quit: Leaving)
+2015-12-10 17:52:08	<--	geppetto (~james@ns4.and.org) has left #fedora-meeting-1 ("Client exiting")
+2015-12-10 17:52:26	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 240 seconds)
+2015-12-10 17:59:18	<--	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has quit (Quit: smdeep)
+2015-12-10 17:59:41	-->	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has joined #fedora-meeting-1
+2015-12-10 18:03:26	-->	smdeep_ (~smdeep@116.202.220.247) has joined #fedora-meeting-1
+2015-12-10 18:04:34	<--	smdeep (~smdeep@dynamic-95.125.142.202.sitibroadband.in) has quit (Ping timeout: 256 seconds)
+2015-12-10 18:05:00	<--	smdeep_ (~smdeep@116.202.220.247) has quit (Client Quit)
+2015-12-10 18:05:15	-->	smdeep_ (~smdeep@116.202.220.247) has joined #fedora-meeting-1
+2015-12-10 18:05:17	<--	d0nn1e (~d0nn1e@cpe-75-183-8-113.triad.res.rr.com) has quit (Excess Flood)
+2015-12-10 18:05:41	-->	d0nn1e (~d0nn1e@cpe-75-183-8-113.triad.res.rr.com) has joined #fedora-meeting-1
+2015-12-10 18:06:16	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting-1
+2015-12-10 18:10:06	-->	wrnash (uid63446@gateway/web/irccloud.com/x-wlfwbqneteewpeff) has joined #fedora-meeting-1
+2015-12-10 18:11:13	-->	sayan (~sayanchow@fedora/sayan) has joined #fedora-meeting-1
+2015-12-10 18:19:23	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 250 seconds)
+2015-12-10 18:22:01	-->	sayan (~sayanchow@fedora/sayan) has joined #fedora-meeting-1
+2015-12-10 18:27:13	-->	Renault (~Renault@AMarseille-656-1-625-30.w92-153.abo.wanadoo.fr) has joined #fedora-meeting-1
+2015-12-10 18:37:59	<--	bexelbie (~bexelbie@fedora/bexelbie) has quit (Quit: Leaving)
+2015-12-10 18:44:46	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 240 seconds)
+2015-12-10 18:53:43	<--	faffolter (~fab@147.87.46.73) has quit (Ping timeout: 250 seconds)
+2015-12-10 19:13:26	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 240 seconds)
+2015-12-10 19:27:01	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting-1
+2015-12-10 19:28:03	<--	smdeep_ (~smdeep@116.202.220.247) has quit (Quit: Leaving)
+2015-12-10 19:38:26	<--	kparal (~kparal@ip4-83-240-81-233.cust.nbox.cz) has quit (Ping timeout: 240 seconds)
+2015-12-10 19:41:12	-->	kparal (~kparal@ip4-83-240-81-233.cust.nbox.cz) has joined #fedora-meeting-1
+2015-12-10 19:43:51	<--	tibbs (~tibbs@73.32.46.10) has quit (Ping timeout: 260 seconds)
+2015-12-10 19:47:57	-->	tibbs (~tibbs@fedora/tibbs) has joined #fedora-meeting-1
+2015-12-10 20:06:56	<--	Renault (~Renault@AMarseille-656-1-625-30.w92-153.abo.wanadoo.fr) has quit (Ping timeout: 256 seconds)
+2015-12-10 20:09:31	-->	Renault (~Renault@AMarseille-656-1-763-69.w90-8.abo.wanadoo.fr) has joined #fedora-meeting-1
+2015-12-10 20:12:46	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 240 seconds)
+2015-12-10 20:26:33	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting-1
+2015-12-10 20:30:59	<--	satellit (~satellit@2601:602:200:ce50:c23f:d5ff:fe6a:eb77) has quit (Quit: Leaving)
+2015-12-10 20:38:44	-->	smdeep (~smdeep@202.142.125.95) has joined #fedora-meeting-1
+2015-12-10 21:23:31	-->	rtnpro__ (~rtnpro@122.171.92.154) has joined #fedora-meeting-1
+2015-12-10 21:27:14	<--	rtnpro_ (~rtnpro@122.172.131.119) has quit (Ping timeout: 272 seconds)
+2015-12-10 21:31:25	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 250 seconds)
+2015-12-10 21:34:05	-->	rtnpro_ (~rtnpro@122.171.95.27) has joined #fedora-meeting-1
+2015-12-10 21:35:06	<--	rtnpro__ (~rtnpro@122.171.92.154) has quit (Ping timeout: 240 seconds)
+2015-12-10 21:42:07	<--	Renault (~Renault@AMarseille-656-1-763-69.w90-8.abo.wanadoo.fr) has quit (Quit: Renault)
+2015-12-10 21:44:44	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting-1
+2015-12-10 22:06:26	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 240 seconds)
+2015-12-10 22:10:21	<--	rtnpro_ (~rtnpro@122.171.95.27) has quit (Ping timeout: 250 seconds)
+2015-12-10 22:12:10	<--	jbrooks (~Jason@c-73-222-146-183.hsd1.ca.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-12-10 22:14:33	-->	jbrooks (~Jason@c-73-222-146-183.hsd1.ca.comcast.net) has joined #fedora-meeting-1
+2015-12-10 22:20:11	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting-1
+2015-12-10 22:29:10	<--	pwhalen (~pwhalen@unaffiliated/pwhalen) has quit (Ping timeout: 256 seconds)
+2015-12-10 22:42:07	-->	pwhalen (~pwhalen@unaffiliated/pwhalen) has joined #fedora-meeting-1
+2015-12-10 22:47:02	<--	smdeep (~smdeep@202.142.125.95) has quit (Ping timeout: 272 seconds)

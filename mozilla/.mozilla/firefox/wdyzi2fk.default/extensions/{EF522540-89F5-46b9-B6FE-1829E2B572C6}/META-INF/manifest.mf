@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Csrb8nKn/gafTdQo6tUgCg==
+SHA1-Digest: A74UJr2phumU7c8/kcJ25JsDI5s=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: g1zfNkN17nSKbGXYdqrzow==
+SHA1-Digest: dm2d3DrFVSrFbPjDZr0jGRSmmzY=
+
+Name: install.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fW7DTTH+QtEBA7wrY3pAQA==
+SHA1-Digest: zQbwLvZOHhWcZKwIsMIuf8CnQa4=
+
+Name: chrome/googlepreview.jar
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: byCq5McXhLE9yccRXpdeUQ==
+SHA1-Digest: fTdud1ER585gxZRiiWppyo01SK8=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rEr6A/IXuS8YUcffaj7jbg==
+SHA1-Digest: RY316i43HDnDfgE86bJ0jH5hOLg=
+

@@ -1,0 +1,73 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.17:$
+Arch:x86_64-gcc3:$
+
+[PLUGINS]
+npwrapper.so:$
+/usr/lib64/nspluginwrapper/npwrapper.so:$
+:$
+1408311286000:0:0:0:$
+<a href="http://gwenole.beauchesne.info/projects/nspluginwrapper/">nspluginwrapper</a>  is a cross-platform NPAPI plugin viewer, in particular for linux/i386 plugins.<br>This <b>beta</b> software is available under the terms of the GNU General Public License.<br>:$
+NPAPI Plugins Wrapper 1.4.4:$
+1
+0:unknown/mime-type:Do not open:none:$
+librhythmbox-itms-detection-plugin.so:$
+/usr/lib64/mozilla/plugins/librhythmbox-itms-detection-plugin.so:$
+:$
+1429442397000:0:0:0:$
+This plug-in detects the presence of iTunes when opening iTunes Store URLs in a web page with Firefox.:$
+iTunes Application Detector:$
+1
+0:application/itunes-plugin:::$
+libevbrowserplugin.so:$
+/usr/lib64/mozilla/plugins/libevbrowserplugin.so:$
+:$
+1435758005000:0:0:0:$
+The <a href="http://wiki.gnome.org/Apps/Evince/">Evince</a> 3.16.1 plugin handles documents inside the browser window.:$
+Evince Browser Plugin:$
+24
+0:application/oxps:XPS Documents:xps,oxps:$
+1:application/vnd.ms-xpsdocument:XPS Documents:xps,oxps:$
+2:application/pdf:PDF Documents:pdf:$
+3:application/x-bzpdf:PDF Documents:pdf.bz2:$
+4:application/x-gzpdf:PDF Documents:pdf.gz:$
+5:application/x-xzpdf:PDF Documents:pdf.xz:$
+6:application/x-ext-pdf:PDF Documents:pdf:$
+7:image/tiff:TIFF Documents:tif,tiff:$
+8:application/postscript:PostScript Documents:ps:$
+9:application/x-bzpostscript:PostScript Documents:ps.bz2:$
+10:application/x-gzpostscript:PostScript Documents:ps.gz:$
+11:image/x-eps:PostScript Documents:eps,epsi,epsf:$
+12:image/x-bzeps:PostScript Documents:eps.bz2,epsi.bz2,epsf.bz2:$
+13:image/x-gzeps:PostScript Documents:eps.gz,epsi.gz,epsf.gz:$
+14:application/x-ext-ps:PostScript Documents:ps:$
+15:application/x-ext-eps:PostScript Documents:eps,epsi,epsf:$
+16:application/x-cbr:Comic Books:cbr:$
+17:application/x-cbz:Comic Books:cbz:$
+18:application/x-cb7:Comic Books:cb7:$
+19:application/x-cbt:Comic Books:cbt:$
+20:application/x-ext-cbr:Comic Books:cbr:$
+21:application/x-ext-cbz:Comic Books:cbz:$
+22:application/x-ext-cb7:Comic Books:cb7:$
+23:application/x-ext-cbt:Comic Books:cbt:$
+libgnome-shell-browser-plugin.so:$
+/usr/lib64/mozilla/plugins/libgnome-shell-browser-plugin.so:$
+:$
+1444937678000:0:0:0:$
+This plugin provides integration with Gnome Shell for live extension enabling and disabling. It can be used only by extensions.gnome.org:$
+Gnome Shell Integration:$
+1
+0:application/x-gnome-shell-integration:Gnome Shell Integration Dummy Content-Type::$
+libflashplayer.so:$
+/usr/lib64/flash-plugin/libflashplayer.so:$
+11.2.202.554:$
+1448068837000:0:0:0:$
+Shockwave Flash 11.2 r202:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+
+[INVALID]

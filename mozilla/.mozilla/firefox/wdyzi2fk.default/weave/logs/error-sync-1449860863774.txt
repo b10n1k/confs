@@ -1,0 +1,47 @@
+1449860773739	Sync.LogManager	DEBUG	Flushing file log
+1449860773739	Sync.LogManager	TRACE	Beginning stream copy to error-sync-1449860773739.txt: 1449860773739
+1449860773740	Sync.Service	DEBUG	Exception: Error: NS_ERROR_UNKNOWN_HOST (resource://services-sync/resource.js:409:19) JS Stack trace: waitForSyncCallback@async.js:102:7 < Res__request@resource.js:405:14 < Res_get@resource.js:429:12 < Sync11Service.prototype._fetchInfo@service.js:559:14 < sync@enginesync.js:77:16 < onNotify@service.js:1304:7 < WrappedNotify@util.js:148:21 < WrappedLock@util.js:103:16 < _lockedSync@service.js:1294:12 < sync/<@service.js:1286:14 < WrappedCatch@util.js:77:16 < sync@service.js:1274:5 < Res_get@resource.js:429:12 < Sync11Service.prototype._fetchInfo@service.js:559:14 < sync@enginesync.js:77:16 < onNotify@service.js:1304:7 < WrappedNotify@util.js:148:21 < WrappedLock@util.js:103:16 < _lockedSync@service.js:1294:12 < sync/<@service.js:1286:14 < WrappedCatch@util.js:77:16 < sync@service.js:1274:5
+1449860773743	browserwindow.syncui	DEBUG	observed: weave:ui:sync:finish
+1449860773743	browserwindow.syncui	DEBUG	_loginFailed has sync state=error.login.reason.network
+1449860773748	Sync.LogManager	TRACE	finished copy to: /home/iob/.mozilla/firefox/wdyzi2fk.default/weave/logs/error-sync-1449860773739.txt
+1449860773748	Sync.LogManager	TRACE	onCopyComplete: 1449860773748
+1449860773749	Sync.LogManager	TRACE	Scheduling cleanup.
+1449860773749	Sync.LogManager	DEBUG	Log cleanup threshold time: 1448996773749
+1449860774188	Sync.LogManager	DEBUG	Done deleting files.
+1449860863739	Sync.Service	DEBUG	User-Agent: Firefox/42.0 FxSync/1.44.0.20151102093849.
+1449860863740	Sync.Service	INFO	Starting sync at 2015-12-11 19:07:43
+1449860863742	browserwindow.syncui	DEBUG	observed: weave:service:sync:start
+1449860863742	browserwindow.syncui	DEBUG	onActivityStart with numActive: 0
+1449860863742	browserwindow.syncui	DEBUG	_loginFailed has sync state=error.login.reason.network
+1449860863743	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1449860863744	Sync.Status	INFO	Resetting Status.
+1449860863744	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1449860863745	FirefoxAccounts	DEBUG	already verified
+1449860863746	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1449860863746	FirefoxAccounts	DEBUG	enter getAssertion()
+1449860863748	FirefoxAccounts	DEBUG	getKeypairAndCertificate: already have keyPair and certificate
+1449860863749	FirefoxAccounts	DEBUG	getAssertionFromCert
+1449860863750	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1449860863750	Sync.BrowserIDManager	DEBUG	Getting a token
+1449860863755	Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1449860863760	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}}) (resource://gre/modules/services-common/tokenserverclient.js:36:36) JS Stack trace: @tokenserverclient.js:36:36 < @browserid_identity.js:14:1 < @status.js:15:1 < SyncServiceObserver.init@sync.js:76:62 < @sync.js:459:1 < require@bootstrap.js:140:7 < @main.js:30:1 < require@bootstrap.js:140:7 < startup@bootstrap.js:24:3 < XPI_callBootstrapMethod@XPIProvider.jsm:4773:9 < XPI_startup@XPIProvider.jsm:2483:13 < callProvider@AddonManager.jsm:221:12 < _startProvider@AddonManager.jsm:828:5 < AMI_startup@AddonManager.jsm:996:9 < AMP_startup@AddonManager.jsm:2669:5 < AMC_observe@addonManager.js:58:7
+1449860863761	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1449860863761	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1449860863761	browserwindow.syncui	DEBUG	observed: weave:ui:login:error
+1449860863761	browserwindow.syncui	DEBUG	onLoginError: login=error.login.reason.network, sync=success.sync
+1449860863761	browserwindow.syncui	DEBUG	_loginFailed has sync state=error.login.reason.network
+1449860863763	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1449860863764	FirefoxAccounts	DEBUG	getOAuthToken enter
+1449860863765	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1449860863765	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1449860863768	Sync.BrowserIDManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}}) (resource://gre/modules/services-common/tokenserverclient.js:36:36) JS Stack trace: @tokenserverclient.js:36:36 < @browserid_identity.js:14:1 < @status.js:15:1 < SyncServiceObserver.init@sync.js:76:62 < @sync.js:459:1 < require@bootstrap.js:140:7 < @main.js:30:1 < require@bootstrap.js:140:7 < startup@bootstrap.js:24:3 < XPI_callBootstrapMethod@XPIProvider.jsm:4773:9 < XPI_startup@XPIProvider.jsm:2483:13 < callProvider@AddonManager.jsm:221:12 < _startProvider@AddonManager.jsm:828:5 < AMI_startup@AddonManager.jsm:996:9 < AMP_startup@AddonManager.jsm:2669:5 < AMC_observe@addonManager.js:58:7
+1449860863771	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1449860863771	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1449860863771	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1449860863772	browserwindow.syncui	DEBUG	observed: weave:service:sync:error
+1449860863772	browserwindow.syncui	DEBUG	onActivityStop with numActive: 1
+1449860863772	browserwindow.syncui	DEBUG	_loginFailed has sync state=error.login.reason.network
+1449860863773	Sync.SyncScheduler	DEBUG	Sync error count has exceeded 3; enforcing backoff.
+1449860863773	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 3917667 ms.
+1449860863773	Sync.SyncScheduler	DEBUG	Next sync in 3917667 ms.
+1449860863774	Sync.ErrorHandler	ERROR	Sync encountered an error

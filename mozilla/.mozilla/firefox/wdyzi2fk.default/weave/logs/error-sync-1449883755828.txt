@@ -1,0 +1,38 @@
+1449883183018	Sync.LogManager	DEBUG	Flushing file log
+1449883183018	Sync.LogManager	TRACE	Beginning stream copy to error-sync-1449883183017.txt: 1449883183018
+1449883183019	Sync.Service	DEBUG	Exception: Error: NS_ERROR_UNKNOWN_HOST (resource://services-sync/resource.js:409:19) JS Stack trace: waitForSyncCallback@async.js:102:7 < Res__request@resource.js:405:14 < Res_get@resource.js:429:12 < Sync11Service.prototype._fetchInfo@service.js:559:14 < sync@enginesync.js:77:16 < onNotify@service.js:1304:7 < WrappedNotify@util.js:148:21 < WrappedLock@util.js:103:16 < _lockedSync@service.js:1294:12 < sync/<@service.js:1286:14 < WrappedCatch@util.js:77:16 < sync@service.js:1274:5 < Res_get@resource.js:429:12 < Sync11Service.prototype._fetchInfo@service.js:559:14 < sync@enginesync.js:77:16 < onNotify@service.js:1304:7 < WrappedNotify@util.js:148:21 < WrappedLock@util.js:103:16 < _lockedSync@service.js:1294:12 < sync/<@service.js:1286:14 < WrappedCatch@util.js:77:16 < sync@service.js:1274:5
+1449883183022	browserwindow.syncui	DEBUG	observed: weave:ui:sync:finish
+1449883183022	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449883183022	browserwindow.syncui	DEBUG	observed: weave:ui:sync:finish
+1449883183022	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449883183031	Sync.LogManager	TRACE	finished copy to: /home/iob/.mozilla/firefox/wdyzi2fk.default/weave/logs/error-sync-1449883183017.txt
+1449883183031	Sync.LogManager	TRACE	onCopyComplete: 1449883183031
+1449883183031	Sync.LogManager	TRACE	Scheduling cleanup.
+1449883183031	Sync.LogManager	DEBUG	Log cleanup threshold time: 1449019183031
+1449883183305	Sync.LogManager	TRACE	 > Cleanup removing error-sync-1449004014694.txt (1449004014000)
+1449883183306	Sync.LogManager	TRACE	Deleted error-sync-1449004014694.txt
+1449883183321	Sync.LogManager	TRACE	 > Cleanup removing error-sync-1449000404113.txt (1449000404000)
+1449883183322	Sync.LogManager	TRACE	Deleted error-sync-1449000404113.txt
+1449883183523	Sync.LogManager	DEBUG	Done deleting files.
+1449883755813	Sync.Service	DEBUG	User-Agent: Firefox/42.0 FxSync/1.44.0.20151102093849.
+1449883755814	Sync.Service	INFO	Starting sync at 2015-12-12 01:29:15
+1449883755814	browserwindow.syncui	DEBUG	observed: weave:service:sync:start
+1449883755814	browserwindow.syncui	DEBUG	onActivityStart with numActive: 0
+1449883755814	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449883755815	browserwindow.syncui	DEBUG	observed: weave:service:sync:start
+1449883755815	browserwindow.syncui	DEBUG	onActivityStart with numActive: 0
+1449883755815	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449883755816	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1449883755816	Sync.Status	INFO	Resetting Status.
+1449883755816	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1449883755817	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1449883755826	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1449883755826	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1449883755826	browserwindow.syncui	DEBUG	observed: weave:service:sync:error
+1449883755826	browserwindow.syncui	DEBUG	onActivityStop with numActive: 1
+1449883755826	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449883755827	browserwindow.syncui	DEBUG	observed: weave:service:sync:error
+1449883755827	browserwindow.syncui	DEBUG	onActivityStop with numActive: 1
+1449883755827	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1449883755828	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms.
+1449883755828	Sync.ErrorHandler	ERROR	Sync encountered an error
